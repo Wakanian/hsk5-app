@@ -71,11 +71,11 @@
     background:linear-gradient(90deg, transparent, var(--gold), transparent);
   }
 
-  /* ---------- タブ切替 ---------- */
+  /* ---------- タブ切替（画面） ---------- */
   .tabs{
     display:flex;
     gap:10px;
-    margin-bottom:20px;
+    margin-bottom:14px;
   }
   .tab-btn{
     flex:1;
@@ -99,6 +99,83 @@
 
   .panel{ display:none; }
   .panel.active{ display:block; }
+
+  /* ---------- 間違えリスト・ステータスバー ---------- */
+  .wrong-status{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+    background:var(--paper-dark);
+    border:1px solid var(--gold);
+    border-radius:10px;
+    padding:9px 14px;
+    margin-bottom:18px;
+    font-size:.82rem;
+  }
+  .wrong-status .counter{
+    color:var(--enji);
+    font-weight:700;
+    letter-spacing:.03em;
+  }
+  .wrong-status .counter .num{
+    font-size:1.05rem;
+    margin:0 2px;
+  }
+  .reset-wrong-btn{
+    border:1px solid var(--bad);
+    background:transparent;
+    color:var(--bad);
+    font-size:.75rem;
+    padding:6px 10px;
+    border-radius:7px;
+    cursor:pointer;
+    font-family:'Noto Sans JP', sans-serif;
+    font-weight:700;
+    white-space:nowrap;
+    transition:.15s;
+  }
+  .reset-wrong-btn:hover{ background:var(--bad); color:#fff; }
+
+  /* ---------- 出題モード切替（すべて／復習） ---------- */
+  .mode-toggle{
+    display:flex;
+    gap:8px;
+    margin-bottom:16px;
+  }
+  .mode-btn{
+    flex:1;
+    padding:9px 6px;
+    border-radius:20px;
+    border:1.5px solid var(--ochre);
+    background:#fffdf7;
+    color:var(--ochre);
+    font-family:'Noto Sans JP', sans-serif;
+    font-weight:700;
+    font-size:.8rem;
+    letter-spacing:.03em;
+    cursor:pointer;
+    transition:.2s;
+  }
+  .mode-btn.active{
+    background:var(--ochre);
+    color:#fff;
+    box-shadow:0 2px 8px rgba(181,121,58,0.35);
+  }
+
+  .empty-message{
+    text-align:center;
+    padding:40px 16px;
+    color:var(--ink-soft);
+    border:2px dashed var(--gold);
+    border-radius:14px;
+    background:#fffaf0;
+  }
+  .empty-message .big-icon{
+    font-size:2.2rem;
+    margin-bottom:10px;
+  }
+  .empty-message p{ margin:4px 0; line-height:1.6; }
 
   /* ---------- 単語カード ---------- */
   .progress{
@@ -192,6 +269,19 @@
     font-size:1rem;
     font-weight:600;
   }
+  .card-back .wrong-flag{
+    position:absolute;
+    top:12px;
+    right:16px;
+    font-size:.7rem;
+    color:var(--bad);
+    border:1px solid var(--bad);
+    border-radius:12px;
+    padding:2px 8px;
+    letter-spacing:.05em;
+    display:none;
+  }
+  .card-back .wrong-flag.show{ display:inline-block; }
 
   .speak-btn{
     position:absolute;
@@ -383,6 +473,7 @@
   @media (max-width:400px){
     header .title-cn{ font-size:2.1rem; }
     .card-back .meaning{ font-size:1.05rem; }
+    .wrong-status{ flex-direction:column; align-items:flex-start; gap:8px; }
   }
 </style>
 </head>
@@ -400,35 +491,59 @@
     <button class="tab-btn" data-panel="quiz-panel">4択クイズ</button>
   </div>
 
+  <div class="wrong-status">
+    <span class="counter">間違えた単語：<span class="num" id="wrongCounter">0</span>個</span>
+    <button class="reset-wrong-btn" id="resetWrongBtn">リストをリセット</button>
+  </div>
+
   <!-- ===== 単語カードパネル ===== -->
   <section class="panel active" id="card-panel">
-    <div class="progress" id="cardProgress">1 / 10</div>
+    <div class="mode-toggle" id="cardModeToggle">
+      <button class="mode-btn active" data-mode="all">すべて出題</button>
+      <button class="mode-btn" data-mode="review">間違えた単語のみ</button>
+    </div>
 
-    <div class="card-scene">
-      <div class="card" id="flipCard">
-        <div class="card-face card-front">
-          <div class="hanzi" id="frontHanzi">把握</div>
-          <div class="hint">タップして裏返す</div>
-          <button class="speak-btn" id="frontSpeakBtn" title="発音を聞く">🔊</button>
+    <div id="cardContent">
+      <div class="progress" id="cardProgress">1 / 10</div>
+
+      <div class="card-scene">
+        <div class="card" id="flipCard">
+          <div class="card-face card-front">
+            <div class="hanzi" id="frontHanzi">把握</div>
+            <div class="hint">タップして裏返す</div>
+            <button class="speak-btn" id="frontSpeakBtn" title="発音を聞く">🔊</button>
+          </div>
+          <div class="card-face card-back">
+            <div class="hanzi-small" id="backHanzi">把握</div>
+            <span class="wrong-flag" id="backWrongFlag">要復習</span>
+            <div class="pinyin" id="backPinyin">bǎ wò</div>
+            <div class="meaning" id="backMeaning">把握する、確信を持つ</div>
+            <button class="speak-btn" id="backSpeakBtn" title="発音を聞く">🔊</button>
+          </div>
         </div>
-        <div class="card-face card-back">
-          <div class="hanzi-small" id="backHanzi">把握</div>
-          <div class="pinyin" id="backPinyin">bǎ wò</div>
-          <div class="meaning" id="backMeaning">把握する、確信を持つ</div>
-          <button class="speak-btn" id="backSpeakBtn" title="発音を聞く">🔊</button>
-        </div>
+      </div>
+
+      <div class="nav-row">
+        <button class="nav-btn prev" id="prevBtn">← 前の単語</button>
+        <button class="nav-btn next" id="nextBtn">次の単語 →</button>
       </div>
     </div>
 
-    <div class="nav-row">
-      <button class="nav-btn prev" id="prevBtn">← 前の単語</button>
-      <button class="nav-btn next" id="nextBtn">次の単語 →</button>
+    <div class="empty-message" id="cardEmptyMessage" style="display:none;">
+      <div class="big-icon">🎉</div>
+      <p>間違えた単語はありません。</p>
+      <p>「すべて出題」に切り替えて学習を続けましょう。</p>
     </div>
   </section>
 
   <!-- ===== クイズパネル ===== -->
   <section class="panel" id="quiz-panel">
-    <div class="quiz-box">
+    <div class="mode-toggle" id="quizModeToggle">
+      <button class="mode-btn active" data-mode="all">すべて出題</button>
+      <button class="mode-btn" data-mode="review">間違えた単語のみ</button>
+    </div>
+
+    <div class="quiz-box" id="quizBox">
       <div id="quizArea">
         <div class="quiz-count" id="quizCount">第 1 問 / 10</div>
         <div class="quiz-question">
@@ -447,6 +562,12 @@
         <div id="resultDetail" style="color:var(--ink-soft);"></div>
         <button class="restart-btn" id="restartBtn">もう一度挑戦する</button>
       </div>
+    </div>
+
+    <div class="empty-message" id="quizEmptyMessage" style="display:none;">
+      <div class="big-icon">🎉</div>
+      <p>間違えた単語はありません。</p>
+      <p>「すべて出題」に切り替えて学習を続けましょう。</p>
     </div>
   </section>
 
@@ -480,12 +601,63 @@ function speakChinese(text){
   if(zhVoice) utter.voice = zhVoice;
   window.speechSynthesis.speak(utter);
 }
-// 一部ブラウザは非同期でvoiceListを読み込むため準備しておく
 if('speechSynthesis' in window){
   window.speechSynthesis.onvoiceschanged = () => window.speechSynthesis.getVoices();
 }
 
-/* ===================== タブ切り替え ===================== */
+/* ===================== 間違えた単語リスト（localStorage） ===================== */
+const WRONG_KEY = 'hsk5_wrongWords';
+
+function getWrongList(){
+  try{
+    const raw = localStorage.getItem(WRONG_KEY);
+    return raw ? JSON.parse(raw) : [];
+  }catch(e){
+    return [];
+  }
+}
+function saveWrongList(list){
+  try{
+    localStorage.setItem(WRONG_KEY, JSON.stringify(list));
+  }catch(e){ /* ストレージが使用できない場合は無視 */ }
+}
+function addWrong(hanzi){
+  const list = getWrongList();
+  if(!list.includes(hanzi)){
+    list.push(hanzi);
+    saveWrongList(list);
+  }
+  updateWrongCounter();
+}
+function removeWrong(hanzi){
+  const list = getWrongList();
+  const idx = list.indexOf(hanzi);
+  if(idx !== -1){
+    list.splice(idx,1);
+    saveWrongList(list);
+  }
+  updateWrongCounter();
+}
+function isWrong(hanzi){
+  return getWrongList().includes(hanzi);
+}
+
+const wrongCounterEl = document.getElementById('wrongCounter');
+function updateWrongCounter(){
+  wrongCounterEl.textContent = getWrongList().length;
+}
+
+document.getElementById('resetWrongBtn').addEventListener('click', ()=>{
+  if(getWrongList().length === 0) return;
+  if(!confirm('間違えた単語リストをすべてリセットしますか？')) return;
+  saveWrongList([]);
+  updateWrongCounter();
+  // 復習モード中だった場合は表示を更新
+  if(cardMode === 'review') renderCardPanel();
+  if(quizMode === 'review') renderQuizPanel();
+});
+
+/* ===================== 画面タブ切り替え ===================== */
 const tabBtns = document.querySelectorAll('.tab-btn');
 const panels = document.querySelectorAll('.panel');
 tabBtns.forEach(btn=>{
@@ -494,76 +666,127 @@ tabBtns.forEach(btn=>{
     panels.forEach(p=>p.classList.remove('active'));
     btn.classList.add('active');
     document.getElementById(btn.dataset.panel).classList.add('active');
-    if(btn.dataset.panel === 'quiz-panel' && !quizStarted){
-      startQuiz();
+    if(btn.dataset.panel === 'quiz-panel'){
+      renderQuizPanel();
     }
   });
 });
 
+/* ===================== 出題モード切替（共通ヘルパー） ===================== */
+function setupModeToggle(containerEl, onChange){
+  const btns = containerEl.querySelectorAll('.mode-btn');
+  btns.forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      if(btn.classList.contains('active')) return;
+      btns.forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      onChange(btn.dataset.mode);
+    });
+  });
+}
+
 /* ===================== 単語カード機能 ===================== */
+let cardMode = 'all';
+let cardList = VOCAB.slice();
 let cardIndex = 0;
+
 const flipCard   = document.getElementById('flipCard');
 const frontHanzi = document.getElementById('frontHanzi');
 const backHanzi  = document.getElementById('backHanzi');
 const backPinyin = document.getElementById('backPinyin');
 const backMeaning= document.getElementById('backMeaning');
+const backWrongFlag = document.getElementById('backWrongFlag');
 const cardProgress = document.getElementById('cardProgress');
+const cardContent = document.getElementById('cardContent');
+const cardEmptyMessage = document.getElementById('cardEmptyMessage');
+
+function getFilteredVocab(mode){
+  if(mode === 'review'){
+    const wrong = getWrongList();
+    return VOCAB.filter(w => wrong.includes(w.hanzi));
+  }
+  return VOCAB.slice();
+}
+
+function renderCardPanel(){
+  cardList = getFilteredVocab(cardMode);
+  cardIndex = 0;
+  if(cardList.length === 0){
+    cardContent.style.display = 'none';
+    cardEmptyMessage.style.display = 'block';
+    return;
+  }
+  cardContent.style.display = 'block';
+  cardEmptyMessage.style.display = 'none';
+  renderCard(false);
+}
 
 function renderCard(autoSpeak = true){
-  const w = VOCAB[cardIndex];
+  if(cardList.length === 0) return;
+  const w = cardList[cardIndex];
   flipCard.classList.remove('flipped');
   frontHanzi.textContent = w.hanzi;
   backHanzi.textContent  = w.hanzi;
   backPinyin.textContent = w.pinyin;
   backMeaning.textContent= w.meaning;
-  cardProgress.textContent = `${cardIndex+1} / ${VOCAB.length}`;
+  backWrongFlag.classList.toggle('show', isWrong(w.hanzi));
+  cardProgress.textContent = `${cardIndex+1} / ${cardList.length}`;
   if(autoSpeak) speakChinese(w.hanzi);
 }
 
 flipCard.addEventListener('click', (e)=>{
-  // スピーカーボタン自体のクリックではカードを反転させない
   if(e.target.closest('.speak-btn')) return;
+  if(cardList.length === 0) return;
   flipCard.classList.toggle('flipped');
   if(flipCard.classList.contains('flipped')){
-    speakChinese(VOCAB[cardIndex].hanzi);
+    speakChinese(cardList[cardIndex].hanzi);
   }
 });
 
 document.getElementById('frontSpeakBtn').addEventListener('click', (e)=>{
   e.stopPropagation();
-  speakChinese(VOCAB[cardIndex].hanzi);
+  if(cardList.length) speakChinese(cardList[cardIndex].hanzi);
 });
 document.getElementById('backSpeakBtn').addEventListener('click', (e)=>{
   e.stopPropagation();
-  speakChinese(VOCAB[cardIndex].hanzi);
+  if(cardList.length) speakChinese(cardList[cardIndex].hanzi);
 });
 
 document.getElementById('nextBtn').addEventListener('click', ()=>{
-  cardIndex = (cardIndex + 1) % VOCAB.length;
+  if(cardList.length === 0) return;
+  cardIndex = (cardIndex + 1) % cardList.length;
   renderCard();
 });
 document.getElementById('prevBtn').addEventListener('click', ()=>{
-  cardIndex = (cardIndex - 1 + VOCAB.length) % VOCAB.length;
+  if(cardList.length === 0) return;
+  cardIndex = (cardIndex - 1 + cardList.length) % cardList.length;
   renderCard();
 });
 
-renderCard(false);
+setupModeToggle(document.getElementById('cardModeToggle'), (mode)=>{
+  cardMode = mode;
+  renderCardPanel();
+});
 
 /* ===================== クイズ機能 ===================== */
+let quizMode = 'all';
 let quizStarted = false;
+let quizPool = [];
 let quizOrder = [];
 let quizIndex = 0;
 let quizScore = 0;
 let answered = false;
 
-const quizArea    = document.getElementById('quizArea');
-const quizResult  = document.getElementById('quizResult');
-const quizCount   = document.getElementById('quizCount');
-const quizHanzi   = document.getElementById('quizHanzi');
-const quizPinyin  = document.getElementById('quizPinyin');
-const quizChoices = document.getElementById('quizChoices');
-const quizScoreEl = document.getElementById('quizScore');
-const nextQBtn    = document.getElementById('nextQBtn');
+const quizBox        = document.getElementById('quizBox');
+const quizArea        = document.getElementById('quizArea');
+const quizResult      = document.getElementById('quizResult');
+const quizCount       = document.getElementById('quizCount');
+const quizHanzi       = document.getElementById('quizHanzi');
+const quizPinyin      = document.getElementById('quizPinyin');
+const quizChoices     = document.getElementById('quizChoices');
+const quizScoreEl     = document.getElementById('quizScore');
+const nextQBtn        = document.getElementById('nextQBtn');
+const quizEmptyMessage= document.getElementById('quizEmptyMessage');
 
 function shuffle(arr){
   const a = arr.slice();
@@ -574,9 +797,23 @@ function shuffle(arr){
   return a;
 }
 
+/* パネルを開いた／モードを切り替えたときに呼ぶエントリーポイント */
+function renderQuizPanel(){
+  quizPool = getFilteredVocab(quizMode);
+  if(quizPool.length === 0){
+    quizBox.style.display = 'none';
+    quizEmptyMessage.style.display = 'block';
+    quizStarted = false;
+    return;
+  }
+  quizBox.style.display = 'block';
+  quizEmptyMessage.style.display = 'none';
+  startQuiz();
+}
+
 function startQuiz(){
   quizStarted = true;
-  quizOrder = shuffle(VOCAB.map((_,i)=>i));
+  quizOrder = shuffle(quizPool.map((_,i)=>i));
   quizIndex = 0;
   quizScore = 0;
   answered = false;
@@ -589,14 +826,14 @@ function renderQuizQuestion(){
   answered = false;
   nextQBtn.classList.remove('show');
   const wordIdx = quizOrder[quizIndex];
-  const word = VOCAB[wordIdx];
+  const word = quizPool[wordIdx];
   quizCount.textContent = `第 ${quizIndex+1} 問 / ${quizOrder.length}`;
   quizHanzi.textContent = word.hanzi;
   quizPinyin.textContent = word.pinyin;
   quizScoreEl.textContent = `正解数：${quizScore}`;
 
-  // 4択の選択肢を作成（正解1つ＋ダミー3つ）
-  const others = VOCAB.filter((_,i)=>i!==wordIdx);
+  // ダミー選択肢は語彙全体（VOCAB）から出題プール以外も含めて選ぶ
+  const others = VOCAB.filter(w => w.hanzi !== word.hanzi);
   const dummies = shuffle(others).slice(0,3).map(w=>w.meaning);
   const options = shuffle([word.meaning, ...dummies]);
 
@@ -622,11 +859,15 @@ function handleChoice(btn, chosen, word){
     btn.classList.add('correct');
     quizScore++;
     speakChinese(word.hanzi); // 正解時に発音を再生
+    // 正解した単語は「間違えたリスト」にあれば削除（克服）
+    if(isWrong(word.hanzi)) removeWrong(word.hanzi);
   }else{
     btn.classList.add('wrong');
     buttons.forEach(b=>{
       if(b.textContent === word.meaning) b.classList.add('correct');
     });
+    // 間違えた単語をリストに追加
+    addWrong(word.hanzi);
   }
   quizScoreEl.textContent = `正解数：${quizScore}`;
   nextQBtn.classList.add('show');
@@ -655,7 +896,19 @@ function showQuizResult(){
   document.getElementById('resultDetail').textContent = comment;
 }
 
-document.getElementById('restartBtn').addEventListener('click', startQuiz);
+document.getElementById('restartBtn').addEventListener('click', ()=>{
+  // 復習モードでリストが空になっていた場合も考慮して再判定
+  renderQuizPanel();
+});
+
+setupModeToggle(document.getElementById('quizModeToggle'), (mode)=>{
+  quizMode = mode;
+  renderQuizPanel();
+});
+
+/* ===================== 初期化 ===================== */
+updateWrongCounter();
+renderCardPanel();
 </script>
 </body>
 </html>
