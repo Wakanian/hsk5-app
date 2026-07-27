@@ -631,9 +631,10 @@
    ページ起動時に自動で fetch し、成功したらアプリ本体を表示する。
    words.json の形式：
    [
-     { "hanzi": "把握", "pinyin": "bǎ wò", "meaning": "把握する、確信を持つ" },
+     { "id": 1, "hanzi": "把握", "pinyin": "bǎ wò", "definition": "把握する、確信を持つ" },
      ...
    ]
+   ※ id は連番（現状アプリのロジックでは未使用、データ管理用）
    ===================================================================== */
 let VOCAB = [];
 
@@ -775,7 +776,7 @@ function renderCard(autoSpeak = true){
   frontHanzi.textContent = w.hanzi;
   backHanzi.textContent  = w.hanzi;
   backPinyin.textContent = w.pinyin;
-  backMeaning.textContent= w.meaning;
+  backMeaning.textContent= w.definition;
   backWrongFlag.classList.toggle('show', isWrong(w.hanzi));
   cardProgress.textContent = `${cardIndex+1} / ${cardList.length}`;
   if(autoSpeak) speakChinese(w.hanzi);
@@ -882,8 +883,8 @@ function renderQuizQuestion(){
   // ダミー選択肢は語彙全体（VOCAB）から出題プール以外も含めて選ぶ
   const others = VOCAB.filter(w => w.hanzi !== word.hanzi);
   const dummyCount = Math.min(3, others.length);
-  const dummies = shuffle(others).slice(0, dummyCount).map(w=>w.meaning);
-  const options = shuffle([word.meaning, ...dummies]);
+  const dummies = shuffle(others).slice(0, dummyCount).map(w=>w.definition);
+  const options = shuffle([word.definition, ...dummies]);
 
   quizChoices.innerHTML = '';
   options.forEach(opt=>{
@@ -903,7 +904,7 @@ function handleChoice(btn, chosen, word){
   const buttons = quizChoices.querySelectorAll('.choice-btn');
   buttons.forEach(b=>b.disabled = true);
 
-  if(chosen === word.meaning){
+  if(chosen === word.definition){
     btn.classList.add('correct');
     quizScore++;
     speakChinese(word.hanzi); // 正解時に発音を再生
@@ -911,7 +912,7 @@ function handleChoice(btn, chosen, word){
   }else{
     btn.classList.add('wrong');
     buttons.forEach(b=>{
-      if(b.textContent === word.meaning) b.classList.add('correct');
+      if(b.textContent === word.definition) b.classList.add('correct');
     });
     addWrong(word.hanzi);
   }
