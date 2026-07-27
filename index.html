@@ -71,6 +71,45 @@
     background:linear-gradient(90deg, transparent, var(--gold), transparent);
   }
 
+  /* ---------- 読み込み中／エラー画面 ---------- */
+  .loading-screen{
+    text-align:center;
+    padding:60px 20px;
+    border:2px dashed var(--gold);
+    border-radius:14px;
+    background:#fffaf0;
+    color:var(--ink-soft);
+  }
+  .loading-screen .spinner{
+    width:38px;
+    height:38px;
+    margin:0 auto 16px;
+    border:4px solid var(--paper-dark);
+    border-top-color:var(--enji);
+    border-radius:50%;
+    animation:spin 0.9s linear infinite;
+  }
+  @keyframes spin{ to{ transform:rotate(360deg); } }
+  .loading-screen p{ margin:4px 0; line-height:1.6; }
+  .loading-screen .err-title{
+    color:var(--bad);
+    font-weight:700;
+    margin-bottom:8px;
+  }
+  .retry-btn{
+    margin-top:14px;
+    padding:10px 22px;
+    border-radius:8px;
+    border:1.5px solid var(--enji);
+    background:transparent;
+    color:var(--enji);
+    font-weight:700;
+    cursor:pointer;
+    font-family:'Noto Sans JP', sans-serif;
+  }
+
+  #appMain{ display:none; }
+
   /* ---------- タブ切替（画面） ---------- */
   .tabs{
     display:flex;
@@ -486,108 +525,117 @@
     <div class="divider"></div>
   </header>
 
-  <div class="tabs">
-    <button class="tab-btn active" data-panel="card-panel">単語カード</button>
-    <button class="tab-btn" data-panel="quiz-panel">4択クイズ</button>
+  <!-- ===== 読み込み中／エラー表示 ===== -->
+  <div class="loading-screen" id="loadingScreen">
+    <div class="spinner"></div>
+    <p>words.json を読み込んでいます…</p>
   </div>
 
-  <div class="wrong-status">
-    <span class="counter">間違えた単語：<span class="num" id="wrongCounter">0</span>個</span>
-    <button class="reset-wrong-btn" id="resetWrongBtn">リストをリセット</button>
+  <!-- ===== アプリ本体（読み込み完了後に表示） ===== -->
+  <div id="appMain">
+
+    <div class="tabs">
+      <button class="tab-btn active" data-panel="card-panel">単語カード</button>
+      <button class="tab-btn" data-panel="quiz-panel">4択クイズ</button>
+    </div>
+
+    <div class="wrong-status">
+      <span class="counter">間違えた単語：<span class="num" id="wrongCounter">0</span>個</span>
+      <button class="reset-wrong-btn" id="resetWrongBtn">リストをリセット</button>
+    </div>
+
+    <!-- ===== 単語カードパネル ===== -->
+    <section class="panel active" id="card-panel">
+      <div class="mode-toggle" id="cardModeToggle">
+        <button class="mode-btn active" data-mode="all">すべて出題</button>
+        <button class="mode-btn" data-mode="review">間違えた単語のみ</button>
+      </div>
+
+      <div id="cardContent">
+        <div class="progress" id="cardProgress">1 / 10</div>
+
+        <div class="card-scene">
+          <div class="card" id="flipCard">
+            <div class="card-face card-front">
+              <div class="hanzi" id="frontHanzi">把握</div>
+              <div class="hint">タップして裏返す</div>
+              <button class="speak-btn" id="frontSpeakBtn" title="発音を聞く">🔊</button>
+            </div>
+            <div class="card-face card-back">
+              <div class="hanzi-small" id="backHanzi">把握</div>
+              <span class="wrong-flag" id="backWrongFlag">要復習</span>
+              <div class="pinyin" id="backPinyin">bǎ wò</div>
+              <div class="meaning" id="backMeaning">把握する、確信を持つ</div>
+              <button class="speak-btn" id="backSpeakBtn" title="発音を聞く">🔊</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-row">
+          <button class="nav-btn prev" id="prevBtn">← 前の単語</button>
+          <button class="nav-btn next" id="nextBtn">次の単語 →</button>
+        </div>
+      </div>
+
+      <div class="empty-message" id="cardEmptyMessage" style="display:none;">
+        <div class="big-icon">🎉</div>
+        <p>間違えた単語はありません。</p>
+        <p>「すべて出題」に切り替えて学習を続けましょう。</p>
+      </div>
+    </section>
+
+    <!-- ===== クイズパネル ===== -->
+    <section class="panel" id="quiz-panel">
+      <div class="mode-toggle" id="quizModeToggle">
+        <button class="mode-btn active" data-mode="all">すべて出題</button>
+        <button class="mode-btn" data-mode="review">間違えた単語のみ</button>
+      </div>
+
+      <div class="quiz-box" id="quizBox">
+        <div id="quizArea">
+          <div class="quiz-count" id="quizCount">第 1 問 / 10</div>
+          <div class="quiz-question">
+            <div class="label">この中国語の意味は？</div>
+            <div class="hanzi" id="quizHanzi">把握</div>
+            <div class="pinyin" id="quizPinyin">bǎ wò</div>
+          </div>
+          <div class="choices" id="quizChoices"></div>
+          <div class="quiz-footer">
+            <div class="quiz-score" id="quizScore">正解数：0</div>
+            <button class="next-q-btn" id="nextQBtn">次の問題 →</button>
+          </div>
+        </div>
+        <div id="quizResult" class="quiz-result" style="display:none;">
+          <div class="big" id="resultText"></div>
+          <div id="resultDetail" style="color:var(--ink-soft);"></div>
+          <button class="restart-btn" id="restartBtn">もう一度挑戦する</button>
+        </div>
+      </div>
+
+      <div class="empty-message" id="quizEmptyMessage" style="display:none;">
+        <div class="big-icon">🎉</div>
+        <p>間違えた単語はありません。</p>
+        <p>「すべて出題」に切り替えて学習を続けましょう。</p>
+      </div>
+    </section>
+
+    <footer>用心把握，方能致远 ・ Web Speech API 対応ブラウザで音声再生</footer>
   </div>
+  <!-- /#appMain -->
 
-  <!-- ===== 単語カードパネル ===== -->
-  <section class="panel active" id="card-panel">
-    <div class="mode-toggle" id="cardModeToggle">
-      <button class="mode-btn active" data-mode="all">すべて出題</button>
-      <button class="mode-btn" data-mode="review">間違えた単語のみ</button>
-    </div>
-
-    <div id="cardContent">
-      <div class="progress" id="cardProgress">1 / 10</div>
-
-      <div class="card-scene">
-        <div class="card" id="flipCard">
-          <div class="card-face card-front">
-            <div class="hanzi" id="frontHanzi">把握</div>
-            <div class="hint">タップして裏返す</div>
-            <button class="speak-btn" id="frontSpeakBtn" title="発音を聞く">🔊</button>
-          </div>
-          <div class="card-face card-back">
-            <div class="hanzi-small" id="backHanzi">把握</div>
-            <span class="wrong-flag" id="backWrongFlag">要復習</span>
-            <div class="pinyin" id="backPinyin">bǎ wò</div>
-            <div class="meaning" id="backMeaning">把握する、確信を持つ</div>
-            <button class="speak-btn" id="backSpeakBtn" title="発音を聞く">🔊</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="nav-row">
-        <button class="nav-btn prev" id="prevBtn">← 前の単語</button>
-        <button class="nav-btn next" id="nextBtn">次の単語 →</button>
-      </div>
-    </div>
-
-    <div class="empty-message" id="cardEmptyMessage" style="display:none;">
-      <div class="big-icon">🎉</div>
-      <p>間違えた単語はありません。</p>
-      <p>「すべて出題」に切り替えて学習を続けましょう。</p>
-    </div>
-  </section>
-
-  <!-- ===== クイズパネル ===== -->
-  <section class="panel" id="quiz-panel">
-    <div class="mode-toggle" id="quizModeToggle">
-      <button class="mode-btn active" data-mode="all">すべて出題</button>
-      <button class="mode-btn" data-mode="review">間違えた単語のみ</button>
-    </div>
-
-    <div class="quiz-box" id="quizBox">
-      <div id="quizArea">
-        <div class="quiz-count" id="quizCount">第 1 問 / 10</div>
-        <div class="quiz-question">
-          <div class="label">この中国語の意味は？</div>
-          <div class="hanzi" id="quizHanzi">把握</div>
-          <div class="pinyin" id="quizPinyin">bǎ wò</div>
-        </div>
-        <div class="choices" id="quizChoices"></div>
-        <div class="quiz-footer">
-          <div class="quiz-score" id="quizScore">正解数：0</div>
-          <button class="next-q-btn" id="nextQBtn">次の問題 →</button>
-        </div>
-      </div>
-      <div id="quizResult" class="quiz-result" style="display:none;">
-        <div class="big" id="resultText"></div>
-        <div id="resultDetail" style="color:var(--ink-soft);"></div>
-        <button class="restart-btn" id="restartBtn">もう一度挑戦する</button>
-      </div>
-    </div>
-
-    <div class="empty-message" id="quizEmptyMessage" style="display:none;">
-      <div class="big-icon">🎉</div>
-      <p>間違えた単語はありません。</p>
-      <p>「すべて出題」に切り替えて学習を続けましょう。</p>
-    </div>
-  </section>
-
-  <footer>用心把握，方能致远 ・ Web Speech API 対応ブラウザで音声再生</footer>
 </div>
 
 <script>
-/* ===================== 単語データ（HSK5級レベル） ===================== */
-const VOCAB = [
-  { hanzi:"把握", pinyin:"bǎ wò",   meaning:"把握する、確信を持つ" },
-  { hanzi:"抽象", pinyin:"chōu xiàng", meaning:"抽象的である" },
-  { hanzi:"具备", pinyin:"jù bèi",  meaning:"（条件・能力を）備える" },
-  { hanzi:"核心", pinyin:"hé xīn",  meaning:"核心、中心となる部分" },
-  { hanzi:"逻辑", pinyin:"luó ji",  meaning:"論理、ロジック" },
-  { hanzi:"成果", pinyin:"chéng guǒ", meaning:"成果、成し遂げた結果" },
-  { hanzi:"依赖", pinyin:"yī lài",  meaning:"依存する、頼りにする" },
-  { hanzi:"概括", pinyin:"gài kuò", meaning:"概括する、要約する" },
-  { hanzi:"反映", pinyin:"fǎn yìng", meaning:"反映する、伝える" },
-  { hanzi:"削弱", pinyin:"xuē ruò", meaning:"弱める、弱まる" }
-];
+/* =====================================================================
+   単語データは外部ファイル words.json から読み込む。
+   ページ起動時に自動で fetch し、成功したらアプリ本体を表示する。
+   words.json の形式：
+   [
+     { "hanzi": "把握", "pinyin": "bǎ wò", "meaning": "把握する、確信を持つ" },
+     ...
+   ]
+   ===================================================================== */
+let VOCAB = [];
 
 /* ===================== 音声再生（Web Speech API） ===================== */
 function speakChinese(text){
@@ -652,7 +700,6 @@ document.getElementById('resetWrongBtn').addEventListener('click', ()=>{
   if(!confirm('間違えた単語リストをすべてリセットしますか？')) return;
   saveWrongList([]);
   updateWrongCounter();
-  // 復習モード中だった場合は表示を更新
   if(cardMode === 'review') renderCardPanel();
   if(quizMode === 'review') renderQuizPanel();
 });
@@ -687,7 +734,7 @@ function setupModeToggle(containerEl, onChange){
 
 /* ===================== 単語カード機能 ===================== */
 let cardMode = 'all';
-let cardList = VOCAB.slice();
+let cardList = [];
 let cardIndex = 0;
 
 const flipCard   = document.getElementById('flipCard');
@@ -834,7 +881,8 @@ function renderQuizQuestion(){
 
   // ダミー選択肢は語彙全体（VOCAB）から出題プール以外も含めて選ぶ
   const others = VOCAB.filter(w => w.hanzi !== word.hanzi);
-  const dummies = shuffle(others).slice(0,3).map(w=>w.meaning);
+  const dummyCount = Math.min(3, others.length);
+  const dummies = shuffle(others).slice(0, dummyCount).map(w=>w.meaning);
   const options = shuffle([word.meaning, ...dummies]);
 
   quizChoices.innerHTML = '';
@@ -859,14 +907,12 @@ function handleChoice(btn, chosen, word){
     btn.classList.add('correct');
     quizScore++;
     speakChinese(word.hanzi); // 正解時に発音を再生
-    // 正解した単語は「間違えたリスト」にあれば削除（克服）
     if(isWrong(word.hanzi)) removeWrong(word.hanzi);
   }else{
     btn.classList.add('wrong');
     buttons.forEach(b=>{
       if(b.textContent === word.meaning) b.classList.add('correct');
     });
-    // 間違えた単語をリストに追加
     addWrong(word.hanzi);
   }
   quizScoreEl.textContent = `正解数：${quizScore}`;
@@ -897,7 +943,6 @@ function showQuizResult(){
 }
 
 document.getElementById('restartBtn').addEventListener('click', ()=>{
-  // 復習モードでリストが空になっていた場合も考慮して再判定
   renderQuizPanel();
 });
 
@@ -906,9 +951,54 @@ setupModeToggle(document.getElementById('quizModeToggle'), (mode)=>{
   renderQuizPanel();
 });
 
-/* ===================== 初期化 ===================== */
-updateWrongCounter();
-renderCardPanel();
+/* ===================== words.json の読み込み ===================== */
+const loadingScreen = document.getElementById('loadingScreen');
+const appMain = document.getElementById('appMain');
+
+function showLoading(){
+  loadingScreen.innerHTML = `
+    <div class="spinner"></div>
+    <p>words.json を読み込んでいます…</p>
+  `;
+  loadingScreen.style.display = 'block';
+  appMain.style.display = 'none';
+}
+
+function showLoadError(message){
+  loadingScreen.innerHTML = `
+    <div class="err-title">⚠ words.json の読み込みに失敗しました</div>
+    <p>${message}</p>
+    <p>index.html と同じフォルダに words.json を置いているか確認してください。<br>
+    （ローカルファイルを直接開いた場合は、簡易サーバー経由での表示が必要です）</p>
+    <button class="retry-btn" id="retryLoadBtn">再読み込み</button>
+  `;
+  document.getElementById('retryLoadBtn').addEventListener('click', loadVocabData);
+}
+
+function initAppWithData(data){
+  if(!Array.isArray(data) || data.length === 0){
+    throw new Error('words.json の中身が空、または配列形式ではありません。');
+  }
+  VOCAB = data;
+  loadingScreen.style.display = 'none';
+  appMain.style.display = 'block';
+  updateWrongCounter();
+  renderCardPanel();
+}
+
+function loadVocabData(){
+  showLoading();
+  fetch('words.json')
+    .then(res => {
+      if(!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
+      return res.json();
+    })
+    .then(data => initAppWithData(data))
+    .catch(err => showLoadError(err.message));
+}
+
+/* ===================== 起動時に自動で words.json を読み込む ===================== */
+loadVocabData();
 </script>
 </body>
 </html>
