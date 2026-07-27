@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>錦囊 HSK5 単語帳</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;900&family=Noto+Sans+JP:wght@400;500;700&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --enji: #7a1f2b;        /* 臙脂色 深い赤 */
+    --enji-deep: #5a151f;   /* さらに深い赤 */
+    --gold: #c9a227;        /* 金 */
+    --gold-light: #e6c65c;  /* 明るい金 */
+    --ochre: #b5793a;       /* 黄土色 */
+    --paper: #f6ecd9;       /* 生成りの紙色 */
+    --paper-dark: #ecdcb8;  /* やや濃い紙色 */
+    --ink: #2b1b12;         /* 墨色 */
+    --ink-soft: #4a352a;
+    --good: #2f6e4f;
+    --bad: #9c2b2b;
+  }
+
+  *{box-sizing:border-box;}
+
+  body{
+    margin:0;
+    min-height:100vh;
+    font-family:'Noto Sans JP', sans-serif;
+    color:var(--ink);
+    background:
+      radial-gradient(circle at 15% 10%, rgba(201,162,39,0.10), transparent 40%),
+      radial-gradient(circle at 85% 90%, rgba(122,31,43,0.08), transparent 45%),
+      var(--paper);
+    background-attachment:fixed;
+    display:flex;
+    justify-content:center;
+    padding:24px 14px 60px;
+  }
+
+  .app{
+    width:100%;
+    max-width:520px;
+  }
+
+  /* ---------- ヘッダー ---------- */
+  header{
+    text-align:center;
+    margin-bottom:22px;
+    position:relative;
+  }
+  header .title-cn{
+    font-family:'Ma Shan Zheng', cursive;
+    font-size:2.6rem;
+    color:var(--enji);
+    line-height:1;
+    letter-spacing:.08em;
+    text-shadow: 1px 1px 0 rgba(201,162,39,0.35);
+  }
+  header .title-sub{
+    margin-top:6px;
+    font-size:.8rem;
+    letter-spacing:.35em;
+    color:var(--ochre);
+    font-weight:500;
+  }
+  header .divider{
+    margin:14px auto 0;
+    width:120px;
+    height:2px;
+    background:linear-gradient(90deg, transparent, var(--gold), transparent);
+  }
+
+  /* ---------- タブ切替 ---------- */
+  .tabs{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+  }
+  .tab-btn{
+    flex:1;
+    padding:11px 6px;
+    border-radius:8px;
+    border:1.5px solid var(--enji);
+    background:transparent;
+    color:var(--enji);
+    font-family:'Noto Sans JP', sans-serif;
+    font-weight:700;
+    font-size:.92rem;
+    letter-spacing:.05em;
+    cursor:pointer;
+    transition:.2s;
+  }
+  .tab-btn.active{
+    background:var(--enji);
+    color:var(--paper);
+    box-shadow:0 3px 10px rgba(122,31,43,0.35);
+  }
+
+  .panel{ display:none; }
+  .panel.active{ display:block; }
+
+  /* ---------- 単語カード ---------- */
+  .progress{
+    text-align:center;
+    color:var(--ink-soft);
+    font-size:.85rem;
+    margin-bottom:10px;
+    letter-spacing:.1em;
+  }
+
+  .card-scene{
+    perspective:1400px;
+    margin-bottom:20px;
+  }
+  .card{
+    position:relative;
+    width:100%;
+    aspect-ratio: 4 / 3;
+    transform-style:preserve-3d;
+    transition:transform .6s cubic-bezier(.2,.8,.25,1);
+    cursor:pointer;
+  }
+  .card.flipped{ transform:rotateY(180deg); }
+
+  .card-face{
+    position:absolute;
+    inset:0;
+    backface-visibility:hidden;
+    border-radius:16px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:24px;
+    border:3px solid var(--gold);
+    box-shadow:
+      0 10px 26px rgba(90,21,31,0.28),
+      inset 0 0 0 6px rgba(246,236,217,0.5);
+    background:
+      linear-gradient(155deg, var(--enji) 0%, var(--enji-deep) 100%);
+  }
+  .card-face::before{
+    /* 角の飾り枠 */
+    content:"";
+    position:absolute;
+    inset:10px;
+    border:1px solid rgba(230,198,92,0.55);
+    border-radius:10px;
+    pointer-events:none;
+  }
+
+  .card-front .hanzi{
+    font-family:'Noto Serif SC', serif;
+    font-weight:900;
+    font-size:clamp(2.4rem, 12vw, 3.6rem);
+    color:var(--paper);
+    text-align:center;
+    text-shadow:0 2px 6px rgba(0,0,0,.3);
+  }
+  .card-front .hint{
+    margin-top:14px;
+    font-size:.78rem;
+    color:var(--gold-light);
+    letter-spacing:.15em;
+  }
+
+  .card-back{
+    transform:rotateY(180deg);
+    background:linear-gradient(155deg, var(--paper-dark) 0%, var(--paper) 100%);
+  }
+  .card-back .pinyin{
+    font-family:'Noto Serif SC', serif;
+    font-size:1.5rem;
+    color:var(--enji);
+    font-weight:600;
+    margin-bottom:10px;
+    letter-spacing:.03em;
+  }
+  .card-back .meaning{
+    font-size:1.25rem;
+    font-weight:700;
+    color:var(--ink);
+    text-align:center;
+  }
+  .card-back .hanzi-small{
+    position:absolute;
+    top:14px;
+    left:18px;
+    font-family:'Noto Serif SC', serif;
+    color:var(--ochre);
+    font-size:1rem;
+    font-weight:600;
+  }
+
+  .speak-btn{
+    position:absolute;
+    bottom:14px;
+    right:14px;
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    border:2px solid var(--gold);
+    background:rgba(0,0,0,0.15);
+    color:var(--gold-light);
+    font-size:1.1rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    transition:.15s;
+  }
+  .card-back .speak-btn{
+    border-color:var(--enji);
+    background:rgba(122,31,43,0.08);
+    color:var(--enji);
+  }
+  .speak-btn:hover{ transform:scale(1.08); }
+  .speak-btn:active{ transform:scale(.95); }
+
+  /* ---------- ナビゲーション ---------- */
+  .nav-row{
+    display:flex;
+    gap:12px;
+    margin-bottom:8px;
+  }
+  .nav-btn{
+    flex:1;
+    padding:13px 10px;
+    border-radius:10px;
+    border:none;
+    font-weight:700;
+    font-size:.95rem;
+    letter-spacing:.04em;
+    cursor:pointer;
+    font-family:'Noto Sans JP', sans-serif;
+    transition:.15s;
+  }
+  .nav-btn.prev{
+    background:var(--paper-dark);
+    color:var(--enji);
+    border:1.5px solid var(--enji);
+  }
+  .nav-btn.next{
+    background:linear-gradient(135deg, var(--enji), var(--enji-deep));
+    color:var(--paper);
+    box-shadow:0 4px 10px rgba(122,31,43,0.35);
+  }
+  .nav-btn:hover{ filter:brightness(1.08); }
+  .nav-btn:active{ transform:translateY(1px); }
+
+  /* ---------- クイズ ---------- */
+  .quiz-box{
+    background:linear-gradient(155deg, #fffaf0, var(--paper));
+    border:2px solid var(--gold);
+    border-radius:16px;
+    padding:26px 20px;
+    box-shadow:0 8px 22px rgba(90,21,31,0.15);
+    position:relative;
+  }
+  .quiz-box::before{
+    content:"";
+    position:absolute;
+    inset:8px;
+    border:1px solid rgba(122,31,43,0.25);
+    border-radius:10px;
+    pointer-events:none;
+  }
+  .quiz-count{
+    text-align:center;
+    font-size:.8rem;
+    color:var(--ochre);
+    letter-spacing:.12em;
+    margin-bottom:6px;
+  }
+  .quiz-question{
+    text-align:center;
+    margin-bottom:22px;
+  }
+  .quiz-question .label{
+    font-size:.78rem;
+    color:var(--ink-soft);
+    letter-spacing:.15em;
+    margin-bottom:6px;
+  }
+  .quiz-question .hanzi{
+    font-family:'Noto Serif SC', serif;
+    font-weight:900;
+    font-size:2.6rem;
+    color:var(--enji);
+  }
+  .quiz-question .pinyin{
+    margin-top:6px;
+    color:var(--ochre);
+    font-size:1rem;
+    font-weight:600;
+  }
+
+  .choices{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+  }
+  .choice-btn{
+    padding:13px 16px;
+    border-radius:10px;
+    border:1.5px solid #d8c7a0;
+    background:#fffdf7;
+    color:var(--ink);
+    text-align:left;
+    font-size:.98rem;
+    font-family:'Noto Sans JP', sans-serif;
+    cursor:pointer;
+    transition:.15s;
+  }
+  .choice-btn:hover{ border-color:var(--gold); background:#fff6e0; }
+  .choice-btn.correct{
+    background:#e5f3ea;
+    border-color:var(--good);
+    color:var(--good);
+    font-weight:700;
+  }
+  .choice-btn.wrong{
+    background:#fbe8e8;
+    border-color:var(--bad);
+    color:var(--bad);
+    font-weight:700;
+  }
+  .choice-btn:disabled{ cursor:default; }
+
+  .quiz-footer{
+    margin-top:18px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .quiz-score{
+    font-size:.85rem;
+    color:var(--ink-soft);
+  }
+  .next-q-btn{
+    padding:10px 20px;
+    border-radius:8px;
+    border:none;
+    background:var(--enji);
+    color:var(--paper);
+    font-weight:700;
+    cursor:pointer;
+    visibility:hidden;
+  }
+  .next-q-btn.show{ visibility:visible; }
+
+  .quiz-result{
+    text-align:center;
+    padding:20px 10px;
+  }
+  .quiz-result .big{
+    font-family:'Noto Serif SC', serif;
+    font-size:2.2rem;
+    color:var(--enji);
+    font-weight:900;
+    margin-bottom:8px;
+  }
+  .restart-btn{
+    margin-top:14px;
+    padding:11px 24px;
+    border-radius:8px;
+    border:1.5px solid var(--enji);
+    background:transparent;
+    color:var(--enji);
+    font-weight:700;
+    cursor:pointer;
+  }
+
+  footer{
+    text-align:center;
+    margin-top:26px;
+    font-size:.72rem;
+    color:var(--ochre);
+    letter-spacing:.1em;
+  }
+
+  @media (max-width:400px){
+    header .title-cn{ font-size:2.1rem; }
+    .card-back .meaning{ font-size:1.05rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <header>
+    <div class="title-cn">錦囊妙語</div>
+    <div class="title-sub">HSK 5級 単語帳・クイズ</div>
+    <div class="divider"></div>
+  </header>
+
+  <div class="tabs">
+    <button class="tab-btn active" data-panel="card-panel">単語カード</button>
+    <button class="tab-btn" data-panel="quiz-panel">4択クイズ</button>
+  </div>
+
+  <!-- ===== 単語カードパネル ===== -->
+  <section class="panel active" id="card-panel">
+    <div class="progress" id="cardProgress">1 / 10</div>
+
+    <div class="card-scene">
+      <div class="card" id="flipCard">
+        <div class="card-face card-front">
+          <div class="hanzi" id="frontHanzi">把握</div>
+          <div class="hint">タップして裏返す</div>
+          <button class="speak-btn" id="frontSpeakBtn" title="発音を聞く">🔊</button>
+        </div>
+        <div class="card-face card-back">
+          <div class="hanzi-small" id="backHanzi">把握</div>
+          <div class="pinyin" id="backPinyin">bǎ wò</div>
+          <div class="meaning" id="backMeaning">把握する、確信を持つ</div>
+          <button class="speak-btn" id="backSpeakBtn" title="発音を聞く">🔊</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-row">
+      <button class="nav-btn prev" id="prevBtn">← 前の単語</button>
+      <button class="nav-btn next" id="nextBtn">次の単語 →</button>
+    </div>
+  </section>
+
+  <!-- ===== クイズパネル ===== -->
+  <section class="panel" id="quiz-panel">
+    <div class="quiz-box">
+      <div id="quizArea">
+        <div class="quiz-count" id="quizCount">第 1 問 / 10</div>
+        <div class="quiz-question">
+          <div class="label">この中国語の意味は？</div>
+          <div class="hanzi" id="quizHanzi">把握</div>
+          <div class="pinyin" id="quizPinyin">bǎ wò</div>
+        </div>
+        <div class="choices" id="quizChoices"></div>
+        <div class="quiz-footer">
+          <div class="quiz-score" id="quizScore">正解数：0</div>
+          <button class="next-q-btn" id="nextQBtn">次の問題 →</button>
+        </div>
+      </div>
+      <div id="quizResult" class="quiz-result" style="display:none;">
+        <div class="big" id="resultText"></div>
+        <div id="resultDetail" style="color:var(--ink-soft);"></div>
+        <button class="restart-btn" id="restartBtn">もう一度挑戦する</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>用心把握，方能致远 ・ Web Speech API 対応ブラウザで音声再生</footer>
+</div>
+
+<script>
+/* ===================== 単語データ（HSK5級レベル） ===================== */
+const VOCAB = [
+  { hanzi:"把握", pinyin:"bǎ wò",   meaning:"把握する、確信を持つ" },
+  { hanzi:"抽象", pinyin:"chōu xiàng", meaning:"抽象的である" },
+  { hanzi:"具备", pinyin:"jù bèi",  meaning:"（条件・能力を）備える" },
+  { hanzi:"核心", pinyin:"hé xīn",  meaning:"核心、中心となる部分" },
+  { hanzi:"逻辑", pinyin:"luó ji",  meaning:"論理、ロジック" },
+  { hanzi:"成果", pinyin:"chéng guǒ", meaning:"成果、成し遂げた結果" },
+  { hanzi:"依赖", pinyin:"yī lài",  meaning:"依存する、頼りにする" },
+  { hanzi:"概括", pinyin:"gài kuò", meaning:"概括する、要約する" },
+  { hanzi:"反映", pinyin:"fǎn yìng", meaning:"反映する、伝える" },
+  { hanzi:"削弱", pinyin:"xuē ruò", meaning:"弱める、弱まる" }
+];
+
+/* ===================== 音声再生（Web Speech API） ===================== */
+function speakChinese(text){
+  if(!('speechSynthesis' in window)) return;
+  window.speechSynthesis.cancel();
+  const utter = new SpeechSynthesisUtterance(text);
+  utter.lang = 'zh-CN';
+  utter.rate = 0.9;
+  const voices = window.speechSynthesis.getVoices();
+  const zhVoice = voices.find(v => v.lang && v.lang.toLowerCase().startsWith('zh'));
+  if(zhVoice) utter.voice = zhVoice;
+  window.speechSynthesis.speak(utter);
+}
+// 一部ブラウザは非同期でvoiceListを読み込むため準備しておく
+if('speechSynthesis' in window){
+  window.speechSynthesis.onvoiceschanged = () => window.speechSynthesis.getVoices();
+}
+
+/* ===================== タブ切り替え ===================== */
+const tabBtns = document.querySelectorAll('.tab-btn');
+const panels = document.querySelectorAll('.panel');
+tabBtns.forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    tabBtns.forEach(b=>b.classList.remove('active'));
+    panels.forEach(p=>p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(btn.dataset.panel).classList.add('active');
+    if(btn.dataset.panel === 'quiz-panel' && !quizStarted){
+      startQuiz();
+    }
+  });
+});
+
+/* ===================== 単語カード機能 ===================== */
+let cardIndex = 0;
+const flipCard   = document.getElementById('flipCard');
+const frontHanzi = document.getElementById('frontHanzi');
+const backHanzi  = document.getElementById('backHanzi');
+const backPinyin = document.getElementById('backPinyin');
+const backMeaning= document.getElementById('backMeaning');
+const cardProgress = document.getElementById('cardProgress');
+
+function renderCard(autoSpeak = true){
+  const w = VOCAB[cardIndex];
+  flipCard.classList.remove('flipped');
+  frontHanzi.textContent = w.hanzi;
+  backHanzi.textContent  = w.hanzi;
+  backPinyin.textContent = w.pinyin;
+  backMeaning.textContent= w.meaning;
+  cardProgress.textContent = `${cardIndex+1} / ${VOCAB.length}`;
+  if(autoSpeak) speakChinese(w.hanzi);
+}
+
+flipCard.addEventListener('click', (e)=>{
+  // スピーカーボタン自体のクリックではカードを反転させない
+  if(e.target.closest('.speak-btn')) return;
+  flipCard.classList.toggle('flipped');
+  if(flipCard.classList.contains('flipped')){
+    speakChinese(VOCAB[cardIndex].hanzi);
+  }
+});
+
+document.getElementById('frontSpeakBtn').addEventListener('click', (e)=>{
+  e.stopPropagation();
+  speakChinese(VOCAB[cardIndex].hanzi);
+});
+document.getElementById('backSpeakBtn').addEventListener('click', (e)=>{
+  e.stopPropagation();
+  speakChinese(VOCAB[cardIndex].hanzi);
+});
+
+document.getElementById('nextBtn').addEventListener('click', ()=>{
+  cardIndex = (cardIndex + 1) % VOCAB.length;
+  renderCard();
+});
+document.getElementById('prevBtn').addEventListener('click', ()=>{
+  cardIndex = (cardIndex - 1 + VOCAB.length) % VOCAB.length;
+  renderCard();
+});
+
+renderCard(false);
+
+/* ===================== クイズ機能 ===================== */
+let quizStarted = false;
+let quizOrder = [];
+let quizIndex = 0;
+let quizScore = 0;
+let answered = false;
+
+const quizArea    = document.getElementById('quizArea');
+const quizResult  = document.getElementById('quizResult');
+const quizCount   = document.getElementById('quizCount');
+const quizHanzi   = document.getElementById('quizHanzi');
+const quizPinyin  = document.getElementById('quizPinyin');
+const quizChoices = document.getElementById('quizChoices');
+const quizScoreEl = document.getElementById('quizScore');
+const nextQBtn    = document.getElementById('nextQBtn');
+
+function shuffle(arr){
+  const a = arr.slice();
+  for(let i=a.length-1;i>0;i--){
+    const j = Math.floor(Math.random()*(i+1));
+    [a[i],a[j]] = [a[j],a[i]];
+  }
+  return a;
+}
+
+function startQuiz(){
+  quizStarted = true;
+  quizOrder = shuffle(VOCAB.map((_,i)=>i));
+  quizIndex = 0;
+  quizScore = 0;
+  answered = false;
+  quizArea.style.display = 'block';
+  quizResult.style.display = 'none';
+  renderQuizQuestion();
+}
+
+function renderQuizQuestion(){
+  answered = false;
+  nextQBtn.classList.remove('show');
+  const wordIdx = quizOrder[quizIndex];
+  const word = VOCAB[wordIdx];
+  quizCount.textContent = `第 ${quizIndex+1} 問 / ${quizOrder.length}`;
+  quizHanzi.textContent = word.hanzi;
+  quizPinyin.textContent = word.pinyin;
+  quizScoreEl.textContent = `正解数：${quizScore}`;
+
+  // 4択の選択肢を作成（正解1つ＋ダミー3つ）
+  const others = VOCAB.filter((_,i)=>i!==wordIdx);
+  const dummies = shuffle(others).slice(0,3).map(w=>w.meaning);
+  const options = shuffle([word.meaning, ...dummies]);
+
+  quizChoices.innerHTML = '';
+  options.forEach(opt=>{
+    const btn = document.createElement('button');
+    btn.className = 'choice-btn';
+    btn.textContent = opt;
+    btn.addEventListener('click', ()=>handleChoice(btn, opt, word));
+    quizChoices.appendChild(btn);
+  });
+
+  speakChinese(word.hanzi);
+}
+
+function handleChoice(btn, chosen, word){
+  if(answered) return;
+  answered = true;
+  const buttons = quizChoices.querySelectorAll('.choice-btn');
+  buttons.forEach(b=>b.disabled = true);
+
+  if(chosen === word.meaning){
+    btn.classList.add('correct');
+    quizScore++;
+    speakChinese(word.hanzi); // 正解時に発音を再生
+  }else{
+    btn.classList.add('wrong');
+    buttons.forEach(b=>{
+      if(b.textContent === word.meaning) b.classList.add('correct');
+    });
+  }
+  quizScoreEl.textContent = `正解数：${quizScore}`;
+  nextQBtn.classList.add('show');
+}
+
+nextQBtn.addEventListener('click', ()=>{
+  if(!answered) return;
+  quizIndex++;
+  if(quizIndex >= quizOrder.length){
+    showQuizResult();
+  }else{
+    renderQuizQuestion();
+  }
+});
+
+function showQuizResult(){
+  quizArea.style.display = 'none';
+  quizResult.style.display = 'block';
+  document.getElementById('resultText').textContent =
+    `${quizScore} / ${quizOrder.length} 問正解！`;
+  const rate = Math.round((quizScore/quizOrder.length)*100);
+  let comment = '';
+  if(rate === 100) comment = '満点！完璧です👏';
+  else if(rate >= 70) comment = 'よくできました！この調子で頑張りましょう。';
+  else comment = 'もう一度単語カードで復習してみましょう。';
+  document.getElementById('resultDetail').textContent = comment;
+}
+
+document.getElementById('restartBtn').addEventListener('click', startQuiz);
+</script>
+</body>
+</html>
