@@ -5398,5 +5398,5405 @@
     "hanzi": "桥梁",
     "pinyin": "qiáoliáng",
     "definition": "橋、橋梁"
+  },
+  {
+    "id": 901,
+    "hanzi": "巧妙",
+    "pinyin": "qiǎomiào",
+    "definition": "巧妙である"
+  },
+  {
+    "id": 902,
+    "hanzi": "切实",
+    "pinyin": "qièshí",
+    "definition": "着実である、実質的である"
+  },
+  {
+    "id": 903,
+    "hanzi": "侵略",
+    "pinyin": "qīnlüè",
+    "definition": "侵略する"
+  },
+  {
+    "id": 904,
+    "hanzi": "亲密",
+    "pinyin": "qīnmì",
+    "definition": "親密である"
+  },
+  {
+    "id": 905,
+    "hanzi": "亲自",
+    "pinyin": "qīnzì",
+    "definition": "自ら"
+  },
+  {
+    "id": 906,
+    "hanzi": "勤奋",
+    "pinyin": "qínfèn",
+    "definition": "勤勉である"
+  },
+  {
+    "id": 907,
+    "hanzi": "勤俭",
+    "pinyin": "qínjiǎn",
+    "definition": "勤勉で質素である"
+  },
+  {
+    "id": 908,
+    "hanzi": "青春",
+    "pinyin": "qīngchūn",
+    "definition": "青春"
+  },
+  {
+    "id": 909,
+    "hanzi": "轻视",
+    "pinyin": "qīngshì",
+    "definition": "軽視する"
+  },
+  {
+    "id": 910,
+    "hanzi": "清晨",
+    "pinyin": "qīngchén",
+    "definition": "早朝"
+  },
+  {
+    "id": 911,
+    "hanzi": "清淡",
+    "pinyin": "qīngdàn",
+    "definition": "あっさりしている"
+  },
+  {
+    "id": 912,
+    "hanzi": "清洁",
+    "pinyin": "qīngjié",
+    "definition": "清潔である"
+  },
+  {
+    "id": 913,
+    "hanzi": "情报",
+    "pinyin": "qíngbào",
+    "definition": "情報"
+  },
+  {
+    "id": 914,
+    "hanzi": "情侣",
+    "pinyin": "qínglǚ",
+    "definition": "恋人同士"
+  },
+  {
+    "id": 915,
+    "hanzi": "情人节",
+    "pinyin": "qíngrénjié",
+    "definition": "バレンタインデー"
+  },
+  {
+    "id": 916,
+    "hanzi": "情形",
+    "pinyin": "qíngxíng",
+    "definition": "状況、状態"
+  },
+  {
+    "id": 917,
+    "hanzi": "情绪",
+    "pinyin": "qíngxù",
+    "definition": "気分、感情"
+  },
+  {
+    "id": 918,
+    "hanzi": "请柬",
+    "pinyin": "qǐngjiǎn",
+    "definition": "招待状"
+  },
+  {
+    "id": 919,
+    "hanzi": "请教",
+    "pinyin": "qǐngjiào",
+    "definition": "教えを請う"
+  },
+  {
+    "id": 920,
+    "hanzi": "请求",
+    "pinyin": "qǐngqiú",
+    "definition": "頼む、要請する"
+  },
+  {
+    "id": 921,
+    "hanzi": "庆祝",
+    "pinyin": "qìngzhù",
+    "definition": "祝う"
+  },
+  {
+    "id": 922,
+    "hanzi": "穷苦",
+    "pinyin": "qióngkǔ",
+    "definition": "貧しい、困窮している"
+  },
+  {
+    "id": 923,
+    "hanzi": "穷困",
+    "pinyin": "qióngkùn",
+    "definition": "貧困である"
+  },
+  {
+    "id": 924,
+    "hanzi": "丘陵",
+    "pinyin": "qiūlíng",
+    "definition": "丘陵"
+  },
+  {
+    "id": 925,
+    "hanzi": "区分",
+    "pinyin": "qūfēn",
+    "definition": "区分する"
+  },
+  {
+    "id": 926,
+    "hanzi": "区域",
+    "pinyin": "qūyù",
+    "definition": "区域"
+  },
+  {
+    "id": 927,
+    "hanzi": "曲折",
+    "pinyin": "qūzhé",
+    "definition": "曲折している、紆余曲折"
+  },
+  {
+    "id": 928,
+    "hanzi": "屈服",
+    "pinyin": "qūfú",
+    "definition": "屈服する"
+  },
+  {
+    "id": 929,
+    "hanzi": "驱逐",
+    "pinyin": "qūzhú",
+    "definition": "駆逐する"
+  },
+  {
+    "id": 930,
+    "hanzi": "渠道",
+    "pinyin": "qúdào",
+    "definition": "経路、ルート"
+  },
+  {
+    "id": 931,
+    "hanzi": "取消",
+    "pinyin": "qǔxiāo",
+    "definition": "取り消す"
+  },
+  {
+    "id": 932,
+    "hanzi": "娶",
+    "pinyin": "qǔ",
+    "definition": "妻を娶る"
+  },
+  {
+    "id": 933,
+    "hanzi": "圈子",
+    "pinyin": "quānzi",
+    "definition": "輪、サークル"
+  },
+  {
+    "id": 934,
+    "hanzi": "权力",
+    "pinyin": "quánlì",
+    "definition": "権力"
+  },
+  {
+    "id": 935,
+    "hanzi": "权利",
+    "pinyin": "quánlì",
+    "definition": "権利"
+  },
+  {
+    "id": 936,
+    "hanzi": "权威",
+    "pinyin": "quánwēi",
+    "definition": "権威"
+  },
+  {
+    "id": 937,
+    "hanzi": "全局",
+    "pinyin": "quánjú",
+    "definition": "全局、全体の情勢"
+  },
+  {
+    "id": 938,
+    "hanzi": "全面",
+    "pinyin": "quánmiàn",
+    "definition": "全面的である"
+  },
+  {
+    "id": 939,
+    "hanzi": "缺席",
+    "pinyin": "quēxí",
+    "definition": "欠席する"
+  },
+  {
+    "id": 940,
+    "hanzi": "缺乏",
+    "pinyin": "quēfá",
+    "definition": "欠乏する"
+  },
+  {
+    "id": 941,
+    "hanzi": "瘸",
+    "pinyin": "qué",
+    "definition": "足を引きずる"
+  },
+  {
+    "id": 942,
+    "hanzi": "确保",
+    "pinyin": "quèbǎo",
+    "definition": "確保する"
+  },
+  {
+    "id": 943,
+    "hanzi": "确立",
+    "pinyin": "quèlì",
+    "definition": "確立する"
+  },
+  {
+    "id": 944,
+    "hanzi": "群众",
+    "pinyin": "qúnzhòng",
+    "definition": "大衆、群衆"
+  },
+  {
+    "id": 945,
+    "hanzi": "燃烧",
+    "pinyin": "ránshāo",
+    "definition": "燃焼する"
+  },
+  {
+    "id": 946,
+    "hanzi": "染",
+    "pinyin": "rǎn",
+    "definition": "染める"
+  },
+  {
+    "id": 947,
+    "hanzi": "嚷",
+    "pinyin": "rǎng",
+    "definition": "叫ぶ、わめく"
+  },
+  {
+    "id": 948,
+    "hanzi": "让步",
+    "pinyin": "ràngbù",
+    "definition": "譲歩する"
+  },
+  {
+    "id": 949,
+    "hanzi": "饶恕",
+    "pinyin": "ráoshù",
+    "definition": "許す"
+  },
+  {
+    "id": 950,
+    "hanzi": "扰乱",
+    "pinyin": "rǎoluàn",
+    "definition": "かき乱す"
+  },
+  {
+    "id": 951,
+    "hanzi": "惹",
+    "pinyin": "rě",
+    "definition": "（怒り・面倒などを）引き起こす"
+  },
+  {
+    "id": 952,
+    "hanzi": "人道",
+    "pinyin": "réndào",
+    "definition": "人道"
+  },
+  {
+    "id": 953,
+    "hanzi": "人格",
+    "pinyin": "réngé",
+    "definition": "人格"
+  },
+  {
+    "id": 954,
+    "hanzi": "人间",
+    "pinyin": "rénjiān",
+    "definition": "人間界、世の中"
+  },
+  {
+    "id": 955,
+    "hanzi": "人力",
+    "pinyin": "rénlì",
+    "definition": "人力、人材"
+  },
+  {
+    "id": 956,
+    "hanzi": "人士",
+    "pinyin": "rénshì",
+    "definition": "人士、有識者"
+  },
+  {
+    "id": 957,
+    "hanzi": "人为",
+    "pinyin": "rénwéi",
+    "definition": "人為的な"
+  },
+  {
+    "id": 958,
+    "hanzi": "人性",
+    "pinyin": "rénxìng",
+    "definition": "人間性"
+  },
+  {
+    "id": 959,
+    "hanzi": "人质",
+    "pinyin": "rénzhì",
+    "definition": "人質"
+  },
+  {
+    "id": 960,
+    "hanzi": "忍耐",
+    "pinyin": "rěnnài",
+    "definition": "忍耐する"
+  },
+  {
+    "id": 961,
+    "hanzi": "忍不住",
+    "pinyin": "rěnbuzhù",
+    "definition": "我慢できない"
+  },
+  {
+    "id": 962,
+    "hanzi": "认定",
+    "pinyin": "rèndìng",
+    "definition": "認定する"
+  },
+  {
+    "id": 963,
+    "hanzi": "认可",
+    "pinyin": "rènkě",
+    "definition": "認可する"
+  },
+  {
+    "id": 964,
+    "hanzi": "任命",
+    "pinyin": "rènmìng",
+    "definition": "任命する"
+  },
+  {
+    "id": 965,
+    "hanzi": "任性",
+    "pinyin": "rènxìng",
+    "definition": "わがままである"
+  },
+  {
+    "id": 966,
+    "hanzi": "任意",
+    "pinyin": "rènyì",
+    "definition": "任意の、勝手に"
+  },
+  {
+    "id": 967,
+    "hanzi": "仍旧",
+    "pinyin": "réngjiù",
+    "definition": "依然として"
+  },
+  {
+    "id": 968,
+    "hanzi": "日常",
+    "pinyin": "rìcháng",
+    "definition": "日常"
+  },
+  {
+    "id": 969,
+    "hanzi": "日历",
+    "pinyin": "rìlì",
+    "definition": "カレンダー"
+  },
+  {
+    "id": 970,
+    "hanzi": "日益",
+    "pinyin": "rìyì",
+    "definition": "日増しに"
+  },
+  {
+    "id": 971,
+    "hanzi": "荣幸",
+    "pinyin": "róngxìng",
+    "definition": "光栄である"
+  },
+  {
+    "id": 972,
+    "hanzi": "荣誉",
+    "pinyin": "róngyù",
+    "definition": "名誉"
+  },
+  {
+    "id": 973,
+    "hanzi": "容器",
+    "pinyin": "róngqì",
+    "definition": "容器"
+  },
+  {
+    "id": 974,
+    "hanzi": "容纳",
+    "pinyin": "róngnà",
+    "definition": "収容する"
+  },
+  {
+    "id": 975,
+    "hanzi": "容忍",
+    "pinyin": "róngrěn",
+    "definition": "容認する、我慢する"
+  },
+  {
+    "id": 976,
+    "hanzi": "融化",
+    "pinyin": "rónghuà",
+    "definition": "融解する"
+  },
+  {
+    "id": 977,
+    "hanzi": "融洽",
+    "pinyin": "róngqià",
+    "definition": "融和している、打ち解けている"
+  },
+  {
+    "id": 978,
+    "hanzi": "揉",
+    "pinyin": "róu",
+    "definition": "もむ"
+  },
+  {
+    "id": 979,
+    "hanzi": "柔和",
+    "pinyin": "róuhé",
+    "definition": "柔らかい、穏やかである"
+  },
+  {
+    "id": 980,
+    "hanzi": "如何",
+    "pinyin": "rúhé",
+    "definition": "どのように"
+  },
+  {
+    "id": 981,
+    "hanzi": "如今",
+    "pinyin": "rújīn",
+    "definition": "今や"
+  },
+  {
+    "id": 982,
+    "hanzi": "儒家",
+    "pinyin": "rújiā",
+    "definition": "儒家"
+  },
+  {
+    "id": 983,
+    "hanzi": "入侵",
+    "pinyin": "rùqīn",
+    "definition": "侵入する"
+  },
+  {
+    "id": 984,
+    "hanzi": "软件",
+    "pinyin": "ruǎnjiàn",
+    "definition": "ソフトウェア"
+  },
+  {
+    "id": 985,
+    "hanzi": "软弱",
+    "pinyin": "ruǎnruò",
+    "definition": "軟弱である"
+  },
+  {
+    "id": 986,
+    "hanzi": "弱点",
+    "pinyin": "ruòdiǎn",
+    "definition": "弱点"
+  },
+  {
+    "id": 987,
+    "hanzi": "撒谎",
+    "pinyin": "sāhuǎng",
+    "definition": "嘘をつく"
+  },
+  {
+    "id": 988,
+    "hanzi": "洒",
+    "pinyin": "sǎ",
+    "definition": "こぼす、まく"
+  },
+  {
+    "id": 989,
+    "hanzi": "塞",
+    "pinyin": "sāi",
+    "definition": "詰める"
+  },
+  {
+    "id": 990,
+    "hanzi": "三角",
+    "pinyin": "sānjiǎo",
+    "definition": "三角"
+  },
+  {
+    "id": 991,
+    "hanzi": "散文",
+    "pinyin": "sǎnwén",
+    "definition": "散文"
+  },
+  {
+    "id": 992,
+    "hanzi": "丧失",
+    "pinyin": "sàngshī",
+    "definition": "喪失する"
+  },
+  {
+    "id": 993,
+    "hanzi": "骚扰",
+    "pinyin": "sāorǎo",
+    "definition": "騒がせる、嫌がらせをする"
+  },
+  {
+    "id": 994,
+    "hanzi": "嫂子",
+    "pinyin": "sǎozi",
+    "definition": "兄嫁"
+  },
+  {
+    "id": 995,
+    "hanzi": "色彩",
+    "pinyin": "sècǎi",
+    "definition": "色彩"
+  },
+  {
+    "id": 996,
+    "hanzi": "森林",
+    "pinyin": "sēnlín",
+    "definition": "森林"
+  },
+  {
+    "id": 997,
+    "hanzi": "杀害",
+    "pinyin": "shāhài",
+    "definition": "殺害する"
+  },
+  {
+    "id": 998,
+    "hanzi": "沙漠",
+    "pinyin": "shāmò",
+    "definition": "砂漠"
+  },
+  {
+    "id": 999,
+    "hanzi": "沙滩",
+    "pinyin": "shātān",
+    "definition": "砂浜"
+  },
+  {
+    "id": 1000,
+    "hanzi": "傻",
+    "pinyin": "shǎ",
+    "definition": "愚かな、間抜けな"
+  },
+  {
+    "id": 1001,
+    "hanzi": "沙哑",
+    "pinyin": "shāyǎ",
+    "definition": "（声が）かすれている"
+  },
+  {
+    "id": 1002,
+    "hanzi": "筛选",
+    "pinyin": "shāixuǎn",
+    "definition": "選別する"
+  },
+  {
+    "id": 1003,
+    "hanzi": "山脉",
+    "pinyin": "shānmài",
+    "definition": "山脈"
+  },
+  {
+    "id": 1004,
+    "hanzi": "擅自",
+    "pinyin": "shànzì",
+    "definition": "勝手に、無断で"
+  },
+  {
+    "id": 1005,
+    "hanzi": "擅长",
+    "pinyin": "shàncháng",
+    "definition": "得意とする"
+  },
+  {
+    "id": 1006,
+    "hanzi": "善良",
+    "pinyin": "shànliáng",
+    "definition": "善良である"
+  },
+  {
+    "id": 1007,
+    "hanzi": "善于",
+    "pinyin": "shànyú",
+    "definition": "～するのが得意である"
+  },
+  {
+    "id": 1008,
+    "hanzi": "伤脑筋",
+    "pinyin": "shāngnǎojīn",
+    "definition": "頭を悩ませる"
+  },
+  {
+    "id": 1009,
+    "hanzi": "商标",
+    "pinyin": "shāngbiāo",
+    "definition": "商標"
+  },
+  {
+    "id": 1010,
+    "hanzi": "商务",
+    "pinyin": "shāngwù",
+    "definition": "商務、ビジネス"
+  },
+  {
+    "id": 1011,
+    "hanzi": "商业",
+    "pinyin": "shāngyè",
+    "definition": "商業"
+  },
+  {
+    "id": 1012,
+    "hanzi": "上级",
+    "pinyin": "shàngjí",
+    "definition": "上級、上司"
+  },
+  {
+    "id": 1013,
+    "hanzi": "上进心",
+    "pinyin": "shàngjìnxīn",
+    "definition": "向上心"
+  },
+  {
+    "id": 1014,
+    "hanzi": "上瘾",
+    "pinyin": "shàngyǐn",
+    "definition": "中毒になる、癖になる"
+  },
+  {
+    "id": 1015,
+    "hanzi": "尚且",
+    "pinyin": "shàngqiě",
+    "definition": "～でさえ"
+  },
+  {
+    "id": 1016,
+    "hanzi": "捎",
+    "pinyin": "shāo",
+    "definition": "ついでに届ける"
+  },
+  {
+    "id": 1017,
+    "hanzi": "稍微",
+    "pinyin": "shāowēi",
+    "definition": "少し"
+  },
+  {
+    "id": 1018,
+    "hanzi": "勺子",
+    "pinyin": "sháozi",
+    "definition": "スプーン、しゃくし"
+  },
+  {
+    "id": 1019,
+    "hanzi": "少数民族",
+    "pinyin": "shǎoshù mínzú",
+    "definition": "少数民族"
+  },
+  {
+    "id": 1020,
+    "hanzi": "奢侈",
+    "pinyin": "shēchǐ",
+    "definition": "贅沢である"
+  },
+  {
+    "id": 1021,
+    "hanzi": "舌头",
+    "pinyin": "shétou",
+    "definition": "舌"
+  },
+  {
+    "id": 1022,
+    "hanzi": "设立",
+    "pinyin": "shèlì",
+    "definition": "設立する"
+  },
+  {
+    "id": 1023,
+    "hanzi": "设施",
+    "pinyin": "shèshī",
+    "definition": "施設"
+  },
+  {
+    "id": 1024,
+    "hanzi": "设想",
+    "pinyin": "shèxiǎng",
+    "definition": "想定する、構想する"
+  },
+  {
+    "id": 1025,
+    "hanzi": "射击",
+    "pinyin": "shèjī",
+    "definition": "射撃する"
+  },
+  {
+    "id": 1026,
+    "hanzi": "涉及",
+    "pinyin": "shèjí",
+    "definition": "関わる、及ぶ"
+  },
+  {
+    "id": 1027,
+    "hanzi": "摄氏度",
+    "pinyin": "shèshìdù",
+    "definition": "摂氏度"
+  },
+  {
+    "id": 1028,
+    "hanzi": "摄影",
+    "pinyin": "shèyǐng",
+    "definition": "撮影する"
+  },
+  {
+    "id": 1029,
+    "hanzi": "深奥",
+    "pinyin": "shēn'ào",
+    "definition": "奥深い、難解である"
+  },
+  {
+    "id": 1030,
+    "hanzi": "深沉",
+    "pinyin": "shēnchén",
+    "definition": "深沈である、落ち着いている"
+  },
+  {
+    "id": 1031,
+    "hanzi": "深刻",
+    "pinyin": "shēnkè",
+    "definition": "深刻である、印象深い"
+  },
+  {
+    "id": 1032,
+    "hanzi": "神奇",
+    "pinyin": "shénqí",
+    "definition": "神秘的で不思議である"
+  },
+  {
+    "id": 1033,
+    "hanzi": "神情",
+    "pinyin": "shénqíng",
+    "definition": "表情、様子"
+  },
+  {
+    "id": 1034,
+    "hanzi": "神圣",
+    "pinyin": "shénshèng",
+    "definition": "神聖である"
+  },
+  {
+    "id": 1035,
+    "hanzi": "神态",
+    "pinyin": "shéntài",
+    "definition": "表情、様子"
+  },
+  {
+    "id": 1036,
+    "hanzi": "审查",
+    "pinyin": "shěnchá",
+    "definition": "審査する"
+  },
+  {
+    "id": 1037,
+    "hanzi": "审判",
+    "pinyin": "shěnpàn",
+    "definition": "審判する"
+  },
+  {
+    "id": 1038,
+    "hanzi": "渗透",
+    "pinyin": "shèntòu",
+    "definition": "浸透する"
+  },
+  {
+    "id": 1039,
+    "hanzi": "甚至",
+    "pinyin": "shènzhì",
+    "definition": "～さえ、甚だしくは"
+  },
+  {
+    "id": 1040,
+    "hanzi": "慎重",
+    "pinyin": "shènzhòng",
+    "definition": "慎重である"
+  },
+  {
+    "id": 1041,
+    "hanzi": "生存",
+    "pinyin": "shēngcún",
+    "definition": "生存する"
+  },
+  {
+    "id": 1042,
+    "hanzi": "生动",
+    "pinyin": "shēngdòng",
+    "definition": "生き生きしている"
+  },
+  {
+    "id": 1043,
+    "hanzi": "生俱来",
+    "pinyin": "shēngjùlái",
+    "definition": "生まれつきである（与生俱来）"
+  },
+  {
+    "id": 1044,
+    "hanzi": "生态",
+    "pinyin": "shēngtài",
+    "definition": "生態"
+  },
+  {
+    "id": 1045,
+    "hanzi": "生疏",
+    "pinyin": "shēngshū",
+    "definition": "疎遠である、不慣れである"
+  },
+  {
+    "id": 1046,
+    "hanzi": "生育",
+    "pinyin": "shēngyù",
+    "definition": "出産する、生育する"
+  },
+  {
+    "id": 1047,
+    "hanzi": "声明",
+    "pinyin": "shēngmíng",
+    "definition": "声明する"
+  },
+  {
+    "id": 1048,
+    "hanzi": "声势",
+    "pinyin": "shēngshì",
+    "definition": "勢い、気勢"
+  },
+  {
+    "id": 1049,
+    "hanzi": "绳子",
+    "pinyin": "shéngzi",
+    "definition": "縄、ロープ"
+  },
+  {
+    "id": 1050,
+    "hanzi": "省略",
+    "pinyin": "shěnglüè",
+    "definition": "省略する"
+  },
+  {
+    "id": 1051,
+    "hanzi": "盛产",
+    "pinyin": "shèngchǎn",
+    "definition": "豊富に産出する"
+  },
+  {
+    "id": 1052,
+    "hanzi": "剩余",
+    "pinyin": "shèngyú",
+    "definition": "剰余、余り"
+  },
+  {
+    "id": 1053,
+    "hanzi": "胜负",
+    "pinyin": "shèngfù",
+    "definition": "勝敗"
+  },
+  {
+    "id": 1054,
+    "hanzi": "尸体",
+    "pinyin": "shītǐ",
+    "definition": "死体"
+  },
+  {
+    "id": 1055,
+    "hanzi": "失眠",
+    "pinyin": "shīmián",
+    "definition": "不眠"
+  },
+  {
+    "id": 1056,
+    "hanzi": "失踪",
+    "pinyin": "shīzōng",
+    "definition": "失踪する"
+  },
+  {
+    "id": 1057,
+    "hanzi": "施加",
+    "pinyin": "shījiā",
+    "definition": "加える、及ぼす"
+  },
+  {
+    "id": 1058,
+    "hanzi": "施工",
+    "pinyin": "shīgōng",
+    "definition": "施工する"
+  },
+  {
+    "id": 1059,
+    "hanzi": "十足",
+    "pinyin": "shízú",
+    "definition": "十分である"
+  },
+  {
+    "id": 1060,
+    "hanzi": "石油",
+    "pinyin": "shíyóu",
+    "definition": "石油"
+  },
+  {
+    "id": 1061,
+    "hanzi": "时常",
+    "pinyin": "shícháng",
+    "definition": "常に、しょっちゅう"
+  },
+  {
+    "id": 1062,
+    "hanzi": "时而",
+    "pinyin": "shí'ér",
+    "definition": "時々"
+  },
+  {
+    "id": 1063,
+    "hanzi": "时机",
+    "pinyin": "shíjī",
+    "definition": "時機、チャンス"
+  },
+  {
+    "id": 1064,
+    "hanzi": "时事",
+    "pinyin": "shíshì",
+    "definition": "時事"
+  },
+  {
+    "id": 1065,
+    "hanzi": "时装",
+    "pinyin": "shízhuāng",
+    "definition": "ファッション、時装"
+  },
+  {
+    "id": 1066,
+    "hanzi": "识别",
+    "pinyin": "shíbié",
+    "definition": "識別する"
+  },
+  {
+    "id": 1067,
+    "hanzi": "实惠",
+    "pinyin": "shíhuì",
+    "definition": "実利がある、お得である"
+  },
+  {
+    "id": 1068,
+    "hanzi": "实力",
+    "pinyin": "shílì",
+    "definition": "実力"
+  },
+  {
+    "id": 1069,
+    "hanzi": "实施",
+    "pinyin": "shíshī",
+    "definition": "実施する"
+  },
+  {
+    "id": 1070,
+    "hanzi": "实事求是",
+    "pinyin": "shíshìqiúshì",
+    "definition": "実事求是（実際に基づいて事を行う）"
+  },
+  {
+    "id": 1071,
+    "hanzi": "实用",
+    "pinyin": "shíyòng",
+    "definition": "実用的である"
+  },
+  {
+    "id": 1072,
+    "hanzi": "拾",
+    "pinyin": "shí",
+    "definition": "拾う"
+  },
+  {
+    "id": 1073,
+    "hanzi": "使命",
+    "pinyin": "shǐmìng",
+    "definition": "使命"
+  },
+  {
+    "id": 1074,
+    "hanzi": "始终",
+    "pinyin": "shǐzhōng",
+    "definition": "終始、最初から最後まで"
+  },
+  {
+    "id": 1075,
+    "hanzi": "士兵",
+    "pinyin": "shìbīng",
+    "definition": "兵士"
+  },
+  {
+    "id": 1076,
+    "hanzi": "示范",
+    "pinyin": "shìfàn",
+    "definition": "模範を示す"
+  },
+  {
+    "id": 1077,
+    "hanzi": "世代",
+    "pinyin": "shìdài",
+    "definition": "世代"
+  },
+  {
+    "id": 1078,
+    "hanzi": "势必",
+    "pinyin": "shìbì",
+    "definition": "必ず、必然的に"
+  },
+  {
+    "id": 1079,
+    "hanzi": "事故",
+    "pinyin": "shìgù",
+    "definition": "事故"
+  },
+  {
+    "id": 1080,
+    "hanzi": "事迹",
+    "pinyin": "shìjì",
+    "definition": "事績、業績"
+  },
+  {
+    "id": 1081,
+    "hanzi": "事态",
+    "pinyin": "shìtài",
+    "definition": "事態"
+  },
+  {
+    "id": 1082,
+    "hanzi": "事项",
+    "pinyin": "shìxiàng",
+    "definition": "事項"
+  },
+  {
+    "id": 1083,
+    "hanzi": "事业",
+    "pinyin": "shìyè",
+    "definition": "事業"
+  },
+  {
+    "id": 1084,
+    "hanzi": "试图",
+    "pinyin": "shìtú",
+    "definition": "試みる"
+  },
+  {
+    "id": 1085,
+    "hanzi": "视力",
+    "pinyin": "shìlì",
+    "definition": "視力"
+  },
+  {
+    "id": 1086,
+    "hanzi": "视线",
+    "pinyin": "shìxiàn",
+    "definition": "視線"
+  },
+  {
+    "id": 1087,
+    "hanzi": "视野",
+    "pinyin": "shìyě",
+    "definition": "視野"
+  },
+  {
+    "id": 1088,
+    "hanzi": "是非",
+    "pinyin": "shìfēi",
+    "definition": "是非、善悪"
+  },
+  {
+    "id": 1089,
+    "hanzi": "适宜",
+    "pinyin": "shìyí",
+    "definition": "適している"
+  },
+  {
+    "id": 1090,
+    "hanzi": "逝世",
+    "pinyin": "shìshì",
+    "definition": "逝去する"
+  },
+  {
+    "id": 1091,
+    "hanzi": "释放",
+    "pinyin": "shìfàng",
+    "definition": "釈放する"
+  },
+  {
+    "id": 1092,
+    "hanzi": "收藏",
+    "pinyin": "shōucáng",
+    "definition": "収蔵する、コレクションする"
+  },
+  {
+    "id": 1093,
+    "hanzi": "收缩",
+    "pinyin": "shōusuō",
+    "definition": "収縮する"
+  },
+  {
+    "id": 1094,
+    "hanzi": "收益",
+    "pinyin": "shōuyì",
+    "definition": "収益"
+  },
+  {
+    "id": 1095,
+    "hanzi": "收音机",
+    "pinyin": "shōuyīnjī",
+    "definition": "ラジオ"
+  },
+  {
+    "id": 1096,
+    "hanzi": "手法",
+    "pinyin": "shǒufǎ",
+    "definition": "手法"
+  },
+  {
+    "id": 1097,
+    "hanzi": "手工",
+    "pinyin": "shǒugōng",
+    "definition": "手作業"
+  },
+  {
+    "id": 1098,
+    "hanzi": "手术",
+    "pinyin": "shǒushù",
+    "definition": "手術"
+  },
+  {
+    "id": 1099,
+    "hanzi": "手腕",
+    "pinyin": "shǒuwàn",
+    "definition": "手首、手腕"
+  },
+  {
+    "id": 1100,
+    "hanzi": "首要",
+    "pinyin": "shǒuyào",
+    "definition": "最も重要な"
+  },
+  {
+    "id": 1101,
+    "hanzi": "受害",
+    "pinyin": "shòuhài",
+    "definition": "被害を受ける"
+  },
+  {
+    "id": 1102,
+    "hanzi": "受贿",
+    "pinyin": "shòuhuì",
+    "definition": "賄賂を受け取る"
+  },
+  {
+    "id": 1103,
+    "hanzi": "授权",
+    "pinyin": "shòuquán",
+    "definition": "授権する、権限を与える"
+  },
+  {
+    "id": 1104,
+    "hanzi": "兽",
+    "pinyin": "shòu",
+    "definition": "獣"
+  },
+  {
+    "id": 1105,
+    "hanzi": "书法",
+    "pinyin": "shūfǎ",
+    "definition": "書道"
+  },
+  {
+    "id": 1106,
+    "hanzi": "书籍",
+    "pinyin": "shūjí",
+    "definition": "書籍"
+  },
+  {
+    "id": 1107,
+    "hanzi": "书记",
+    "pinyin": "shūji",
+    "definition": "書記"
+  },
+  {
+    "id": 1108,
+    "hanzi": "梳子",
+    "pinyin": "shūzi",
+    "definition": "櫛"
+  },
+  {
+    "id": 1109,
+    "hanzi": "舒适",
+    "pinyin": "shūshì",
+    "definition": "快適である"
+  },
+  {
+    "id": 1110,
+    "hanzi": "疏忽",
+    "pinyin": "shūhu",
+    "definition": "疎かにする、うっかりする"
+  },
+  {
+    "id": 1111,
+    "hanzi": "输入",
+    "pinyin": "shūrù",
+    "definition": "入力する、輸入する"
+  },
+  {
+    "id": 1112,
+    "hanzi": "蔬菜",
+    "pinyin": "shūcài",
+    "definition": "野菜"
+  },
+  {
+    "id": 1113,
+    "hanzi": "熟练",
+    "pinyin": "shúliàn",
+    "definition": "熟練している"
+  },
+  {
+    "id": 1114,
+    "hanzi": "属于",
+    "pinyin": "shǔyú",
+    "definition": "～に属する"
+  },
+  {
+    "id": 1115,
+    "hanzi": "数目",
+    "pinyin": "shùmù",
+    "definition": "数、数量"
+  },
+  {
+    "id": 1116,
+    "hanzi": "数控",
+    "pinyin": "shùkòng",
+    "definition": "数値制御"
+  },
+  {
+    "id": 1117,
+    "hanzi": "数据",
+    "pinyin": "shùjù",
+    "definition": "データ"
+  },
+  {
+    "id": 1118,
+    "hanzi": "束",
+    "pinyin": "shù",
+    "definition": "束（量詞）"
+  },
+  {
+    "id": 1119,
+    "hanzi": "树立",
+    "pinyin": "shùlì",
+    "definition": "打ち立てる"
+  },
+  {
+    "id": 1120,
+    "hanzi": "竖",
+    "pinyin": "shù",
+    "definition": "縦の、垂直の"
+  },
+  {
+    "id": 1121,
+    "hanzi": "耍",
+    "pinyin": "shuǎ",
+    "definition": "遊ぶ、はしゃぐ"
+  },
+  {
+    "id": 1122,
+    "hanzi": "衰老",
+    "pinyin": "shuāilǎo",
+    "definition": "老いる"
+  },
+  {
+    "id": 1123,
+    "hanzi": "摔",
+    "pinyin": "shuāi",
+    "definition": "転ぶ、投げつける"
+  },
+  {
+    "id": 1124,
+    "hanzi": "甩",
+    "pinyin": "shuǎi",
+    "definition": "振り回す"
+  },
+  {
+    "id": 1125,
+    "hanzi": "双方",
+    "pinyin": "shuāngfāng",
+    "definition": "双方"
+  },
+  {
+    "id": 1126,
+    "hanzi": "爽快",
+    "pinyin": "shuǎngkuài",
+    "definition": "爽快である、あっさりしている"
+  },
+  {
+    "id": 1127,
+    "hanzi": "水利",
+    "pinyin": "shuǐlì",
+    "definition": "水利"
+  },
+  {
+    "id": 1128,
+    "hanzi": "水泥",
+    "pinyin": "shuǐní",
+    "definition": "セメント"
+  },
+  {
+    "id": 1129,
+    "hanzi": "睡眠",
+    "pinyin": "shuìmián",
+    "definition": "睡眠"
+  },
+  {
+    "id": 1130,
+    "hanzi": "顺便",
+    "pinyin": "shùnbiàn",
+    "definition": "ついでに"
+  },
+  {
+    "id": 1131,
+    "hanzi": "顺序",
+    "pinyin": "shùnxù",
+    "definition": "順序"
+  },
+  {
+    "id": 1132,
+    "hanzi": "说不定",
+    "pinyin": "shuōbudìng",
+    "definition": "もしかすると"
+  },
+  {
+    "id": 1133,
+    "hanzi": "说服",
+    "pinyin": "shuōfú",
+    "definition": "説得する"
+  },
+  {
+    "id": 1134,
+    "hanzi": "硕士",
+    "pinyin": "shuòshì",
+    "definition": "修士"
+  },
+  {
+    "id": 1135,
+    "hanzi": "司机",
+    "pinyin": "sījī",
+    "definition": "運転手"
+  },
+  {
+    "id": 1136,
+    "hanzi": "私自",
+    "pinyin": "sīzì",
+    "definition": "個人的に、無断で"
+  },
+  {
+    "id": 1137,
+    "hanzi": "思考",
+    "pinyin": "sīkǎo",
+    "definition": "思考する"
+  },
+  {
+    "id": 1138,
+    "hanzi": "思念",
+    "pinyin": "sīniàn",
+    "definition": "思慕する"
+  },
+  {
+    "id": 1139,
+    "hanzi": "思索",
+    "pinyin": "sīsuǒ",
+    "definition": "思索する"
+  },
+  {
+    "id": 1140,
+    "hanzi": "思维",
+    "pinyin": "sīwéi",
+    "definition": "思考、思惟"
+  },
+  {
+    "id": 1141,
+    "hanzi": "斯文",
+    "pinyin": "sīwén",
+    "definition": "上品である、優雅である"
+  },
+  {
+    "id": 1142,
+    "hanzi": "撕",
+    "pinyin": "sī",
+    "definition": "破る"
+  },
+  {
+    "id": 1143,
+    "hanzi": "死亡",
+    "pinyin": "sǐwáng",
+    "definition": "死亡する"
+  },
+  {
+    "id": 1144,
+    "hanzi": "似乎",
+    "pinyin": "sìhū",
+    "definition": "～のようだ"
+  },
+  {
+    "id": 1145,
+    "hanzi": "饲养",
+    "pinyin": "sìyǎng",
+    "definition": "飼育する"
+  },
+  {
+    "id": 1146,
+    "hanzi": "松",
+    "pinyin": "sōng",
+    "definition": "緩い、松（木）"
+  },
+  {
+    "id": 1147,
+    "hanzi": "耸",
+    "pinyin": "sǒng",
+    "definition": "そびえる"
+  },
+  {
+    "id": 1148,
+    "hanzi": "艘",
+    "pinyin": "sōu",
+    "definition": "（量詞）～隻"
+  },
+  {
+    "id": 1149,
+    "hanzi": "苏醒",
+    "pinyin": "sūxǐng",
+    "definition": "覚醒する、蘇る"
+  },
+  {
+    "id": 1150,
+    "hanzi": "俗话",
+    "pinyin": "súhuà",
+    "definition": "ことわざ、俗語"
+  },
+  {
+    "id": 1151,
+    "hanzi": "塑造",
+    "pinyin": "sùzào",
+    "definition": "造形する、形作る"
+  },
+  {
+    "id": 1152,
+    "hanzi": "塑料",
+    "pinyin": "sùliào",
+    "definition": "プラスチック"
+  },
+  {
+    "id": 1153,
+    "hanzi": "素食",
+    "pinyin": "sùshí",
+    "definition": "素食、精進料理"
+  },
+  {
+    "id": 1154,
+    "hanzi": "诉讼",
+    "pinyin": "sùsòng",
+    "definition": "訴訟する"
+  },
+  {
+    "id": 1155,
+    "hanzi": "酸",
+    "pinyin": "suān",
+    "definition": "酸っぱい"
+  },
+  {
+    "id": 1156,
+    "hanzi": "随即",
+    "pinyin": "suíjí",
+    "definition": "直ちに、すぐに"
+  },
+  {
+    "id": 1157,
+    "hanzi": "随意",
+    "pinyin": "suíyì",
+    "definition": "気の向くまま"
+  },
+  {
+    "id": 1158,
+    "hanzi": "岁月",
+    "pinyin": "suìyuè",
+    "definition": "歳月"
+  },
+  {
+    "id": 1159,
+    "hanzi": "隧道",
+    "pinyin": "suìdào",
+    "definition": "トンネル"
+  },
+  {
+    "id": 1160,
+    "hanzi": "损坏",
+    "pinyin": "sǔnhuài",
+    "definition": "損傷する"
+  },
+  {
+    "id": 1161,
+    "hanzi": "缩短",
+    "pinyin": "suōduǎn",
+    "definition": "短縮する"
+  },
+  {
+    "id": 1162,
+    "hanzi": "缩小",
+    "pinyin": "suōxiǎo",
+    "definition": "縮小する"
+  },
+  {
+    "id": 1163,
+    "hanzi": "所属",
+    "pinyin": "suǒshǔ",
+    "definition": "所属する"
+  },
+  {
+    "id": 1164,
+    "hanzi": "索性",
+    "pinyin": "suǒxìng",
+    "definition": "いっそのこと"
+  },
+  {
+    "id": 1165,
+    "hanzi": "他人",
+    "pinyin": "tārén",
+    "definition": "他人"
+  },
+  {
+    "id": 1166,
+    "hanzi": "塌",
+    "pinyin": "tā",
+    "definition": "崩れる"
+  },
+  {
+    "id": 1167,
+    "hanzi": "踏实",
+    "pinyin": "tāshi",
+    "definition": "落ち着いている、着実である"
+  },
+  {
+    "id": 1168,
+    "hanzi": "台风",
+    "pinyin": "táifēng",
+    "definition": "台風"
+  },
+  {
+    "id": 1169,
+    "hanzi": "太极拳",
+    "pinyin": "tàijíquán",
+    "definition": "太極拳"
+  },
+  {
+    "id": 1170,
+    "hanzi": "泰然",
+    "pinyin": "tàirán",
+    "definition": "泰然としている"
+  },
+  {
+    "id": 1171,
+    "hanzi": "贪婪",
+    "pinyin": "tānlán",
+    "definition": "貪欲である"
+  },
+  {
+    "id": 1172,
+    "hanzi": "摊",
+    "pinyin": "tān",
+    "definition": "屋台、広げる"
+  },
+  {
+    "id": 1173,
+    "hanzi": "瘫痪",
+    "pinyin": "tānhuàn",
+    "definition": "麻痺する"
+  },
+  {
+    "id": 1174,
+    "hanzi": "谈判",
+    "pinyin": "tánpàn",
+    "definition": "交渉する"
+  },
+  {
+    "id": 1175,
+    "hanzi": "坦白",
+    "pinyin": "tǎnbái",
+    "definition": "率直である、白状する"
+  },
+  {
+    "id": 1176,
+    "hanzi": "探索",
+    "pinyin": "tànsuǒ",
+    "definition": "探索する"
+  },
+  {
+    "id": 1177,
+    "hanzi": "探讨",
+    "pinyin": "tàntǎo",
+    "definition": "検討する"
+  },
+  {
+    "id": 1178,
+    "hanzi": "探望",
+    "pinyin": "tànwàng",
+    "definition": "見舞う"
+  },
+  {
+    "id": 1179,
+    "hanzi": "叹气",
+    "pinyin": "tànqì",
+    "definition": "ため息をつく"
+  },
+  {
+    "id": 1180,
+    "hanzi": "汤圆",
+    "pinyin": "tāngyuán",
+    "definition": "湯円（もち米団子）"
+  },
+  {
+    "id": 1181,
+    "hanzi": "唐诗",
+    "pinyin": "tángshī",
+    "definition": "唐詩"
+  },
+  {
+    "id": 1182,
+    "hanzi": "倘若",
+    "pinyin": "tǎngruò",
+    "definition": "もし"
+  },
+  {
+    "id": 1183,
+    "hanzi": "掏",
+    "pinyin": "tāo",
+    "definition": "取り出す"
+  },
+  {
+    "id": 1184,
+    "hanzi": "滔滔不绝",
+    "pinyin": "tāotāobùjué",
+    "definition": "とうとうと絶え間なく"
+  },
+  {
+    "id": 1185,
+    "hanzi": "陶瓷",
+    "pinyin": "táocí",
+    "definition": "陶磁器"
+  },
+  {
+    "id": 1186,
+    "hanzi": "陶醉",
+    "pinyin": "táozuì",
+    "definition": "陶酔する"
+  },
+  {
+    "id": 1187,
+    "hanzi": "讨价还价",
+    "pinyin": "tǎojiàhuánjià",
+    "definition": "値切る、値段交渉する"
+  },
+  {
+    "id": 1188,
+    "hanzi": "特意",
+    "pinyin": "tèyì",
+    "definition": "わざわざ"
+  },
+  {
+    "id": 1189,
+    "hanzi": "特征",
+    "pinyin": "tèzhēng",
+    "definition": "特徴"
+  },
+  {
+    "id": 1190,
+    "hanzi": "疼爱",
+    "pinyin": "téng'ài",
+    "definition": "愛おしむ、可愛がる"
+  },
+  {
+    "id": 1191,
+    "hanzi": "提议",
+    "pinyin": "tíyì",
+    "definition": "提議する、提案する"
+  },
+  {
+    "id": 1192,
+    "hanzi": "题材",
+    "pinyin": "tícái",
+    "definition": "題材"
+  },
+  {
+    "id": 1193,
+    "hanzi": "体会",
+    "pinyin": "tǐhuì",
+    "definition": "体得する、実感する"
+  },
+  {
+    "id": 1194,
+    "hanzi": "体面",
+    "pinyin": "tǐmiàn",
+    "definition": "体面、体裁が良い"
+  },
+  {
+    "id": 1195,
+    "hanzi": "体验",
+    "pinyin": "tǐyàn",
+    "definition": "体験する"
+  },
+  {
+    "id": 1196,
+    "hanzi": "天空",
+    "pinyin": "tiānkōng",
+    "definition": "空"
+  },
+  {
+    "id": 1197,
+    "hanzi": "天真",
+    "pinyin": "tiānzhēn",
+    "definition": "天真爛漫である"
+  },
+  {
+    "id": 1198,
+    "hanzi": "田径",
+    "pinyin": "tiánjìng",
+    "definition": "陸上競技"
+  },
+  {
+    "id": 1199,
+    "hanzi": "舔",
+    "pinyin": "tiǎn",
+    "definition": "なめる"
+  },
+  {
+    "id": 1200,
+    "hanzi": "挑剔",
+    "pinyin": "tiāotī",
+    "definition": "あら探しをする"
+  },
+  {
+    "id": 1201,
+    "hanzi": "挑衅",
+    "pinyin": "tiǎoxìn",
+    "definition": "挑発する"
+  },
+  {
+    "id": 1202,
+    "hanzi": "挑战",
+    "pinyin": "tiǎozhàn",
+    "definition": "挑戦する"
+  },
+  {
+    "id": 1203,
+    "hanzi": "条款",
+    "pinyin": "tiáokuǎn",
+    "definition": "条項"
+  },
+  {
+    "id": 1204,
+    "hanzi": "条理",
+    "pinyin": "tiáolǐ",
+    "definition": "筋道、条理"
+  },
+  {
+    "id": 1205,
+    "hanzi": "调剂",
+    "pinyin": "tiáojì",
+    "definition": "調整する、調合する"
+  },
+  {
+    "id": 1206,
+    "hanzi": "调解",
+    "pinyin": "tiáojiě",
+    "definition": "調停する"
+  },
+  {
+    "id": 1207,
+    "hanzi": "调节",
+    "pinyin": "tiáojié",
+    "definition": "調節する"
+  },
+  {
+    "id": 1208,
+    "hanzi": "调理",
+    "pinyin": "tiáolǐ",
+    "definition": "体調を整える"
+  },
+  {
+    "id": 1209,
+    "hanzi": "挑拨",
+    "pinyin": "tiǎobō",
+    "definition": "唆す、仲を裂く"
+  },
+  {
+    "id": 1210,
+    "hanzi": "眺望",
+    "pinyin": "tiàowàng",
+    "definition": "眺望する"
+  },
+  {
+    "id": 1211,
+    "hanzi": "通货膨胀",
+    "pinyin": "tōnghuò péngzhàng",
+    "definition": "インフレーション"
+  },
+  {
+    "id": 1212,
+    "hanzi": "通俗",
+    "pinyin": "tōngsú",
+    "definition": "通俗的な"
+  },
+  {
+    "id": 1213,
+    "hanzi": "统一",
+    "pinyin": "tǒngyī",
+    "definition": "統一する"
+  },
+  {
+    "id": 1214,
+    "hanzi": "统治",
+    "pinyin": "tǒngzhì",
+    "definition": "統治する"
+  },
+  {
+    "id": 1215,
+    "hanzi": "痛苦",
+    "pinyin": "tòngkǔ",
+    "definition": "苦痛"
+  },
+  {
+    "id": 1216,
+    "hanzi": "痛快",
+    "pinyin": "tòngkuài",
+    "definition": "痛快である"
+  },
+  {
+    "id": 1217,
+    "hanzi": "投机",
+    "pinyin": "tóujī",
+    "definition": "投機する、（考えが）合う"
+  },
+  {
+    "id": 1218,
+    "hanzi": "投票",
+    "pinyin": "tóupiào",
+    "definition": "投票する"
+  },
+  {
+    "id": 1219,
+    "hanzi": "投资",
+    "pinyin": "tóuzī",
+    "definition": "投資する"
+  },
+  {
+    "id": 1220,
+    "hanzi": "透露",
+    "pinyin": "tòulù",
+    "definition": "漏らす、明かす"
+  },
+  {
+    "id": 1221,
+    "hanzi": "突破",
+    "pinyin": "tūpò",
+    "definition": "突破する"
+  },
+  {
+    "id": 1222,
+    "hanzi": "徒弟",
+    "pinyin": "túdì",
+    "definition": "弟子"
+  },
+  {
+    "id": 1223,
+    "hanzi": "途径",
+    "pinyin": "tújìng",
+    "definition": "道筋、ルート"
+  },
+  {
+    "id": 1224,
+    "hanzi": "土壤",
+    "pinyin": "tǔrǎng",
+    "definition": "土壌"
+  },
+  {
+    "id": 1225,
+    "hanzi": "团结",
+    "pinyin": "tuánjié",
+    "definition": "団結する"
+  },
+  {
+    "id": 1226,
+    "hanzi": "推卸",
+    "pinyin": "tuīxiè",
+    "definition": "（責任を）逃れる"
+  },
+  {
+    "id": 1227,
+    "hanzi": "推翻",
+    "pinyin": "tuīfān",
+    "definition": "覆す"
+  },
+  {
+    "id": 1228,
+    "hanzi": "推理",
+    "pinyin": "tuīlǐ",
+    "definition": "推理する"
+  },
+  {
+    "id": 1229,
+    "hanzi": "推销",
+    "pinyin": "tuīxiāo",
+    "definition": "売り込む"
+  },
+  {
+    "id": 1230,
+    "hanzi": "颓废",
+    "pinyin": "tuífèi",
+    "definition": "頽廃している"
+  },
+  {
+    "id": 1231,
+    "hanzi": "吞吞吐吐",
+    "pinyin": "tūntūntǔtǔ",
+    "definition": "口ごもる"
+  },
+  {
+    "id": 1232,
+    "hanzi": "托",
+    "pinyin": "tuō",
+    "definition": "頼む、支える"
+  },
+  {
+    "id": 1233,
+    "hanzi": "拖延",
+    "pinyin": "tuōyán",
+    "definition": "引き延ばす"
+  },
+  {
+    "id": 1234,
+    "hanzi": "妥当",
+    "pinyin": "tuǒdàng",
+    "definition": "適切である"
+  },
+  {
+    "id": 1235,
+    "hanzi": "妥善",
+    "pinyin": "tuǒshàn",
+    "definition": "適切に、妥当に"
+  },
+  {
+    "id": 1236,
+    "hanzi": "妥协",
+    "pinyin": "tuǒxié",
+    "definition": "妥協する"
+  },
+  {
+    "id": 1237,
+    "hanzi": "挖掘",
+    "pinyin": "wājué",
+    "definition": "発掘する"
+  },
+  {
+    "id": 1238,
+    "hanzi": "蛙",
+    "pinyin": "wā",
+    "definition": "カエル"
+  },
+  {
+    "id": 1239,
+    "hanzi": "瓦解",
+    "pinyin": "wǎjiě",
+    "definition": "瓦解する"
+  },
+  {
+    "id": 1240,
+    "hanzi": "娃娃",
+    "pinyin": "wáwa",
+    "definition": "赤ちゃん、人形"
+  },
+  {
+    "id": 1241,
+    "hanzi": "歪曲",
+    "pinyin": "wāiqū",
+    "definition": "歪曲する"
+  },
+  {
+    "id": 1242,
+    "hanzi": "外表",
+    "pinyin": "wàibiǎo",
+    "definition": "外見"
+  },
+  {
+    "id": 1243,
+    "hanzi": "外界",
+    "pinyin": "wàijiè",
+    "definition": "外界"
+  },
+  {
+    "id": 1244,
+    "hanzi": "外向",
+    "pinyin": "wàixiàng",
+    "definition": "外向的である"
+  },
+  {
+    "id": 1245,
+    "hanzi": "弯曲",
+    "pinyin": "wānqū",
+    "definition": "曲がっている"
+  },
+  {
+    "id": 1246,
+    "hanzi": "完备",
+    "pinyin": "wánbèi",
+    "definition": "完備している"
+  },
+  {
+    "id": 1247,
+    "hanzi": "完毕",
+    "pinyin": "wánbì",
+    "definition": "完了する"
+  },
+  {
+    "id": 1248,
+    "hanzi": "玩具",
+    "pinyin": "wánjù",
+    "definition": "おもちゃ"
+  },
+  {
+    "id": 1249,
+    "hanzi": "顽固",
+    "pinyin": "wángù",
+    "definition": "頑固である"
+  },
+  {
+    "id": 1250,
+    "hanzi": "顽强",
+    "pinyin": "wánqiáng",
+    "definition": "頑強である"
+  },
+  {
+    "id": 1251,
+    "hanzi": "挽回",
+    "pinyin": "wǎnhuí",
+    "definition": "挽回する"
+  },
+  {
+    "id": 1252,
+    "hanzi": "惋惜",
+    "pinyin": "wǎnxī",
+    "definition": "惜しむ"
+  },
+  {
+    "id": 1253,
+    "hanzi": "万分",
+    "pinyin": "wànfēn",
+    "definition": "極めて"
+  },
+  {
+    "id": 1254,
+    "hanzi": "王子",
+    "pinyin": "wángzǐ",
+    "definition": "王子"
+  },
+  {
+    "id": 1255,
+    "hanzi": "网络",
+    "pinyin": "wǎngluò",
+    "definition": "ネットワーク"
+  },
+  {
+    "id": 1256,
+    "hanzi": "往常",
+    "pinyin": "wǎngcháng",
+    "definition": "いつも、普段"
+  },
+  {
+    "id": 1257,
+    "hanzi": "往返",
+    "pinyin": "wǎngfǎn",
+    "definition": "往復する"
+  },
+  {
+    "id": 1258,
+    "hanzi": "危机",
+    "pinyin": "wēijī",
+    "definition": "危機"
+  },
+  {
+    "id": 1259,
+    "hanzi": "威风",
+    "pinyin": "wēifēng",
+    "definition": "威風"
+  },
+  {
+    "id": 1260,
+    "hanzi": "威力",
+    "pinyin": "wēilì",
+    "definition": "威力"
+  },
+  {
+    "id": 1261,
+    "hanzi": "威望",
+    "pinyin": "wēiwàng",
+    "definition": "威望"
+  },
+  {
+    "id": 1262,
+    "hanzi": "威信",
+    "pinyin": "wēixìn",
+    "definition": "威信"
+  },
+  {
+    "id": 1263,
+    "hanzi": "微不足道",
+    "pinyin": "wēibùzúdào",
+    "definition": "取るに足らない"
+  },
+  {
+    "id": 1264,
+    "hanzi": "微妙",
+    "pinyin": "wēimiào",
+    "definition": "微妙である"
+  },
+  {
+    "id": 1265,
+    "hanzi": "为难",
+    "pinyin": "wéinán",
+    "definition": "困らせる、困る"
+  },
+  {
+    "id": 1266,
+    "hanzi": "违背",
+    "pinyin": "wéibèi",
+    "definition": "背く"
+  },
+  {
+    "id": 1267,
+    "hanzi": "违反",
+    "pinyin": "wéifǎn",
+    "definition": "違反する"
+  },
+  {
+    "id": 1268,
+    "hanzi": "唯独",
+    "pinyin": "wéidú",
+    "definition": "ただ～だけ"
+  },
+  {
+    "id": 1269,
+    "hanzi": "唯一",
+    "pinyin": "wéiyī",
+    "definition": "唯一の"
+  },
+  {
+    "id": 1270,
+    "hanzi": "维持",
+    "pinyin": "wéichí",
+    "definition": "維持する"
+  },
+  {
+    "id": 1271,
+    "hanzi": "维护",
+    "pinyin": "wéihù",
+    "definition": "擁護する、保護する"
+  },
+  {
+    "id": 1272,
+    "hanzi": "伟大",
+    "pinyin": "wěidà",
+    "definition": "偉大である"
+  },
+  {
+    "id": 1273,
+    "hanzi": "委托",
+    "pinyin": "wěituō",
+    "definition": "委託する"
+  },
+  {
+    "id": 1274,
+    "hanzi": "委员",
+    "pinyin": "wěiyuán",
+    "definition": "委員"
+  },
+  {
+    "id": 1275,
+    "hanzi": "尾巴",
+    "pinyin": "wěiba",
+    "definition": "しっぽ"
+  },
+  {
+    "id": 1276,
+    "hanzi": "未免",
+    "pinyin": "wèimiǎn",
+    "definition": "～に過ぎる、いささか"
+  },
+  {
+    "id": 1277,
+    "hanzi": "慰问",
+    "pinyin": "wèiwèn",
+    "definition": "慰問する"
+  },
+  {
+    "id": 1278,
+    "hanzi": "卫生",
+    "pinyin": "wèishēng",
+    "definition": "衛生"
+  },
+  {
+    "id": 1279,
+    "hanzi": "温带",
+    "pinyin": "wēndài",
+    "definition": "温帯"
+  },
+  {
+    "id": 1280,
+    "hanzi": "温和",
+    "pinyin": "wēnhé",
+    "definition": "温和である"
+  },
+  {
+    "id": 1281,
+    "hanzi": "蚊子",
+    "pinyin": "wénzi",
+    "definition": "蚊"
+  },
+  {
+    "id": 1282,
+    "hanzi": "文凭",
+    "pinyin": "wénpíng",
+    "definition": "卒業証書"
+  },
+  {
+    "id": 1283,
+    "hanzi": "文物",
+    "pinyin": "wénwù",
+    "definition": "文化財"
+  },
+  {
+    "id": 1284,
+    "hanzi": "文献",
+    "pinyin": "wénxiàn",
+    "definition": "文献"
+  },
+  {
+    "id": 1285,
+    "hanzi": "文雅",
+    "pinyin": "wényǎ",
+    "definition": "上品である"
+  },
+  {
+    "id": 1286,
+    "hanzi": "文艺",
+    "pinyin": "wényì",
+    "definition": "文芸"
+  },
+  {
+    "id": 1287,
+    "hanzi": "稳定",
+    "pinyin": "wěndìng",
+    "definition": "安定している"
+  },
+  {
+    "id": 1288,
+    "hanzi": "问世",
+    "pinyin": "wènshì",
+    "definition": "世に出る"
+  },
+  {
+    "id": 1289,
+    "hanzi": "窝",
+    "pinyin": "wō",
+    "definition": "巣"
+  },
+  {
+    "id": 1290,
+    "hanzi": "我方",
+    "pinyin": "wǒfāng",
+    "definition": "我が方"
+  },
+  {
+    "id": 1291,
+    "hanzi": "无比",
+    "pinyin": "wúbǐ",
+    "definition": "比類ない"
+  },
+  {
+    "id": 1292,
+    "hanzi": "无偿",
+    "pinyin": "wúcháng",
+    "definition": "無償の"
+  },
+  {
+    "id": 1293,
+    "hanzi": "无非",
+    "pinyin": "wúfēi",
+    "definition": "～に過ぎない"
+  },
+  {
+    "id": 1294,
+    "hanzi": "无穷",
+    "pinyin": "wúqióng",
+    "definition": "無限である"
+  },
+  {
+    "id": 1295,
+    "hanzi": "无数",
+    "pinyin": "wúshù",
+    "definition": "無数の"
+  },
+  {
+    "id": 1296,
+    "hanzi": "无所谓",
+    "pinyin": "wúsuǒwèi",
+    "definition": "どちらでもよい"
+  },
+  {
+    "id": 1297,
+    "hanzi": "无微不至",
+    "pinyin": "wúwēibùzhì",
+    "definition": "至れり尽くせり"
+  },
+  {
+    "id": 1298,
+    "hanzi": "无知",
+    "pinyin": "wúzhī",
+    "definition": "無知である"
+  },
+  {
+    "id": 1299,
+    "hanzi": "武力",
+    "pinyin": "wǔlì",
+    "definition": "武力"
+  },
+  {
+    "id": 1300,
+    "hanzi": "武装",
+    "pinyin": "wǔzhuāng",
+    "definition": "武装する"
+  },
+  {
+    "id": 1301,
+    "hanzi": "侮辱",
+    "pinyin": "wǔrǔ",
+    "definition": "侮辱する"
+  },
+  {
+    "id": 1302,
+    "hanzi": "舞蹈",
+    "pinyin": "wǔdǎo",
+    "definition": "舞踊"
+  },
+  {
+    "id": 1303,
+    "hanzi": "勿",
+    "pinyin": "wù",
+    "definition": "～するな"
+  },
+  {
+    "id": 1304,
+    "hanzi": "务必",
+    "pinyin": "wùbì",
+    "definition": "必ず"
+  },
+  {
+    "id": 1305,
+    "hanzi": "物美价廉",
+    "pinyin": "wùměijiàlián",
+    "definition": "質が良くて安い"
+  },
+  {
+    "id": 1306,
+    "hanzi": "物业",
+    "pinyin": "wùyè",
+    "definition": "不動産管理"
+  },
+  {
+    "id": 1307,
+    "hanzi": "误差",
+    "pinyin": "wùchā",
+    "definition": "誤差"
+  },
+  {
+    "id": 1308,
+    "hanzi": "误解",
+    "pinyin": "wùjiě",
+    "definition": "誤解する"
+  },
+  {
+    "id": 1309,
+    "hanzi": "西装",
+    "pinyin": "xīzhuāng",
+    "definition": "背広、スーツ"
+  },
+  {
+    "id": 1310,
+    "hanzi": "牺牲",
+    "pinyin": "xīshēng",
+    "definition": "犠牲になる"
+  },
+  {
+    "id": 1311,
+    "hanzi": "溪",
+    "pinyin": "xī",
+    "definition": "渓流、小川"
+  },
+  {
+    "id": 1312,
+    "hanzi": "熄灭",
+    "pinyin": "xīmiè",
+    "definition": "消える、消す"
+  },
+  {
+    "id": 1313,
+    "hanzi": "膝盖",
+    "pinyin": "xīgài",
+    "definition": "膝"
+  },
+  {
+    "id": 1314,
+    "hanzi": "习俗",
+    "pinyin": "xísú",
+    "definition": "習俗"
+  },
+  {
+    "id": 1315,
+    "hanzi": "袭击",
+    "pinyin": "xíjī",
+    "definition": "襲撃する"
+  },
+  {
+    "id": 1316,
+    "hanzi": "喜闻乐见",
+    "pinyin": "xǐwénlèjiàn",
+    "definition": "喜んで見聞きする"
+  },
+  {
+    "id": 1317,
+    "hanzi": "系列",
+    "pinyin": "xìliè",
+    "definition": "シリーズ"
+  },
+  {
+    "id": 1318,
+    "hanzi": "细菌",
+    "pinyin": "xìjūn",
+    "definition": "細菌"
+  },
+  {
+    "id": 1319,
+    "hanzi": "细致",
+    "pinyin": "xìzhì",
+    "definition": "綿密である"
+  },
+  {
+    "id": 1320,
+    "hanzi": "峡谷",
+    "pinyin": "xiágǔ",
+    "definition": "峡谷"
+  },
+  {
+    "id": 1321,
+    "hanzi": "狭隘",
+    "pinyin": "xiá'ài",
+    "definition": "狭い、狭量である"
+  },
+  {
+    "id": 1322,
+    "hanzi": "狭窄",
+    "pinyin": "xiázhǎi",
+    "definition": "狭い"
+  },
+  {
+    "id": 1323,
+    "hanzi": "瑕疵",
+    "pinyin": "xiácī",
+    "definition": "瑕疵、欠点"
+  },
+  {
+    "id": 1324,
+    "hanzi": "下属",
+    "pinyin": "xiàshǔ",
+    "definition": "部下"
+  },
+  {
+    "id": 1325,
+    "hanzi": "下降",
+    "pinyin": "xiàjiàng",
+    "definition": "下降する"
+  },
+  {
+    "id": 1326,
+    "hanzi": "吓唬",
+    "pinyin": "xiàhu",
+    "definition": "脅す"
+  },
+  {
+    "id": 1327,
+    "hanzi": "夏令营",
+    "pinyin": "xiàlìngyíng",
+    "definition": "サマーキャンプ"
+  },
+  {
+    "id": 1328,
+    "hanzi": "先前",
+    "pinyin": "xiānqián",
+    "definition": "以前"
+  },
+  {
+    "id": 1329,
+    "hanzi": "掀起",
+    "pinyin": "xiānqǐ",
+    "definition": "巻き起こす"
+  },
+  {
+    "id": 1330,
+    "hanzi": "鲜明",
+    "pinyin": "xiānmíng",
+    "definition": "鮮明である"
+  },
+  {
+    "id": 1331,
+    "hanzi": "鲜艳",
+    "pinyin": "xiānyàn",
+    "definition": "鮮やかである"
+  },
+  {
+    "id": 1332,
+    "hanzi": "显著",
+    "pinyin": "xiǎnzhù",
+    "definition": "著しい"
+  },
+  {
+    "id": 1333,
+    "hanzi": "现场",
+    "pinyin": "xiànchǎng",
+    "definition": "現場"
+  },
+  {
+    "id": 1334,
+    "hanzi": "现成",
+    "pinyin": "xiànchéng",
+    "definition": "できあいの"
+  },
+  {
+    "id": 1335,
+    "hanzi": "现状",
+    "pinyin": "xiànzhuàng",
+    "definition": "現状"
+  },
+  {
+    "id": 1336,
+    "hanzi": "限制",
+    "pinyin": "xiànzhì",
+    "definition": "制限する"
+  },
+  {
+    "id": 1337,
+    "hanzi": "陷害",
+    "pinyin": "xiànhài",
+    "definition": "陥れる"
+  },
+  {
+    "id": 1338,
+    "hanzi": "陷入",
+    "pinyin": "xiànrù",
+    "definition": "陥る"
+  },
+  {
+    "id": 1339,
+    "hanzi": "相差",
+    "pinyin": "xiāngchà",
+    "definition": "差がある"
+  },
+  {
+    "id": 1340,
+    "hanzi": "相处",
+    "pinyin": "xiāngchǔ",
+    "definition": "付き合う、共に過ごす"
+  },
+  {
+    "id": 1341,
+    "hanzi": "相似",
+    "pinyin": "xiāngsì",
+    "definition": "似ている"
+  },
+  {
+    "id": 1342,
+    "hanzi": "相应",
+    "pinyin": "xiāngyìng",
+    "definition": "相応する"
+  },
+  {
+    "id": 1343,
+    "hanzi": "香肠",
+    "pinyin": "xiāngcháng",
+    "definition": "ソーセージ"
+  },
+  {
+    "id": 1344,
+    "hanzi": "乡镇",
+    "pinyin": "xiāngzhèn",
+    "definition": "郷鎮、町村"
+  },
+  {
+    "id": 1345,
+    "hanzi": "详细",
+    "pinyin": "xiángxì",
+    "definition": "詳細である"
+  },
+  {
+    "id": 1346,
+    "hanzi": "享受",
+    "pinyin": "xiǎngshòu",
+    "definition": "享受する"
+  },
+  {
+    "id": 1347,
+    "hanzi": "想方设法",
+    "pinyin": "xiǎngfāngshèfǎ",
+    "definition": "あらゆる手段を考える"
+  },
+  {
+    "id": 1348,
+    "hanzi": "项链",
+    "pinyin": "xiàngliàn",
+    "definition": "ネックレス"
+  },
+  {
+    "id": 1349,
+    "hanzi": "象征",
+    "pinyin": "xiàngzhēng",
+    "definition": "象徴する"
+  },
+  {
+    "id": 1350,
+    "hanzi": "消除",
+    "pinyin": "xiāochú",
+    "definition": "消し去る、解消する"
+  },
+  {
+    "id": 1351,
+    "hanzi": "消费",
+    "pinyin": "xiāofèi",
+    "definition": "消費する"
+  },
+  {
+    "id": 1352,
+    "hanzi": "消极",
+    "pinyin": "xiāojí",
+    "definition": "消極的である"
+  },
+  {
+    "id": 1353,
+    "hanzi": "消失",
+    "pinyin": "xiāoshī",
+    "definition": "消える"
+  },
+  {
+    "id": 1354,
+    "hanzi": "消耗",
+    "pinyin": "xiāohào",
+    "definition": "消耗する"
+  },
+  {
+    "id": 1355,
+    "hanzi": "潇洒",
+    "pinyin": "xiāosǎ",
+    "definition": "洒脱である"
+  },
+  {
+    "id": 1356,
+    "hanzi": "销毁",
+    "pinyin": "xiāohuǐ",
+    "definition": "焼却処分する"
+  },
+  {
+    "id": 1357,
+    "hanzi": "销售",
+    "pinyin": "xiāoshòu",
+    "definition": "販売する"
+  },
+  {
+    "id": 1358,
+    "hanzi": "小气",
+    "pinyin": "xiǎoqi",
+    "definition": "けちである"
+  },
+  {
+    "id": 1359,
+    "hanzi": "效益",
+    "pinyin": "xiàoyì",
+    "definition": "効益、経済効果"
+  },
+  {
+    "id": 1360,
+    "hanzi": "协商",
+    "pinyin": "xiéshāng",
+    "definition": "協議する"
+  },
+  {
+    "id": 1361,
+    "hanzi": "协调",
+    "pinyin": "xiétiáo",
+    "definition": "協調する"
+  },
+  {
+    "id": 1362,
+    "hanzi": "协助",
+    "pinyin": "xiézhù",
+    "definition": "補助する"
+  },
+  {
+    "id": 1363,
+    "hanzi": "挟",
+    "pinyin": "xié",
+    "definition": "挟む"
+  },
+  {
+    "id": 1364,
+    "hanzi": "邪恶",
+    "pinyin": "xié'è",
+    "definition": "邪悪である"
+  },
+  {
+    "id": 1365,
+    "hanzi": "泄露",
+    "pinyin": "xièlù",
+    "definition": "漏らす"
+  },
+  {
+    "id": 1366,
+    "hanzi": "卸",
+    "pinyin": "xiè",
+    "definition": "荷を下ろす"
+  },
+  {
+    "id": 1367,
+    "hanzi": "屑",
+    "pinyin": "xiè",
+    "definition": "屑、くず"
+  },
+  {
+    "id": 1368,
+    "hanzi": "心得",
+    "pinyin": "xīndé",
+    "definition": "心得、コツ"
+  },
+  {
+    "id": 1369,
+    "hanzi": "心灵",
+    "pinyin": "xīnlíng",
+    "definition": "心"
+  },
+  {
+    "id": 1370,
+    "hanzi": "心态",
+    "pinyin": "xīntài",
+    "definition": "心構え"
+  },
+  {
+    "id": 1371,
+    "hanzi": "心疼",
+    "pinyin": "xīnténg",
+    "definition": "心が痛む、可愛くて仕方ない"
+  },
+  {
+    "id": 1372,
+    "hanzi": "辛苦",
+    "pinyin": "xīnkǔ",
+    "definition": "つらい、苦労する"
+  },
+  {
+    "id": 1373,
+    "hanzi": "辛勤",
+    "pinyin": "xīnqín",
+    "definition": "勤勉である"
+  },
+  {
+    "id": 1374,
+    "hanzi": "欣赏",
+    "pinyin": "xīnshǎng",
+    "definition": "鑑賞する、気に入る"
+  },
+  {
+    "id": 1375,
+    "hanzi": "欣慰",
+    "pinyin": "xīnwèi",
+    "definition": "心が慰められる"
+  },
+  {
+    "id": 1376,
+    "hanzi": "信赖",
+    "pinyin": "xìnlài",
+    "definition": "信頼する"
+  },
+  {
+    "id": 1377,
+    "hanzi": "信仰",
+    "pinyin": "xìnyǎng",
+    "definition": "信仰"
+  },
+  {
+    "id": 1378,
+    "hanzi": "信誉",
+    "pinyin": "xìnyù",
+    "definition": "信用、信頼"
+  },
+  {
+    "id": 1379,
+    "hanzi": "兴隆",
+    "pinyin": "xīnglóng",
+    "definition": "繁盛している"
+  },
+  {
+    "id": 1380,
+    "hanzi": "兴旺",
+    "pinyin": "xīngwàng",
+    "definition": "盛んである"
+  },
+  {
+    "id": 1381,
+    "hanzi": "腥",
+    "pinyin": "xīng",
+    "definition": "生臭い"
+  },
+  {
+    "id": 1382,
+    "hanzi": "刑事",
+    "pinyin": "xíngshì",
+    "definition": "刑事の"
+  },
+  {
+    "id": 1383,
+    "hanzi": "行政",
+    "pinyin": "xíngzhèng",
+    "definition": "行政"
+  },
+  {
+    "id": 1384,
+    "hanzi": "形态",
+    "pinyin": "xíngtài",
+    "definition": "形態"
+  },
+  {
+    "id": 1385,
+    "hanzi": "形象",
+    "pinyin": "xíngxiàng",
+    "definition": "イメージ"
+  },
+  {
+    "id": 1386,
+    "hanzi": "幸亏",
+    "pinyin": "xìngkuī",
+    "definition": "幸いにも"
+  },
+  {
+    "id": 1387,
+    "hanzi": "兴奋",
+    "pinyin": "xīngfèn",
+    "definition": "興奮する"
+  },
+  {
+    "id": 1388,
+    "hanzi": "性感",
+    "pinyin": "xìnggǎn",
+    "definition": "セクシーである"
+  },
+  {
+    "id": 1389,
+    "hanzi": "性情",
+    "pinyin": "xìngqíng",
+    "definition": "性情、気立て"
+  },
+  {
+    "id": 1390,
+    "hanzi": "汹涌",
+    "pinyin": "xiōngyǒng",
+    "definition": "（波などが）激しく湧き立つ"
+  },
+  {
+    "id": 1391,
+    "hanzi": "兄弟",
+    "pinyin": "xiōngdì",
+    "definition": "兄弟"
+  },
+  {
+    "id": 1392,
+    "hanzi": "胸怀",
+    "pinyin": "xiōnghuái",
+    "definition": "胸の内、度量"
+  },
+  {
+    "id": 1393,
+    "hanzi": "雄厚",
+    "pinyin": "xiónghòu",
+    "definition": "（実力などが）雄厚である"
+  },
+  {
+    "id": 1394,
+    "hanzi": "雄伟",
+    "pinyin": "xióngwěi",
+    "definition": "雄大である"
+  },
+  {
+    "id": 1395,
+    "hanzi": "修复",
+    "pinyin": "xiūfù",
+    "definition": "修復する"
+  },
+  {
+    "id": 1396,
+    "hanzi": "修建",
+    "pinyin": "xiūjiàn",
+    "definition": "建設する"
+  },
+  {
+    "id": 1397,
+    "hanzi": "修养",
+    "pinyin": "xiūyǎng",
+    "definition": "教養、修養"
+  },
+  {
+    "id": 1398,
+    "hanzi": "羞耻",
+    "pinyin": "xiūchǐ",
+    "definition": "恥"
+  },
+  {
+    "id": 1399,
+    "hanzi": "嗅觉",
+    "pinyin": "xiùjué",
+    "definition": "嗅覚"
+  },
+  {
+    "id": 1400,
+    "hanzi": "需求",
+    "pinyin": "xūqiú",
+    "definition": "需要"
+  },
+  {
+    "id": 1401,
+    "hanzi": "须知",
+    "pinyin": "xūzhī",
+    "definition": "心得ておくべきこと"
+  },
+  {
+    "id": 1402,
+    "hanzi": "许可",
+    "pinyin": "xǔkě",
+    "definition": "許可する"
+  },
+  {
+    "id": 1403,
+    "hanzi": "序言",
+    "pinyin": "xùyán",
+    "definition": "序言、序文"
+  },
+  {
+    "id": 1404,
+    "hanzi": "畜牧",
+    "pinyin": "xùmù",
+    "definition": "牧畜"
+  },
+  {
+    "id": 1405,
+    "hanzi": "酗酒",
+    "pinyin": "xùjiǔ",
+    "definition": "大酒を飲む"
+  },
+  {
+    "id": 1406,
+    "hanzi": "宣布",
+    "pinyin": "xuānbù",
+    "definition": "宣布する"
+  },
+  {
+    "id": 1407,
+    "hanzi": "宣传",
+    "pinyin": "xuānchuán",
+    "definition": "宣伝する"
+  },
+  {
+    "id": 1408,
+    "hanzi": "宣誓",
+    "pinyin": "xuānshì",
+    "definition": "宣誓する"
+  },
+  {
+    "id": 1409,
+    "hanzi": "悬挂",
+    "pinyin": "xuánguà",
+    "definition": "掲げる、吊るす"
+  },
+  {
+    "id": 1410,
+    "hanzi": "悬念",
+    "pinyin": "xuánniàn",
+    "definition": "サスペンス、気がかり"
+  },
+  {
+    "id": 1411,
+    "hanzi": "悬崖峭壁",
+    "pinyin": "xuányáqiàobì",
+    "definition": "断崖絶壁"
+  },
+  {
+    "id": 1412,
+    "hanzi": "旋律",
+    "pinyin": "xuánlǜ",
+    "definition": "旋律"
+  },
+  {
+    "id": 1413,
+    "hanzi": "选拔",
+    "pinyin": "xuǎnbá",
+    "definition": "選抜する"
+  },
+  {
+    "id": 1414,
+    "hanzi": "选举",
+    "pinyin": "xuǎnjǔ",
+    "definition": "選挙する"
+  },
+  {
+    "id": 1415,
+    "hanzi": "削",
+    "pinyin": "xuē",
+    "definition": "削る"
+  },
+  {
+    "id": 1416,
+    "hanzi": "学位",
+    "pinyin": "xuéwèi",
+    "definition": "学位"
+  },
+  {
+    "id": 1417,
+    "hanzi": "学说",
+    "pinyin": "xuéshuō",
+    "definition": "学説"
+  },
+  {
+    "id": 1418,
+    "hanzi": "学术",
+    "pinyin": "xuéshù",
+    "definition": "学術"
+  },
+  {
+    "id": 1419,
+    "hanzi": "学问",
+    "pinyin": "xuéwen",
+    "definition": "学問"
+  },
+  {
+    "id": 1420,
+    "hanzi": "循环",
+    "pinyin": "xúnhuán",
+    "definition": "循環する"
+  },
+  {
+    "id": 1421,
+    "hanzi": "循序渐进",
+    "pinyin": "xúnxùjiànjìn",
+    "definition": "順序を追って徐々に進める"
+  },
+  {
+    "id": 1422,
+    "hanzi": "询问",
+    "pinyin": "xúnwèn",
+    "definition": "尋ねる"
+  },
+  {
+    "id": 1423,
+    "hanzi": "寻找",
+    "pinyin": "xúnzhǎo",
+    "definition": "探す"
+  },
+  {
+    "id": 1424,
+    "hanzi": "迅速",
+    "pinyin": "xùnsù",
+    "definition": "迅速である"
+  },
+  {
+    "id": 1425,
+    "hanzi": "压迫",
+    "pinyin": "yāpò",
+    "definition": "圧迫する"
+  },
+  {
+    "id": 1426,
+    "hanzi": "压岁钱",
+    "pinyin": "yāsuìqián",
+    "definition": "お年玉"
+  },
+  {
+    "id": 1427,
+    "hanzi": "压缩",
+    "pinyin": "yāsuō",
+    "definition": "圧縮する"
+  },
+  {
+    "id": 1428,
+    "hanzi": "压抑",
+    "pinyin": "yāyì",
+    "definition": "抑圧する"
+  },
+  {
+    "id": 1429,
+    "hanzi": "呀",
+    "pinyin": "ya",
+    "definition": "語気助詞（驚きなどを表す）"
+  },
+  {
+    "id": 1430,
+    "hanzi": "押金",
+    "pinyin": "yājīn",
+    "definition": "保証金"
+  },
+  {
+    "id": 1431,
+    "hanzi": "鸦雀无声",
+    "pinyin": "yāquèwúshēng",
+    "definition": "静まり返っている"
+  },
+  {
+    "id": 1432,
+    "hanzi": "牙齿",
+    "pinyin": "yáchǐ",
+    "definition": "歯"
+  },
+  {
+    "id": 1433,
+    "hanzi": "亚军",
+    "pinyin": "yàjūn",
+    "definition": "準優勝"
+  },
+  {
+    "id": 1434,
+    "hanzi": "淹没",
+    "pinyin": "yānmò",
+    "definition": "水没する"
+  },
+  {
+    "id": 1435,
+    "hanzi": "严寒",
+    "pinyin": "yánhán",
+    "definition": "厳寒"
+  },
+  {
+    "id": 1436,
+    "hanzi": "严禁",
+    "pinyin": "yánjìn",
+    "definition": "厳禁する"
+  },
+  {
+    "id": 1437,
+    "hanzi": "严峻",
+    "pinyin": "yánjùn",
+    "definition": "厳しい、厳峻である"
+  },
+  {
+    "id": 1438,
+    "hanzi": "严厉",
+    "pinyin": "yánlì",
+    "definition": "厳しい"
+  },
+  {
+    "id": 1439,
+    "hanzi": "严密",
+    "pinyin": "yánmì",
+    "definition": "厳密である"
+  },
+  {
+    "id": 1440,
+    "hanzi": "延伸",
+    "pinyin": "yánshēn",
+    "definition": "延伸する、延びる"
+  },
+  {
+    "id": 1441,
+    "hanzi": "延续",
+    "pinyin": "yánxù",
+    "definition": "継続する"
+  },
+  {
+    "id": 1442,
+    "hanzi": "沿海",
+    "pinyin": "yánhǎi",
+    "definition": "沿海"
+  },
+  {
+    "id": 1443,
+    "hanzi": "沿途",
+    "pinyin": "yántú",
+    "definition": "道すがら"
+  },
+  {
+    "id": 1444,
+    "hanzi": "言论",
+    "pinyin": "yánlùn",
+    "definition": "言論"
+  },
+  {
+    "id": 1445,
+    "hanzi": "岩石",
+    "pinyin": "yánshí",
+    "definition": "岩石"
+  },
+  {
+    "id": 1446,
+    "hanzi": "炎热",
+    "pinyin": "yánrè",
+    "definition": "炎熱、猛暑"
+  },
+  {
+    "id": 1447,
+    "hanzi": "眼光",
+    "pinyin": "yǎnguāng",
+    "definition": "目つき、見方"
+  },
+  {
+    "id": 1448,
+    "hanzi": "眼色",
+    "pinyin": "yǎnsè",
+    "definition": "目配せ"
+  },
+  {
+    "id": 1449,
+    "hanzi": "演变",
+    "pinyin": "yǎnbiàn",
+    "definition": "変遷する"
+  },
+  {
+    "id": 1450,
+    "hanzi": "演讲",
+    "pinyin": "yǎnjiǎng",
+    "definition": "講演する"
+  },
+  {
+    "id": 1451,
+    "hanzi": "掩盖",
+    "pinyin": "yǎngài",
+    "definition": "覆い隠す"
+  },
+  {
+    "id": 1452,
+    "hanzi": "掩护",
+    "pinyin": "yǎnhù",
+    "definition": "掩護する"
+  },
+  {
+    "id": 1453,
+    "hanzi": "演奏",
+    "pinyin": "yǎnzòu",
+    "definition": "演奏する"
+  },
+  {
+    "id": 1454,
+    "hanzi": "厌恶",
+    "pinyin": "yànwù",
+    "definition": "嫌悪する"
+  },
+  {
+    "id": 1455,
+    "hanzi": "验证",
+    "pinyin": "yànzhèng",
+    "definition": "検証する"
+  },
+  {
+    "id": 1456,
+    "hanzi": "阳台",
+    "pinyin": "yángtái",
+    "definition": "ベランダ"
+  },
+  {
+    "id": 1457,
+    "hanzi": "洋溢",
+    "pinyin": "yángyì",
+    "definition": "溢れる"
+  },
+  {
+    "id": 1458,
+    "hanzi": "仰望",
+    "pinyin": "yǎngwàng",
+    "definition": "仰ぎ見る"
+  },
+  {
+    "id": 1459,
+    "hanzi": "养育",
+    "pinyin": "yǎngyù",
+    "definition": "養育する"
+  },
+  {
+    "id": 1460,
+    "hanzi": "氧气",
+    "pinyin": "yǎngqì",
+    "definition": "酸素"
+  },
+  {
+    "id": 1461,
+    "hanzi": "样品",
+    "pinyin": "yàngpǐn",
+    "definition": "見本、サンプル"
+  },
+  {
+    "id": 1462,
+    "hanzi": "妖怪",
+    "pinyin": "yāoguài",
+    "definition": "妖怪"
+  },
+  {
+    "id": 1463,
+    "hanzi": "腰",
+    "pinyin": "yāo",
+    "definition": "腰"
+  },
+  {
+    "id": 1464,
+    "hanzi": "邀请",
+    "pinyin": "yāoqǐng",
+    "definition": "招待する"
+  },
+  {
+    "id": 1465,
+    "hanzi": "遥控",
+    "pinyin": "yáokòng",
+    "definition": "遠隔操作する"
+  },
+  {
+    "id": 1466,
+    "hanzi": "遥远",
+    "pinyin": "yáoyuǎn",
+    "definition": "遥かに遠い"
+  },
+  {
+    "id": 1467,
+    "hanzi": "谣言",
+    "pinyin": "yáoyán",
+    "definition": "デマ"
+  },
+  {
+    "id": 1468,
+    "hanzi": "咬",
+    "pinyin": "yǎo",
+    "definition": "噛む"
+  },
+  {
+    "id": 1469,
+    "hanzi": "要不",
+    "pinyin": "yàobù",
+    "definition": "さもなければ"
+  },
+  {
+    "id": 1470,
+    "hanzi": "要点",
+    "pinyin": "yàodiǎn",
+    "definition": "要点"
+  },
+  {
+    "id": 1471,
+    "hanzi": "野蛮",
+    "pinyin": "yěmán",
+    "definition": "野蛮である"
+  },
+  {
+    "id": 1472,
+    "hanzi": "液体",
+    "pinyin": "yètǐ",
+    "definition": "液体"
+  },
+  {
+    "id": 1473,
+    "hanzi": "依旧",
+    "pinyin": "yījiù",
+    "definition": "依然として"
+  },
+  {
+    "id": 1474,
+    "hanzi": "依据",
+    "pinyin": "yījù",
+    "definition": "拠り所、根拠"
+  },
+  {
+    "id": 1475,
+    "hanzi": "依托",
+    "pinyin": "yītuō",
+    "definition": "頼る、依拠する"
+  },
+  {
+    "id": 1476,
+    "hanzi": "一度",
+    "pinyin": "yīdù",
+    "definition": "一時期"
+  },
+  {
+    "id": 1477,
+    "hanzi": "一贯",
+    "pinyin": "yīguàn",
+    "definition": "一貫している"
+  },
+  {
+    "id": 1478,
+    "hanzi": "一律",
+    "pinyin": "yīlǜ",
+    "definition": "一律に"
+  },
+  {
+    "id": 1479,
+    "hanzi": "一目了然",
+    "pinyin": "yīmùliǎorán",
+    "definition": "一目瞭然"
+  },
+  {
+    "id": 1480,
+    "hanzi": "一致",
+    "pinyin": "yīzhì",
+    "definition": "一致する"
+  },
+  {
+    "id": 1481,
+    "hanzi": "遗产",
+    "pinyin": "yíchǎn",
+    "definition": "遺産"
+  },
+  {
+    "id": 1482,
+    "hanzi": "遗憾",
+    "pinyin": "yíhàn",
+    "definition": "遺憾である"
+  },
+  {
+    "id": 1483,
+    "hanzi": "遗留",
+    "pinyin": "yíliú",
+    "definition": "残す"
+  },
+  {
+    "id": 1484,
+    "hanzi": "遗弃",
+    "pinyin": "yíqì",
+    "definition": "遺棄する"
+  },
+  {
+    "id": 1485,
+    "hanzi": "疑惑",
+    "pinyin": "yíhuò",
+    "definition": "疑惑、不審に思う"
+  },
+  {
+    "id": 1486,
+    "hanzi": "移民",
+    "pinyin": "yímín",
+    "definition": "移民する"
+  },
+  {
+    "id": 1487,
+    "hanzi": "仪器",
+    "pinyin": "yíqì",
+    "definition": "器具、計器"
+  },
+  {
+    "id": 1488,
+    "hanzi": "仪式",
+    "pinyin": "yíshì",
+    "definition": "儀式"
+  },
+  {
+    "id": 1489,
+    "hanzi": "姨",
+    "pinyin": "yí",
+    "definition": "母方のおば"
+  },
+  {
+    "id": 1490,
+    "hanzi": "移动",
+    "pinyin": "yídòng",
+    "definition": "移動する"
+  },
+  {
+    "id": 1491,
+    "hanzi": "遗嘱",
+    "pinyin": "yízhǔ",
+    "definition": "遺言"
+  },
+  {
+    "id": 1492,
+    "hanzi": "已故",
+    "pinyin": "yǐgù",
+    "definition": "故人となった"
+  },
+  {
+    "id": 1493,
+    "hanzi": "以便",
+    "pinyin": "yǐbiàn",
+    "definition": "～のために"
+  },
+  {
+    "id": 1494,
+    "hanzi": "以往",
+    "pinyin": "yǐwǎng",
+    "definition": "以前"
+  },
+  {
+    "id": 1495,
+    "hanzi": "以至",
+    "pinyin": "yǐzhì",
+    "definition": "～に至るまで"
+  },
+  {
+    "id": 1496,
+    "hanzi": "以致",
+    "pinyin": "yǐzhì",
+    "definition": "～の結果として"
+  },
+  {
+    "id": 1497,
+    "hanzi": "蚁",
+    "pinyin": "yǐ",
+    "definition": "アリ"
+  },
+  {
+    "id": 1498,
+    "hanzi": "义务",
+    "pinyin": "yìwù",
+    "definition": "義務"
+  },
+  {
+    "id": 1499,
+    "hanzi": "议程",
+    "pinyin": "yìchéng",
+    "definition": "議程"
+  },
+  {
+    "id": 1500,
+    "hanzi": "异议",
+    "pinyin": "yìyì",
+    "definition": "異議"
+  },
+  {
+    "id": 1501,
+    "hanzi": "意料",
+    "pinyin": "yìliào",
+    "definition": "予想する"
+  },
+  {
+    "id": 1502,
+    "hanzi": "意识",
+    "pinyin": "yìshí",
+    "definition": "意識する"
+  },
+  {
+    "id": 1503,
+    "hanzi": "意图",
+    "pinyin": "yìtú",
+    "definition": "意図"
+  },
+  {
+    "id": 1504,
+    "hanzi": "意味着",
+    "pinyin": "yìwèizhe",
+    "definition": "～を意味する"
+  },
+  {
+    "id": 1505,
+    "hanzi": "意愿",
+    "pinyin": "yìyuàn",
+    "definition": "意向、願望"
+  },
+  {
+    "id": 1506,
+    "hanzi": "毅力",
+    "pinyin": "yìlì",
+    "definition": "気力、忍耐力"
+  },
+  {
+    "id": 1507,
+    "hanzi": "因而",
+    "pinyin": "yīn'ér",
+    "definition": "それゆえに"
+  },
+  {
+    "id": 1508,
+    "hanzi": "因素",
+    "pinyin": "yīnsù",
+    "definition": "要因"
+  },
+  {
+    "id": 1509,
+    "hanzi": "姻缘",
+    "pinyin": "yīnyuán",
+    "definition": "縁（結婚の縁）"
+  },
+  {
+    "id": 1510,
+    "hanzi": "音响",
+    "pinyin": "yīnxiǎng",
+    "definition": "音響、オーディオ"
+  },
+  {
+    "id": 1511,
+    "hanzi": "银行",
+    "pinyin": "yínháng",
+    "definition": "銀行"
+  },
+  {
+    "id": 1512,
+    "hanzi": "隐蔽",
+    "pinyin": "yǐnbì",
+    "definition": "隠れる、隠す"
+  },
+  {
+    "id": 1513,
+    "hanzi": "隐患",
+    "pinyin": "yǐnhuàn",
+    "definition": "潜在的な危険"
+  },
+  {
+    "id": 1514,
+    "hanzi": "隐瞒",
+    "pinyin": "yǐnmán",
+    "definition": "隠す、隠蔽する"
+  },
+  {
+    "id": 1515,
+    "hanzi": "隐私",
+    "pinyin": "yǐnsī",
+    "definition": "プライバシー"
+  },
+  {
+    "id": 1516,
+    "hanzi": "引导",
+    "pinyin": "yǐndǎo",
+    "definition": "導く"
+  },
+  {
+    "id": 1517,
+    "hanzi": "引用",
+    "pinyin": "yǐnyòng",
+    "definition": "引用する"
+  },
+  {
+    "id": 1518,
+    "hanzi": "饮食",
+    "pinyin": "yǐnshí",
+    "definition": "飲食"
+  },
+  {
+    "id": 1519,
+    "hanzi": "印刷",
+    "pinyin": "yìnshuā",
+    "definition": "印刷する"
+  },
+  {
+    "id": 1520,
+    "hanzi": "英勇",
+    "pinyin": "yīngyǒng",
+    "definition": "勇敢である"
+  },
+  {
+    "id": 1521,
+    "hanzi": "婴儿",
+    "pinyin": "yīng'ér",
+    "definition": "嬰児、赤ちゃん"
+  },
+  {
+    "id": 1522,
+    "hanzi": "应酬",
+    "pinyin": "yìngchou",
+    "definition": "接待する、付き合う"
+  },
+  {
+    "id": 1523,
+    "hanzi": "应邀",
+    "pinyin": "yìngyāo",
+    "definition": "招待に応じる"
+  },
+  {
+    "id": 1524,
+    "hanzi": "迎接",
+    "pinyin": "yíngjiē",
+    "definition": "迎える"
+  },
+  {
+    "id": 1525,
+    "hanzi": "荧幕",
+    "pinyin": "yíngmù",
+    "definition": "スクリーン"
+  },
+  {
+    "id": 1526,
+    "hanzi": "营养",
+    "pinyin": "yíngyǎng",
+    "definition": "栄養"
+  },
+  {
+    "id": 1527,
+    "hanzi": "营业",
+    "pinyin": "yíngyè",
+    "definition": "営業する"
+  },
+  {
+    "id": 1528,
+    "hanzi": "盈利",
+    "pinyin": "yínglì",
+    "definition": "利益を上げる"
+  },
+  {
+    "id": 1529,
+    "hanzi": "影子",
+    "pinyin": "yǐngzi",
+    "definition": "影"
+  },
+  {
+    "id": 1530,
+    "hanzi": "硬件",
+    "pinyin": "yìngjiàn",
+    "definition": "ハードウェア"
+  },
+  {
+    "id": 1531,
+    "hanzi": "应付",
+    "pinyin": "yìngfu",
+    "definition": "対処する"
+  },
+  {
+    "id": 1532,
+    "hanzi": "拥抱",
+    "pinyin": "yōngbào",
+    "definition": "抱擁する"
+  },
+  {
+    "id": 1533,
+    "hanzi": "拥挤",
+    "pinyin": "yōngjǐ",
+    "definition": "混雑している"
+  },
+  {
+    "id": 1534,
+    "hanzi": "庸俗",
+    "pinyin": "yōngsú",
+    "definition": "俗っぽい"
+  },
+  {
+    "id": 1535,
+    "hanzi": "永恒",
+    "pinyin": "yǒnghéng",
+    "definition": "永遠である"
+  },
+  {
+    "id": 1536,
+    "hanzi": "勇于",
+    "pinyin": "yǒngyú",
+    "definition": "勇んで～する"
+  },
+  {
+    "id": 1537,
+    "hanzi": "涌现",
+    "pinyin": "yǒngxiàn",
+    "definition": "湧き出る、続々と現れる"
+  },
+  {
+    "id": 1538,
+    "hanzi": "用户",
+    "pinyin": "yònghù",
+    "definition": "ユーザー"
+  },
+  {
+    "id": 1539,
+    "hanzi": "用意",
+    "pinyin": "yòngyì",
+    "definition": "意図、狙い"
+  },
+  {
+    "id": 1540,
+    "hanzi": "优惠",
+    "pinyin": "yōuhuì",
+    "definition": "優待、割引"
+  },
+  {
+    "id": 1541,
+    "hanzi": "优美",
+    "pinyin": "yōuměi",
+    "definition": "優美である"
+  },
+  {
+    "id": 1542,
+    "hanzi": "优异",
+    "pinyin": "yōuyì",
+    "definition": "優れている"
+  },
+  {
+    "id": 1543,
+    "hanzi": "优越",
+    "pinyin": "yōuyuè",
+    "definition": "優越している"
+  },
+  {
+    "id": 1544,
+    "hanzi": "忧郁",
+    "pinyin": "yōuyù",
+    "definition": "憂鬱である"
+  },
+  {
+    "id": 1545,
+    "hanzi": "犹如",
+    "pinyin": "yóurú",
+    "definition": "あたかも～のようだ"
+  },
+  {
+    "id": 1546,
+    "hanzi": "犹豫",
+    "pinyin": "yóuyù",
+    "definition": "ためらう"
+  },
+  {
+    "id": 1547,
+    "hanzi": "油炸",
+    "pinyin": "yóuzhá",
+    "definition": "油で揚げる"
+  },
+  {
+    "id": 1548,
+    "hanzi": "有条不紊",
+    "pinyin": "yǒutiáobùwěn",
+    "definition": "秩序立っている"
+  },
+  {
+    "id": 1549,
+    "hanzi": "有效",
+    "pinyin": "yǒuxiào",
+    "definition": "有効である"
+  },
+  {
+    "id": 1550,
+    "hanzi": "幼稚",
+    "pinyin": "yòuzhì",
+    "definition": "幼稚である"
+  },
+  {
+    "id": 1551,
+    "hanzi": "诱惑",
+    "pinyin": "yòuhuò",
+    "definition": "誘惑する"
+  },
+  {
+    "id": 1552,
+    "hanzi": "迂回",
+    "pinyin": "yūhuí",
+    "definition": "迂回する"
+  },
+  {
+    "id": 1553,
+    "hanzi": "淤泥",
+    "pinyin": "yūní",
+    "definition": "泥、ヘドロ"
+  },
+  {
+    "id": 1554,
+    "hanzi": "于是",
+    "pinyin": "yúshì",
+    "definition": "そこで"
+  },
+  {
+    "id": 1555,
+    "hanzi": "娱乐",
+    "pinyin": "yúlè",
+    "definition": "娯楽"
+  },
+  {
+    "id": 1556,
+    "hanzi": "舆论",
+    "pinyin": "yúlùn",
+    "definition": "世論"
+  },
+  {
+    "id": 1557,
+    "hanzi": "与其",
+    "pinyin": "yǔqí",
+    "definition": "～するよりむしろ"
+  },
+  {
+    "id": 1558,
+    "hanzi": "宇宙",
+    "pinyin": "yǔzhòu",
+    "definition": "宇宙"
+  },
+  {
+    "id": 1559,
+    "hanzi": "羽毛",
+    "pinyin": "yǔmáo",
+    "definition": "羽毛"
+  },
+  {
+    "id": 1560,
+    "hanzi": "玉米",
+    "pinyin": "yùmǐ",
+    "definition": "トウモロコシ"
+  },
+  {
+    "id": 1561,
+    "hanzi": "预料",
+    "pinyin": "yùliào",
+    "definition": "予測する"
+  },
+  {
+    "id": 1562,
+    "hanzi": "预期",
+    "pinyin": "yùqī",
+    "definition": "予期する"
+  },
+  {
+    "id": 1563,
+    "hanzi": "预算",
+    "pinyin": "yùsuàn",
+    "definition": "予算"
+  },
+  {
+    "id": 1564,
+    "hanzi": "预先",
+    "pinyin": "yùxiān",
+    "definition": "あらかじめ"
+  },
+  {
+    "id": 1565,
+    "hanzi": "预兆",
+    "pinyin": "yùzhào",
+    "definition": "前兆"
+  },
+  {
+    "id": 1566,
+    "hanzi": "域名",
+    "pinyin": "yùmíng",
+    "definition": "ドメイン名"
+  },
+  {
+    "id": 1567,
+    "hanzi": "欲望",
+    "pinyin": "yùwàng",
+    "definition": "欲望"
+  },
+  {
+    "id": 1568,
+    "hanzi": "冤枉",
+    "pinyin": "yuānwang",
+    "definition": "濡れ衣を着せる"
+  },
+  {
+    "id": 1569,
+    "hanzi": "元首",
+    "pinyin": "yuánshǒu",
+    "definition": "元首"
+  },
+  {
+    "id": 1570,
+    "hanzi": "元素",
+    "pinyin": "yuánsù",
+    "definition": "元素"
+  },
+  {
+    "id": 1571,
+    "hanzi": "元宵节",
+    "pinyin": "yuánxiāojié",
+    "definition": "元宵節"
+  },
+  {
+    "id": 1572,
+    "hanzi": "原告",
+    "pinyin": "yuángào",
+    "definition": "原告"
+  },
+  {
+    "id": 1573,
+    "hanzi": "原理",
+    "pinyin": "yuánlǐ",
+    "definition": "原理"
+  },
+  {
+    "id": 1574,
+    "hanzi": "原始",
+    "pinyin": "yuánshǐ",
+    "definition": "原始的な"
+  },
+  {
+    "id": 1575,
+    "hanzi": "原谅",
+    "pinyin": "yuánliàng",
+    "definition": "許す"
+  },
+  {
+    "id": 1576,
+    "hanzi": "圆满",
+    "pinyin": "yuánmǎn",
+    "definition": "円満である"
+  },
+  {
+    "id": 1577,
+    "hanzi": "缘故",
+    "pinyin": "yuángù",
+    "definition": "理由、故"
+  },
+  {
+    "id": 1578,
+    "hanzi": "源泉",
+    "pinyin": "yuánquán",
+    "definition": "源泉"
+  },
+  {
+    "id": 1579,
+    "hanzi": "约束",
+    "pinyin": "yuēshù",
+    "definition": "束縛する"
+  },
+  {
+    "id": 1580,
+    "hanzi": "悦耳",
+    "pinyin": "yuè'ěr",
+    "definition": "耳に心地よい"
+  },
+  {
+    "id": 1581,
+    "hanzi": "阅历",
+    "pinyin": "yuèlì",
+    "definition": "経験、見聞"
+  },
+  {
+    "id": 1582,
+    "hanzi": "允许",
+    "pinyin": "yǔnxǔ",
+    "definition": "許す"
+  },
+  {
+    "id": 1583,
+    "hanzi": "孕育",
+    "pinyin": "yùnyù",
+    "definition": "育む、孕む"
+  },
+  {
+    "id": 1584,
+    "hanzi": "运算",
+    "pinyin": "yùnsuàn",
+    "definition": "演算する"
+  },
+  {
+    "id": 1585,
+    "hanzi": "运输",
+    "pinyin": "yùnshū",
+    "definition": "運輸する"
+  },
+  {
+    "id": 1586,
+    "hanzi": "运行",
+    "pinyin": "yùnxíng",
+    "definition": "運行する"
+  },
+  {
+    "id": 1587,
+    "hanzi": "蕴藏",
+    "pinyin": "yùncáng",
+    "definition": "埋蔵する、内包する"
+  },
+  {
+    "id": 1588,
+    "hanzi": "熨",
+    "pinyin": "yùn",
+    "definition": "アイロンをかける"
+  },
+  {
+    "id": 1589,
+    "hanzi": "灾难",
+    "pinyin": "zāinàn",
+    "definition": "災難"
+  },
+  {
+    "id": 1590,
+    "hanzi": "栽培",
+    "pinyin": "zāipéi",
+    "definition": "栽培する"
+  },
+  {
+    "id": 1591,
+    "hanzi": "宰",
+    "pinyin": "zǎi",
+    "definition": "屠る、（値段を）ぼる"
+  },
+  {
+    "id": 1592,
+    "hanzi": "再三",
+    "pinyin": "zàisān",
+    "definition": "何度も"
+  },
+  {
+    "id": 1593,
+    "hanzi": "在乎",
+    "pinyin": "zàihu",
+    "definition": "気にする"
+  },
+  {
+    "id": 1594,
+    "hanzi": "在意",
+    "pinyin": "zàiyì",
+    "definition": "気にかける"
+  },
+  {
+    "id": 1595,
+    "hanzi": "咱们",
+    "pinyin": "zánmen",
+    "definition": "私たち"
+  },
+  {
+    "id": 1596,
+    "hanzi": "攒",
+    "pinyin": "zǎn",
+    "definition": "（お金などを）貯める"
+  },
+  {
+    "id": 1597,
+    "hanzi": "暂且",
+    "pinyin": "zànqiě",
+    "definition": "暫時、しばらく"
+  },
+  {
+    "id": 1598,
+    "hanzi": "赞成",
+    "pinyin": "zànchéng",
+    "definition": "賛成する"
+  },
+  {
+    "id": 1599,
+    "hanzi": "赞美",
+    "pinyin": "zànměi",
+    "definition": "賛美する"
+  },
+  {
+    "id": 1600,
+    "hanzi": "赞叹",
+    "pinyin": "zàntàn",
+    "definition": "感嘆する"
+  },
+  {
+    "id": 1601,
+    "hanzi": "遭受",
+    "pinyin": "zāoshòu",
+    "definition": "被る"
+  },
+  {
+    "id": 1602,
+    "hanzi": "遭殃",
+    "pinyin": "zāoyāng",
+    "definition": "災難に遭う"
+  },
+  {
+    "id": 1603,
+    "hanzi": "遭遇",
+    "pinyin": "zāoyù",
+    "definition": "遭遇する"
+  },
+  {
+    "id": 1604,
+    "hanzi": "糟糕",
+    "pinyin": "zāogāo",
+    "definition": "まずい、しまった"
+  },
+  {
+    "id": 1605,
+    "hanzi": "造型",
+    "pinyin": "zàoxíng",
+    "definition": "造形"
+  },
+  {
+    "id": 1606,
+    "hanzi": "噪音",
+    "pinyin": "zàoyīn",
+    "definition": "騒音"
+  },
+  {
+    "id": 1607,
+    "hanzi": "责怪",
+    "pinyin": "zéguài",
+    "definition": "責める"
+  },
+  {
+    "id": 1608,
+    "hanzi": "贼",
+    "pinyin": "zéi",
+    "definition": "泥棒"
+  },
+  {
+    "id": 1609,
+    "hanzi": "增添",
+    "pinyin": "zēngtiān",
+    "definition": "増やす、加える"
+  },
+  {
+    "id": 1610,
+    "hanzi": "赠送",
+    "pinyin": "zèngsòng",
+    "definition": "贈呈する"
+  },
+  {
+    "id": 1611,
+    "hanzi": "扎实",
+    "pinyin": "zhāshi",
+    "definition": "しっかりしている"
+  },
+  {
+    "id": 1612,
+    "hanzi": "眨眼",
+    "pinyin": "zhǎyǎn",
+    "definition": "まばたきする"
+  },
+  {
+    "id": 1613,
+    "hanzi": "诈骗",
+    "pinyin": "zhàpiàn",
+    "definition": "詐欺を働く"
+  },
+  {
+    "id": 1614,
+    "hanzi": "摘要",
+    "pinyin": "zhāiyào",
+    "definition": "要約"
+  },
+  {
+    "id": 1615,
+    "hanzi": "债券",
+    "pinyin": "zhàiquàn",
+    "definition": "債券"
+  },
+  {
+    "id": 1616,
+    "hanzi": "沾光",
+    "pinyin": "zhānguāng",
+    "definition": "おかげをこうむる"
+  },
+  {
+    "id": 1617,
+    "hanzi": "瞻仰",
+    "pinyin": "zhānyǎng",
+    "definition": "仰ぎ見る"
+  },
+  {
+    "id": 1618,
+    "hanzi": "展示",
+    "pinyin": "zhǎnshì",
+    "definition": "展示する"
+  },
+  {
+    "id": 1619,
+    "hanzi": "崭新",
+    "pinyin": "zhǎnxīn",
+    "definition": "真新しい"
+  },
+  {
+    "id": 1620,
+    "hanzi": "占据",
+    "pinyin": "zhànjù",
+    "definition": "占拠する"
+  },
+  {
+    "id": 1621,
+    "hanzi": "占领",
+    "pinyin": "zhànlǐng",
+    "definition": "占領する"
+  },
+  {
+    "id": 1622,
+    "hanzi": "战略",
+    "pinyin": "zhànlüè",
+    "definition": "戦略"
+  },
+  {
+    "id": 1623,
+    "hanzi": "战术",
+    "pinyin": "zhànshù",
+    "definition": "戦術"
+  },
+  {
+    "id": 1624,
+    "hanzi": "章程",
+    "pinyin": "zhāngchéng",
+    "definition": "規約、章程"
+  },
+  {
+    "id": 1625,
+    "hanzi": "涨",
+    "pinyin": "zhǎng",
+    "definition": "（値段や水位が）上がる"
+  },
+  {
+    "id": 1626,
+    "hanzi": "掌握",
+    "pinyin": "zhǎngwò",
+    "definition": "掌握する"
+  },
+  {
+    "id": 1627,
+    "hanzi": "障碍",
+    "pinyin": "zhàng'ài",
+    "definition": "障害"
+  },
+  {
+    "id": 1628,
+    "hanzi": "帐篷",
+    "pinyin": "zhàngpeng",
+    "definition": "テント"
+  },
+  {
+    "id": 1629,
+    "hanzi": "招标",
+    "pinyin": "zhāobiāo",
+    "definition": "入札を募る"
+  },
+  {
+    "id": 1630,
+    "hanzi": "招收",
+    "pinyin": "zhāoshōu",
+    "definition": "募集する"
+  },
+  {
+    "id": 1631,
+    "hanzi": "招待",
+    "pinyin": "zhāodài",
+    "definition": "招待する"
+  },
+  {
+    "id": 1632,
+    "hanzi": "招牌",
+    "pinyin": "zhāopái",
+    "definition": "看板"
+  },
+  {
+    "id": 1633,
+    "hanzi": "昭示",
+    "pinyin": "zhāoshì",
+    "definition": "明示する"
+  },
+  {
+    "id": 1634,
+    "hanzi": "着手",
+    "pinyin": "zhuóshǒu",
+    "definition": "着手する"
+  },
+  {
+    "id": 1635,
+    "hanzi": "着落",
+    "pinyin": "zhuóluò",
+    "definition": "めど、行き着く先"
+  },
+  {
+    "id": 1636,
+    "hanzi": "沼泽",
+    "pinyin": "zhǎozé",
+    "definition": "沼沢"
+  },
+  {
+    "id": 1637,
+    "hanzi": "照样",
+    "pinyin": "zhàoyàng",
+    "definition": "相変わらず、同じように"
+  },
+  {
+    "id": 1638,
+    "hanzi": "照耀",
+    "pinyin": "zhàoyào",
+    "definition": "照らす"
+  },
+  {
+    "id": 1639,
+    "hanzi": "折磨",
+    "pinyin": "zhémó",
+    "definition": "苦しめる"
+  },
+  {
+    "id": 1640,
+    "hanzi": "折腾",
+    "pinyin": "zhēteng",
+    "definition": "苦しめる、繰り返す"
+  },
+  {
+    "id": 1641,
+    "hanzi": "侦探",
+    "pinyin": "zhēntàn",
+    "definition": "探偵"
+  },
+  {
+    "id": 1642,
+    "hanzi": "珍贵",
+    "pinyin": "zhēnguì",
+    "definition": "貴重である"
+  },
+  {
+    "id": 1643,
+    "hanzi": "珍稀",
+    "pinyin": "zhēnxī",
+    "definition": "珍しい、希少な"
+  },
+  {
+    "id": 1644,
+    "hanzi": "珍惜",
+    "pinyin": "zhēnxī",
+    "definition": "大切にする"
+  },
+  {
+    "id": 1645,
+    "hanzi": "真理",
+    "pinyin": "zhēnlǐ",
+    "definition": "真理"
+  },
+  {
+    "id": 1646,
+    "hanzi": "真相",
+    "pinyin": "zhēnxiàng",
+    "definition": "真相"
+  },
+  {
+    "id": 1647,
+    "hanzi": "真挚",
+    "pinyin": "zhēnzhì",
+    "definition": "真摯である"
+  },
+  {
+    "id": 1648,
+    "hanzi": "斟酌",
+    "pinyin": "zhēnzhuó",
+    "definition": "斟酌する、よく考える"
+  },
+  {
+    "id": 1649,
+    "hanzi": "阵地",
+    "pinyin": "zhèndì",
+    "definition": "陣地"
+  },
+  {
+    "id": 1650,
+    "hanzi": "振奋",
+    "pinyin": "zhènfèn",
+    "definition": "奮い立たせる"
+  },
+  {
+    "id": 1651,
+    "hanzi": "振兴",
+    "pinyin": "zhènxīng",
+    "definition": "振興する"
+  },
+  {
+    "id": 1652,
+    "hanzi": "震惊",
+    "pinyin": "zhènjīng",
+    "definition": "驚かせる"
+  },
+  {
+    "id": 1653,
+    "hanzi": "争端",
+    "pinyin": "zhēngduān",
+    "definition": "紛争の発端"
+  },
+  {
+    "id": 1654,
+    "hanzi": "争夺",
+    "pinyin": "zhēngduó",
+    "definition": "争奪する"
+  },
+  {
+    "id": 1655,
+    "hanzi": "争气",
+    "pinyin": "zhēngqì",
+    "definition": "意地を張って頑張る"
+  },
+  {
+    "id": 1656,
+    "hanzi": "争议",
+    "pinyin": "zhēngyì",
+    "definition": "論争"
+  },
+  {
+    "id": 1657,
+    "hanzi": "征求",
+    "pinyin": "zhēngqiú",
+    "definition": "求める、募集する"
+  },
+  {
+    "id": 1658,
+    "hanzi": "蒸发",
+    "pinyin": "zhēngfā",
+    "definition": "蒸発する"
+  },
+  {
+    "id": 1659,
+    "hanzi": "挣扎",
+    "pinyin": "zhēngzhá",
+    "definition": "もがく"
+  },
+  {
+    "id": 1660,
+    "hanzi": "整顿",
+    "pinyin": "zhěngdùn",
+    "definition": "整頓する"
+  },
+  {
+    "id": 1661,
+    "hanzi": "正当",
+    "pinyin": "zhèngdàng",
+    "definition": "正当である"
+  },
+  {
+    "id": 1662,
+    "hanzi": "正负",
+    "pinyin": "zhèngfù",
+    "definition": "正負"
+  },
+  {
+    "id": 1663,
+    "hanzi": "正规",
+    "pinyin": "zhèngguī",
+    "definition": "正規である"
+  },
+  {
+    "id": 1664,
+    "hanzi": "正气",
+    "pinyin": "zhèngqì",
+    "definition": "正気、正義感"
+  },
+  {
+    "id": 1665,
+    "hanzi": "证实",
+    "pinyin": "zhèngshí",
+    "definition": "実証する"
+  },
+  {
+    "id": 1666,
+    "hanzi": "症状",
+    "pinyin": "zhèngzhuàng",
+    "definition": "症状"
+  },
+  {
+    "id": 1667,
+    "hanzi": "之际",
+    "pinyin": "zhījì",
+    "definition": "～の際"
+  },
+  {
+    "id": 1668,
+    "hanzi": "支撑",
+    "pinyin": "zhīchēng",
+    "definition": "支える"
+  },
+  {
+    "id": 1669,
+    "hanzi": "支付",
+    "pinyin": "zhīfù",
+    "definition": "支払う"
+  },
+  {
+    "id": 1670,
+    "hanzi": "支援",
+    "pinyin": "zhīyuán",
+    "definition": "支援する"
+  },
+  {
+    "id": 1671,
+    "hanzi": "枝",
+    "pinyin": "zhī",
+    "definition": "枝"
+  },
+  {
+    "id": 1672,
+    "hanzi": "知觉",
+    "pinyin": "zhījué",
+    "definition": "知覚"
+  },
+  {
+    "id": 1673,
+    "hanzi": "脂肪",
+    "pinyin": "zhīfáng",
+    "definition": "脂肪"
+  },
+  {
+    "id": 1674,
+    "hanzi": "蜘蛛",
+    "pinyin": "zhīzhū",
+    "definition": "クモ"
+  },
+  {
+    "id": 1675,
+    "hanzi": "执行",
+    "pinyin": "zhíxíng",
+    "definition": "執行する"
+  },
+  {
+    "id": 1676,
+    "hanzi": "执著",
+    "pinyin": "zhízhuó",
+    "definition": "執着する"
+  },
+  {
+    "id": 1677,
+    "hanzi": "直播",
+    "pinyin": "zhíbō",
+    "definition": "生中継する"
+  },
+  {
+    "id": 1678,
+    "hanzi": "直径",
+    "pinyin": "zhíjìng",
+    "definition": "直径"
+  },
+  {
+    "id": 1679,
+    "hanzi": "侄子",
+    "pinyin": "zhízi",
+    "definition": "甥"
+  },
+  {
+    "id": 1680,
+    "hanzi": "值班",
+    "pinyin": "zhíbān",
+    "definition": "当番をする"
+  },
+  {
+    "id": 1681,
+    "hanzi": "职能",
+    "pinyin": "zhínéng",
+    "definition": "職能"
+  },
+  {
+    "id": 1682,
+    "hanzi": "职务",
+    "pinyin": "zhíwù",
+    "definition": "職務"
+  },
+  {
+    "id": 1683,
+    "hanzi": "植物",
+    "pinyin": "zhíwù",
+    "definition": "植物"
+  },
+  {
+    "id": 1684,
+    "hanzi": "殖民地",
+    "pinyin": "zhímíndì",
+    "definition": "植民地"
+  },
+  {
+    "id": 1685,
+    "hanzi": "只得",
+    "pinyin": "zhǐdé",
+    "definition": "やむを得ず"
+  },
+  {
+    "id": 1686,
+    "hanzi": "只顾",
+    "pinyin": "zhǐgù",
+    "definition": "もっぱら～する"
+  },
+  {
+    "id": 1687,
+    "hanzi": "指标",
+    "pinyin": "zhǐbiāo",
+    "definition": "指標"
+  },
+  {
+    "id": 1688,
+    "hanzi": "指定",
+    "pinyin": "zhǐdìng",
+    "definition": "指定する"
+  },
+  {
+    "id": 1689,
+    "hanzi": "指甲",
+    "pinyin": "zhǐjia",
+    "definition": "爪"
+  },
+  {
+    "id": 1690,
+    "hanzi": "指南针",
+    "pinyin": "zhǐnánzhēn",
+    "definition": "羅針盤"
+  },
+  {
+    "id": 1691,
+    "hanzi": "至今",
+    "pinyin": "zhìjīn",
+    "definition": "今に至るまで"
+  },
+  {
+    "id": 1692,
+    "hanzi": "至于",
+    "pinyin": "zhìyú",
+    "definition": "～に至っては"
+  },
+  {
+    "id": 1693,
+    "hanzi": "制裁",
+    "pinyin": "zhìcái",
+    "definition": "制裁する"
+  },
+  {
+    "id": 1694,
+    "hanzi": "制服",
+    "pinyin": "zhìfú",
+    "definition": "制服"
+  },
+  {
+    "id": 1695,
+    "hanzi": "制约",
+    "pinyin": "zhìyuē",
+    "definition": "制約する"
+  },
+  {
+    "id": 1696,
+    "hanzi": "治安",
+    "pinyin": "zhì'ān",
+    "definition": "治安"
+  },
+  {
+    "id": 1697,
+    "hanzi": "志愿",
+    "pinyin": "zhìyuàn",
+    "definition": "志願する"
+  },
+  {
+    "id": 1698,
+    "hanzi": "智力",
+    "pinyin": "zhìlì",
+    "definition": "知力"
+  },
+  {
+    "id": 1699,
+    "hanzi": "智能",
+    "pinyin": "zhìnéng",
+    "definition": "知能"
+  },
+  {
+    "id": 1700,
+    "hanzi": "智商",
+    "pinyin": "zhìshāng",
+    "definition": "IQ"
+  },
+  {
+    "id": 1701,
+    "hanzi": "中断",
+    "pinyin": "zhōngduàn",
+    "definition": "中断する"
+  },
+  {
+    "id": 1702,
+    "hanzi": "中立",
+    "pinyin": "zhōnglì",
+    "definition": "中立"
+  },
+  {
+    "id": 1703,
+    "hanzi": "中旬",
+    "pinyin": "zhōngxún",
+    "definition": "中旬"
+  },
+  {
+    "id": 1704,
+    "hanzi": "中央",
+    "pinyin": "zhōngyāng",
+    "definition": "中央"
+  },
+  {
+    "id": 1705,
+    "hanzi": "忠诚",
+    "pinyin": "zhōngchéng",
+    "definition": "忠誠である"
+  },
+  {
+    "id": 1706,
+    "hanzi": "忠实",
+    "pinyin": "zhōngshí",
+    "definition": "忠実である"
+  },
+  {
+    "id": 1707,
+    "hanzi": "终点",
+    "pinyin": "zhōngdiǎn",
+    "definition": "終点"
+  },
+  {
+    "id": 1708,
+    "hanzi": "终究",
+    "pinyin": "zhōngjiū",
+    "definition": "結局"
+  },
+  {
+    "id": 1709,
+    "hanzi": "终身",
+    "pinyin": "zhōngshēn",
+    "definition": "終身"
+  },
+  {
+    "id": 1710,
+    "hanzi": "终止",
+    "pinyin": "zhōngzhǐ",
+    "definition": "終止する"
+  },
+  {
+    "id": 1711,
+    "hanzi": "种族",
+    "pinyin": "zhǒngzú",
+    "definition": "種族、民族"
+  },
+  {
+    "id": 1712,
+    "hanzi": "肿瘤",
+    "pinyin": "zhǒngliú",
+    "definition": "腫瘍"
+  },
+  {
+    "id": 1713,
+    "hanzi": "重心",
+    "pinyin": "zhòngxīn",
+    "definition": "重心"
+  },
+  {
+    "id": 1714,
+    "hanzi": "众所周知",
+    "pinyin": "zhòngsuǒzhōuzhī",
+    "definition": "周知のとおり"
+  },
+  {
+    "id": 1715,
+    "hanzi": "州",
+    "pinyin": "zhōu",
+    "definition": "州"
+  },
+  {
+    "id": 1716,
+    "hanzi": "周边",
+    "pinyin": "zhōubiān",
+    "definition": "周辺"
+  },
+  {
+    "id": 1717,
+    "hanzi": "周密",
+    "pinyin": "zhōumì",
+    "definition": "周到である"
+  },
+  {
+    "id": 1718,
+    "hanzi": "周年",
+    "pinyin": "zhōunián",
+    "definition": "周年"
+  },
+  {
+    "id": 1719,
+    "hanzi": "周期",
+    "pinyin": "zhōuqī",
+    "definition": "周期"
+  },
+  {
+    "id": 1720,
+    "hanzi": "周折",
+    "pinyin": "zhōuzhé",
+    "definition": "紆余曲折"
+  },
+  {
+    "id": 1721,
+    "hanzi": "昼夜",
+    "pinyin": "zhòuyè",
+    "definition": "昼夜"
+  },
+  {
+    "id": 1722,
+    "hanzi": "皱纹",
+    "pinyin": "zhòuwén",
+    "definition": "しわ"
+  },
+  {
+    "id": 1723,
+    "hanzi": "株",
+    "pinyin": "zhū",
+    "definition": "株（植物の量詞）"
+  },
+  {
+    "id": 1724,
+    "hanzi": "诸位",
+    "pinyin": "zhūwèi",
+    "definition": "皆様"
+  },
+  {
+    "id": 1725,
+    "hanzi": "逐年",
+    "pinyin": "zhúnián",
+    "definition": "年々"
+  },
+  {
+    "id": 1726,
+    "hanzi": "逐渐",
+    "pinyin": "zhújiàn",
+    "definition": "徐々に"
+  },
+  {
+    "id": 1727,
+    "hanzi": "主导",
+    "pinyin": "zhǔdǎo",
+    "definition": "主導する"
+  },
+  {
+    "id": 1728,
+    "hanzi": "主管",
+    "pinyin": "zhǔguǎn",
+    "definition": "主管する"
+  },
+  {
+    "id": 1729,
+    "hanzi": "主流",
+    "pinyin": "zhǔliú",
+    "definition": "主流"
+  },
+  {
+    "id": 1730,
+    "hanzi": "主权",
+    "pinyin": "zhǔquán",
+    "definition": "主権"
+  },
+  {
+    "id": 1731,
+    "hanzi": "主义",
+    "pinyin": "zhǔyì",
+    "definition": "主義"
+  },
+  {
+    "id": 1732,
+    "hanzi": "主张",
+    "pinyin": "zhǔzhāng",
+    "definition": "主張する"
+  },
+  {
+    "id": 1733,
+    "hanzi": "嘱咐",
+    "pinyin": "zhǔfù",
+    "definition": "言いつける"
+  },
+  {
+    "id": 1734,
+    "hanzi": "助手",
+    "pinyin": "zhùshǒu",
+    "definition": "助手"
+  },
+  {
+    "id": 1735,
+    "hanzi": "助长",
+    "pinyin": "zhùzhǎng",
+    "definition": "助長する"
+  },
+  {
+    "id": 1736,
+    "hanzi": "住宅",
+    "pinyin": "zhùzhái",
+    "definition": "住宅"
+  },
+  {
+    "id": 1737,
+    "hanzi": "注射",
+    "pinyin": "zhùshè",
+    "definition": "注射する"
+  },
+  {
+    "id": 1738,
+    "hanzi": "注视",
+    "pinyin": "zhùshì",
+    "definition": "注視する"
+  },
+  {
+    "id": 1739,
+    "hanzi": "注重",
+    "pinyin": "zhùzhòng",
+    "definition": "重んじる"
+  },
+  {
+    "id": 1740,
+    "hanzi": "铸造",
+    "pinyin": "zhùzào",
+    "definition": "鋳造する"
+  },
+  {
+    "id": 1741,
+    "hanzi": "著作",
+    "pinyin": "zhùzuò",
+    "definition": "著作"
+  },
+  {
+    "id": 1742,
+    "hanzi": "抓紧",
+    "pinyin": "zhuājǐn",
+    "definition": "しっかりつかむ、急いでやる"
+  },
+  {
+    "id": 1743,
+    "hanzi": "专长",
+    "pinyin": "zhuāncháng",
+    "definition": "専門技能"
+  },
+  {
+    "id": 1744,
+    "hanzi": "专程",
+    "pinyin": "zhuānchéng",
+    "definition": "わざわざ"
+  },
+  {
+    "id": 1745,
+    "hanzi": "专利",
+    "pinyin": "zhuānlì",
+    "definition": "特許"
+  },
+  {
+    "id": 1746,
+    "hanzi": "专题",
+    "pinyin": "zhuāntí",
+    "definition": "専門テーマ"
+  },
+  {
+    "id": 1747,
+    "hanzi": "转达",
+    "pinyin": "zhuǎndá",
+    "definition": "伝達する"
+  },
+  {
+    "id": 1748,
+    "hanzi": "转让",
+    "pinyin": "zhuǎnràng",
+    "definition": "譲渡する"
+  },
+  {
+    "id": 1749,
+    "hanzi": "转移",
+    "pinyin": "zhuǎnyí",
+    "definition": "移転する"
+  },
+  {
+    "id": 1750,
+    "hanzi": "传记",
+    "pinyin": "zhuànjì",
+    "definition": "伝記"
+  },
+  {
+    "id": 1751,
+    "hanzi": "装备",
+    "pinyin": "zhuāngbèi",
+    "definition": "装備する"
+  },
+  {
+    "id": 1752,
+    "hanzi": "装置",
+    "pinyin": "zhuāngzhì",
+    "definition": "装置"
+  },
+  {
+    "id": 1753,
+    "hanzi": "状况",
+    "pinyin": "zhuàngkuàng",
+    "definition": "状況"
+  },
+  {
+    "id": 1754,
+    "hanzi": "状态",
+    "pinyin": "zhuàngtài",
+    "definition": "状態"
+  },
+  {
+    "id": 1755,
+    "hanzi": "幢",
+    "pinyin": "zhuàng",
+    "definition": "棟（建物の量詞）"
+  },
+  {
+    "id": 1756,
+    "hanzi": "追悼",
+    "pinyin": "zhuīdào",
+    "definition": "追悼する"
+  },
+  {
+    "id": 1757,
+    "hanzi": "追究",
+    "pinyin": "zhuījiū",
+    "definition": "追及する"
+  },
+  {
+    "id": 1758,
+    "hanzi": "咨询",
+    "pinyin": "zīxún",
+    "definition": "相談する"
+  },
+  {
+    "id": 1759,
+    "hanzi": "姿态",
+    "pinyin": "zītài",
+    "definition": "姿態、態度"
+  },
+  {
+    "id": 1760,
+    "hanzi": "资本",
+    "pinyin": "zīběn",
+    "definition": "資本"
+  },
+  {
+    "id": 1761,
+    "hanzi": "资金",
+    "pinyin": "zījīn",
+    "definition": "資金"
+  },
+  {
+    "id": 1762,
+    "hanzi": "资历",
+    "pinyin": "zīlì",
+    "definition": "経歴、経験年数"
+  },
+  {
+    "id": 1763,
+    "hanzi": "资深",
+    "pinyin": "zīshēn",
+    "definition": "ベテランの"
+  },
+  {
+    "id": 1764,
+    "hanzi": "资讯",
+    "pinyin": "zīxùn",
+    "definition": "情報"
+  },
+  {
+    "id": 1765,
+    "hanzi": "滋润",
+    "pinyin": "zīrùn",
+    "definition": "潤いを与える"
+  },
+  {
+    "id": 1766,
+    "hanzi": "滋味",
+    "pinyin": "zīwèi",
+    "definition": "味わい"
+  },
+  {
+    "id": 1767,
+    "hanzi": "孜孜不倦",
+    "pinyin": "zīzībùjuàn",
+    "definition": "たゆまず努力する"
+  },
+  {
+    "id": 1768,
+    "hanzi": "子弹",
+    "pinyin": "zǐdàn",
+    "definition": "銃弾"
+  },
+  {
+    "id": 1769,
+    "hanzi": "自卑",
+    "pinyin": "zìbēi",
+    "definition": "自卑（劣等感を持つ）"
+  },
+  {
+    "id": 1770,
+    "hanzi": "自发",
+    "pinyin": "zìfā",
+    "definition": "自発的である"
+  },
+  {
+    "id": 1771,
+    "hanzi": "自力更生",
+    "pinyin": "zìlìgēngshēng",
+    "definition": "自力更生する"
+  },
+  {
+    "id": 1772,
+    "hanzi": "自满",
+    "pinyin": "zìmǎn",
+    "definition": "自己満足する"
+  },
+  {
+    "id": 1773,
+    "hanzi": "自主",
+    "pinyin": "zìzhǔ",
+    "definition": "自主的である"
+  },
+  {
+    "id": 1774,
+    "hanzi": "综合",
+    "pinyin": "zōnghé",
+    "definition": "総合する"
+  },
+  {
+    "id": 1775,
+    "hanzi": "踪迹",
+    "pinyin": "zōngjì",
+    "definition": "足跡"
+  },
+  {
+    "id": 1776,
+    "hanzi": "宗教",
+    "pinyin": "zōngjiào",
+    "definition": "宗教"
+  },
+  {
+    "id": 1777,
+    "hanzi": "总而言之",
+    "pinyin": "zǒng'éryánzhī",
+    "definition": "要するに"
+  },
+  {
+    "id": 1778,
+    "hanzi": "总和",
+    "pinyin": "zǒnghé",
+    "definition": "総和"
+  },
+  {
+    "id": 1779,
+    "hanzi": "总之",
+    "pinyin": "zǒngzhī",
+    "definition": "要するに"
+  },
+  {
+    "id": 1780,
+    "hanzi": "纵然",
+    "pinyin": "zòngrán",
+    "definition": "たとえ～でも"
+  },
+  {
+    "id": 1781,
+    "hanzi": "走廊",
+    "pinyin": "zǒuláng",
+    "definition": "廊下"
+  },
+  {
+    "id": 1782,
+    "hanzi": "揍",
+    "pinyin": "zòu",
+    "definition": "殴る"
+  },
+  {
+    "id": 1783,
+    "hanzi": "租赁",
+    "pinyin": "zūlìn",
+    "definition": "賃貸する"
+  },
+  {
+    "id": 1784,
+    "hanzi": "足以",
+    "pinyin": "zúyǐ",
+    "definition": "～するのに十分だ"
+  },
+  {
+    "id": 1785,
+    "hanzi": "阻碍",
+    "pinyin": "zǔ'ài",
+    "definition": "阻害する"
+  },
+  {
+    "id": 1786,
+    "hanzi": "阻拦",
+    "pinyin": "zǔlán",
+    "definition": "阻む"
+  },
+  {
+    "id": 1787,
+    "hanzi": "阻挠",
+    "pinyin": "zǔnáo",
+    "definition": "邪魔する"
+  },
+  {
+    "id": 1788,
+    "hanzi": "组成",
+    "pinyin": "zǔchéng",
+    "definition": "組成する"
+  },
+  {
+    "id": 1789,
+    "hanzi": "祖父母",
+    "pinyin": "zǔfùmǔ",
+    "definition": "祖父母"
+  },
+  {
+    "id": 1790,
+    "hanzi": "钻研",
+    "pinyin": "zuānyán",
+    "definition": "研究に打ち込む"
+  },
+  {
+    "id": 1791,
+    "hanzi": "醉",
+    "pinyin": "zuì",
+    "definition": "酔う"
+  },
+  {
+    "id": 1792,
+    "hanzi": "罪犯",
+    "pinyin": "zuìfàn",
+    "definition": "犯罪者"
+  },
+  {
+    "id": 1793,
+    "hanzi": "遵循",
+    "pinyin": "zūnxún",
+    "definition": "遵守する"
+  },
+  {
+    "id": 1794,
+    "hanzi": "遵照",
+    "pinyin": "zūnzhào",
+    "definition": "遵守する"
+  },
+  {
+    "id": 1795,
+    "hanzi": "昨日",
+    "pinyin": "zuórì",
+    "definition": "昨日"
+  },
+  {
+    "id": 1796,
+    "hanzi": "左右",
+    "pinyin": "zuǒyòu",
+    "definition": "左右、前後"
+  },
+  {
+    "id": 1797,
+    "hanzi": "作弊",
+    "pinyin": "zuòbì",
+    "definition": "不正行為をする"
+  },
+  {
+    "id": 1798,
+    "hanzi": "作废",
+    "pinyin": "zuòfèi",
+    "definition": "無効になる"
+  },
+  {
+    "id": 1799,
+    "hanzi": "作风",
+    "pinyin": "zuòfēng",
+    "definition": "作風、気風"
+  },
+  {
+    "id": 1800,
+    "hanzi": "作战",
+    "pinyin": "zuòzhàn",
+    "definition": "作戦を行う"
   }
 ]
