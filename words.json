@@ -127,9 +127,9 @@
   },
   {
     "id": 22,
-    "hanzi": "把握",
-    "pinyin": "bǎwò",
-    "definition": "把握する、確信を持つ"
+    "hanzi": "摆脱",
+    "pinyin": "bǎituō",
+    "definition": "（束縛や困難などから）抜け出す、脱する"
   },
   {
     "id": 23,
@@ -658,5 +658,545 @@
     "hanzi": "炒",
     "pinyin": "chǎo",
     "definition": "炒める"
+  },
+  {
+    "id": 111,
+    "hanzi": "车库",
+    "pinyin": "chēkù",
+    "definition": "車庫"
+  },
+  {
+    "id": 112,
+    "hanzi": "彻底",
+    "pinyin": "chèdǐ",
+    "definition": "徹底的である"
+  },
+  {
+    "id": 113,
+    "hanzi": "沉默",
+    "pinyin": "chénmò",
+    "definition": "沈黙する"
+  },
+  {
+    "id": 114,
+    "hanzi": "陈旧",
+    "pinyin": "chénjiù",
+    "definition": "古臭い"
+  },
+  {
+    "id": 115,
+    "hanzi": "称赞",
+    "pinyin": "chēngzàn",
+    "definition": "称賛する"
+  },
+  {
+    "id": 116,
+    "hanzi": "成分",
+    "pinyin": "chéngfèn",
+    "definition": "成分"
+  },
+  {
+    "id": 117,
+    "hanzi": "成立",
+    "pinyin": "chénglì",
+    "definition": "成立する、設立する"
+  },
+  {
+    "id": 118,
+    "hanzi": "成语",
+    "pinyin": "chéngyǔ",
+    "definition": "成語、ことわざ"
+  },
+  {
+    "id": 119,
+    "hanzi": "诚恳",
+    "pinyin": "chéngkěn",
+    "definition": "誠実である"
+  },
+  {
+    "id": 120,
+    "hanzi": "承担",
+    "pinyin": "chéngdān",
+    "definition": "引き受ける、負う"
+  },
+  {
+    "id": 121,
+    "hanzi": "承认",
+    "pinyin": "chéngrèn",
+    "definition": "認める"
+  },
+  {
+    "id": 122,
+    "hanzi": "承受",
+    "pinyin": "chéngshòu",
+    "definition": "耐える、受け止める"
+  },
+  {
+    "id": 123,
+    "hanzi": "程度",
+    "pinyin": "chéngdù",
+    "definition": "程度"
+  },
+  {
+    "id": 124,
+    "hanzi": "程序",
+    "pinyin": "chéngxù",
+    "definition": "手順、プログラム"
+  },
+  {
+    "id": 125,
+    "hanzi": "吃亏",
+    "pinyin": "chīkuī",
+    "definition": "損をする"
+  },
+  {
+    "id": 126,
+    "hanzi": "持续",
+    "pinyin": "chíxù",
+    "definition": "持続する"
+  },
+  {
+    "id": 127,
+    "hanzi": "尺子",
+    "pinyin": "chǐzi",
+    "definition": "物差し"
+  },
+  {
+    "id": 128,
+    "hanzi": "冲突",
+    "pinyin": "chōngtū",
+    "definition": "衝突する"
+  },
+  {
+    "id": 129,
+    "hanzi": "充电器",
+    "pinyin": "chōngdiànqì",
+    "definition": "充電器"
+  },
+  {
+    "id": 130,
+    "hanzi": "充分",
+    "pinyin": "chōngfèn",
+    "definition": "十分である"
+  },
+  {
+    "id": 131,
+    "hanzi": "充满",
+    "pinyin": "chōngmǎn",
+    "definition": "満ちている"
+  },
+  {
+    "id": 132,
+    "hanzi": "充实",
+    "pinyin": "chōngshí",
+    "definition": "充実している"
+  },
+  {
+    "id": 133,
+    "hanzi": "重复",
+    "pinyin": "chóngfù",
+    "definition": "繰り返す"
+  },
+  {
+    "id": 134,
+    "hanzi": "崇拜",
+    "pinyin": "chóngbài",
+    "definition": "崇拝する"
+  },
+  {
+    "id": 135,
+    "hanzi": "抽屉",
+    "pinyin": "chōuti",
+    "definition": "引き出し"
+  },
+  {
+    "id": 136,
+    "hanzi": "仇恨",
+    "pinyin": "chóuhèn",
+    "definition": "恨み、憎しみ"
+  },
+  {
+    "id": 137,
+    "hanzi": "出版",
+    "pinyin": "chūbǎn",
+    "definition": "出版する"
+  },
+  {
+    "id": 138,
+    "hanzi": "出口",
+    "pinyin": "chūkǒu",
+    "definition": "出口"
+  },
+  {
+    "id": 139,
+    "hanzi": "出路",
+    "pinyin": "chūlù",
+    "definition": "出口、活路"
+  },
+  {
+    "id": 140,
+    "hanzi": "出色",
+    "pinyin": "chūsè",
+    "definition": "際立っている、優れている"
+  },
+  {
+    "id": 141,
+    "hanzi": "出示",
+    "pinyin": "chūshì",
+    "definition": "提示する"
+  },
+  {
+    "id": 142,
+    "hanzi": "出席",
+    "pinyin": "chūxí",
+    "definition": "出席する"
+  },
+  {
+    "id": 143,
+    "hanzi": "初步",
+    "pinyin": "chūbù",
+    "definition": "初歩的な"
+  },
+  {
+    "id": 144,
+    "hanzi": "除非",
+    "pinyin": "chúfēi",
+    "definition": "～でない限り"
+  },
+  {
+    "id": 145,
+    "hanzi": "除夕",
+    "pinyin": "chúxī",
+    "definition": "大晦日"
+  },
+  {
+    "id": 146,
+    "hanzi": "处理",
+    "pinyin": "chǔlǐ",
+    "definition": "処理する"
+  },
+  {
+    "id": 147,
+    "hanzi": "处于",
+    "pinyin": "chǔyú",
+    "definition": "（ある状態や立場に）ある"
+  },
+  {
+    "id": 148,
+    "hanzi": "传播",
+    "pinyin": "chuánbō",
+    "definition": "伝播する、広める"
+  },
+  {
+    "id": 149,
+    "hanzi": "传染",
+    "pinyin": "chuánrǎn",
+    "definition": "伝染する"
+  },
+  {
+    "id": 150,
+    "hanzi": "传统",
+    "pinyin": "chuántǒng",
+    "definition": "伝統"
+  },
+  {
+    "id": 151,
+    "hanzi": "窗帘",
+    "pinyin": "chuānglián",
+    "definition": "カーテン"
+  },
+  {
+    "id": 152,
+    "hanzi": "床单",
+    "pinyin": "chuángdān",
+    "definition": "シーツ"
+  },
+  {
+    "id": 153,
+    "hanzi": "闯",
+    "pinyin": "chuǎng",
+    "definition": "突進する、切り開く"
+  },
+  {
+    "id": 154,
+    "hanzi": "创造",
+    "pinyin": "chuàngzào",
+    "definition": "創造する"
+  },
+  {
+    "id": 155,
+    "hanzi": "吹",
+    "pinyin": "chuī",
+    "definition": "吹く"
+  },
+  {
+    "id": 156,
+    "hanzi": "词汇",
+    "pinyin": "cíhuì",
+    "definition": "語彙"
+  },
+  {
+    "id": 157,
+    "hanzi": "辞职",
+    "pinyin": "cízhí",
+    "definition": "辞職する"
+  },
+  {
+    "id": 158,
+    "hanzi": "此外",
+    "pinyin": "cǐwài",
+    "definition": "その他に"
+  },
+  {
+    "id": 159,
+    "hanzi": "次要",
+    "pinyin": "cìyào",
+    "definition": "二次的な"
+  },
+  {
+    "id": 160,
+    "hanzi": "刺激",
+    "pinyin": "cìjī",
+    "definition": "刺激する"
+  },
+  {
+    "id": 161,
+    "hanzi": "匆忙",
+    "pinyin": "cōngmáng",
+    "definition": "慌ただしい"
+  },
+  {
+    "id": 162,
+    "hanzi": "从事",
+    "pinyin": "cóngshì",
+    "definition": "従事する"
+  },
+  {
+    "id": 163,
+    "hanzi": "从而",
+    "pinyin": "cóng'ér",
+    "definition": "それによって、従って"
+  },
+  {
+    "id": 164,
+    "hanzi": "粗糙",
+    "pinyin": "cūcāo",
+    "definition": "粗い、雑である"
+  },
+  {
+    "id": 165,
+    "hanzi": "促进",
+    "pinyin": "cùjìn",
+    "definition": "促進する"
+  },
+  {
+    "id": 166,
+    "hanzi": "促使",
+    "pinyin": "cùshǐ",
+    "definition": "～するよう促す"
+  },
+  {
+    "id": 167,
+    "hanzi": "催",
+    "pinyin": "cuī",
+    "definition": "催促する"
+  },
+  {
+    "id": 168,
+    "hanzi": "存在",
+    "pinyin": "cúnzài",
+    "definition": "存在する"
+  },
+  {
+    "id": 169,
+    "hanzi": "措施",
+    "pinyin": "cuòshī",
+    "definition": "措置"
+  },
+  {
+    "id": 170,
+    "hanzi": "搭配",
+    "pinyin": "dāpèi",
+    "definition": "組み合わせる"
+  },
+  {
+    "id": 171,
+    "hanzi": "答应",
+    "pinyin": "dāying",
+    "definition": "承諾する、応答する"
+  },
+  {
+    "id": 172,
+    "hanzi": "达到",
+    "pinyin": "dádào",
+    "definition": "達する"
+  },
+  {
+    "id": 173,
+    "hanzi": "打交道",
+    "pinyin": "dǎ jiāodao",
+    "definition": "付き合う、関わりを持つ"
+  },
+  {
+    "id": 174,
+    "hanzi": "打击",
+    "pinyin": "dǎjī",
+    "definition": "打撃を与える"
+  },
+  {
+    "id": 175,
+    "hanzi": "打听",
+    "pinyin": "dǎtīng",
+    "definition": "尋ねる、聞き回る"
+  },
+  {
+    "id": 176,
+    "hanzi": "大方",
+    "pinyin": "dàfang",
+    "definition": "気前がよい、大様である"
+  },
+  {
+    "id": 177,
+    "hanzi": "大厦",
+    "pinyin": "dàshà",
+    "definition": "高層ビル"
+  },
+  {
+    "id": 178,
+    "hanzi": "大意",
+    "pinyin": "dàyì",
+    "definition": "大意、うっかりしている"
+  },
+  {
+    "id": 179,
+    "hanzi": "呆",
+    "pinyin": "dāi",
+    "definition": "ぼんやりしている、滞在する"
+  },
+  {
+    "id": 180,
+    "hanzi": "代表",
+    "pinyin": "dàibiǎo",
+    "definition": "代表する"
+  },
+  {
+    "id": 181,
+    "hanzi": "代替",
+    "pinyin": "dàitì",
+    "definition": "代わりをする"
+  },
+  {
+    "id": 182,
+    "hanzi": "待遇",
+    "pinyin": "dàiyù",
+    "definition": "待遇"
+  },
+  {
+    "id": 183,
+    "hanzi": "担任",
+    "pinyin": "dānrèn",
+    "definition": "担任する、担当する"
+  },
+  {
+    "id": 184,
+    "hanzi": "单纯",
+    "pinyin": "dānchún",
+    "definition": "単純である"
+  },
+  {
+    "id": 185,
+    "hanzi": "单独",
+    "pinyin": "dāndú",
+    "definition": "単独で"
+  },
+  {
+    "id": 186,
+    "hanzi": "单调",
+    "pinyin": "dāndiào",
+    "definition": "単調である"
+  },
+  {
+    "id": 187,
+    "hanzi": "单位",
+    "pinyin": "dānwèi",
+    "definition": "単位、勤務先"
+  },
+  {
+    "id": 188,
+    "hanzi": "耽误",
+    "pinyin": "dānwu",
+    "definition": "遅らせる、支障をきたす"
+  },
+  {
+    "id": 189,
+    "hanzi": "胆小鬼",
+    "pinyin": "dǎnxiǎoguǐ",
+    "definition": "臆病者"
+  },
+  {
+    "id": 190,
+    "hanzi": "淡",
+    "pinyin": "dàn",
+    "definition": "味が薄い、あっさりしている"
+  },
+  {
+    "id": 191,
+    "hanzi": "当地",
+    "pinyin": "dāngdì",
+    "definition": "現地"
+  },
+  {
+    "id": 192,
+    "hanzi": "当年",
+    "pinyin": "dāngnián",
+    "definition": "その当時"
+  },
+  {
+    "id": 193,
+    "hanzi": "当前",
+    "pinyin": "dāngqián",
+    "definition": "目下、現在"
+  },
+  {
+    "id": 194,
+    "hanzi": "当心",
+    "pinyin": "dāngxīn",
+    "definition": "気をつける"
+  },
+  {
+    "id": 195,
+    "hanzi": "导演",
+    "pinyin": "dǎoyǎn",
+    "definition": "監督（映画・演劇）"
+  },
+  {
+    "id": 196,
+    "hanzi": "导致",
+    "pinyin": "dǎozhì",
+    "definition": "引き起こす"
+  },
+  {
+    "id": 197,
+    "hanzi": "岛屿",
+    "pinyin": "dǎoyǔ",
+    "definition": "島"
+  },
+  {
+    "id": 198,
+    "hanzi": "倒霉",
+    "pinyin": "dǎoméi",
+    "definition": "運が悪い"
+  },
+  {
+    "id": 199,
+    "hanzi": "到达",
+    "pinyin": "dàodá",
+    "definition": "到達する"
+  },
+  {
+    "id": 200,
+    "hanzi": "道德",
+    "pinyin": "dàodé",
+    "definition": "道徳"
   }
 ]
