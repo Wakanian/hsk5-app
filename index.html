@@ -277,13 +277,23 @@
     pointer-events:none;
   }
 
-  .card-front .meaning-front{
+  /* ---- カード表面：日本語訳バージョン（日→中モード） ---- */
+  .front-primary.front-meaning{
     font-family:'Noto Sans JP', sans-serif;
     font-weight:700;
     font-size:clamp(1.5rem, 7vw, 2.1rem);
     color:var(--paper);
     text-align:center;
     line-height:1.5;
+    text-shadow:0 2px 6px rgba(0,0,0,.3);
+  }
+  /* ---- カード表面：中国語バージョン（中→日モード） ---- */
+  .front-primary.front-hanzi{
+    font-family:'Noto Serif SC', serif;
+    font-weight:900;
+    font-size:clamp(2.4rem, 12vw, 3.6rem);
+    color:var(--paper);
+    text-align:center;
     text-shadow:0 2px 6px rgba(0,0,0,.3);
   }
   .card-front .hint{
@@ -297,12 +307,22 @@
     transform:rotateY(180deg);
     background:linear-gradient(155deg, var(--paper-dark) 0%, var(--paper) 100%);
   }
-  .card-back .hanzi{
+  /* ---- カード裏面：中国語バージョン（日→中モード） ---- */
+  .back-primary.back-hanzi{
     font-family:'Noto Serif SC', serif;
     font-weight:900;
     font-size:clamp(2.4rem, 12vw, 3.6rem);
     color:var(--enji);
     text-align:center;
+  }
+  /* ---- カード裏面：日本語訳バージョン（中→日モード） ---- */
+  .back-primary.back-meaning{
+    font-family:'Noto Sans JP', sans-serif;
+    font-weight:700;
+    font-size:clamp(1.25rem, 6vw, 1.6rem);
+    color:var(--ink);
+    text-align:center;
+    line-height:1.5;
   }
   .card-back .pinyin{
     font-family:'Noto Serif SC', serif;
@@ -515,7 +535,8 @@
 
   @media (max-width:400px){
     header .title-cn{ font-size:2.1rem; }
-    .card-front .meaning-front{ font-size:1.3rem; }
+    .front-primary.front-meaning{ font-size:1.3rem; }
+    .back-primary.back-meaning{ font-size:1.1rem; }
     .wrong-status{ flex-direction:column; align-items:flex-start; gap:8px; }
   }
 </style>
@@ -550,6 +571,11 @@
 
     <!-- ===== 単語カードパネル ===== -->
     <section class="panel active" id="card-panel">
+      <div class="mode-toggle" id="cardDirectionToggle">
+        <button class="mode-btn active" data-direction="jp2cn">日 → 中</button>
+        <button class="mode-btn" data-direction="cn2jp">中 → 日</button>
+      </div>
+
       <div class="mode-toggle" id="cardModeToggle">
         <button class="mode-btn active" data-mode="all">すべて出題</button>
         <button class="mode-btn" data-mode="review">間違えた単語のみ</button>
@@ -561,12 +587,12 @@
         <div class="card-scene">
           <div class="card" id="flipCard">
             <div class="card-face card-front">
-              <div class="meaning-front" id="frontMeaning">把握する、確信を持つ</div>
-              <div class="hint">タップして中国語を表示</div>
+              <div class="front-primary" id="frontPrimary">把握する、確信を持つ</div>
+              <div class="hint" id="frontHint">タップして中国語を表示</div>
             </div>
             <div class="card-face card-back">
               <span class="wrong-flag" id="backWrongFlag">要復習</span>
-              <div class="hanzi" id="backHanzi">把握</div>
+              <div class="back-primary" id="backPrimary">把握</div>
               <div class="pinyin" id="backPinyin">bǎ wò</div>
               <button class="speak-btn" id="backSpeakBtn" title="発音を聞く">🔊</button>
             </div>
@@ -723,26 +749,28 @@ tabBtns.forEach(btn=>{
 });
 
 /* ===================== 出題モード切替（共通ヘルパー） ===================== */
-function setupModeToggle(containerEl, onChange){
+function setupModeToggle(containerEl, onChange, dataKey = 'mode'){
   const btns = containerEl.querySelectorAll('.mode-btn');
   btns.forEach(btn=>{
     btn.addEventListener('click', ()=>{
       if(btn.classList.contains('active')) return;
       btns.forEach(b=>b.classList.remove('active'));
       btn.classList.add('active');
-      onChange(btn.dataset.mode);
+      onChange(btn.dataset[dataKey]);
     });
   });
 }
 
 /* ===================== 単語カード機能 ===================== */
 let cardMode = 'all';
+let cardDirection = 'jp2cn'; // 'jp2cn': 表=日本語訳/裏=中国語　'cn2jp': 表=中国語/裏=日本語訳
 let cardList = [];
 let cardIndex = 0;
 
 const flipCard   = document.getElementById('flipCard');
-const frontMeaning = document.getElementById('frontMeaning');
-const backHanzi  = document.getElementById('backHanzi');
+const frontPrimary = document.getElementById('frontPrimary');
+const frontHint = document.getElementById('frontHint');
+const backPrimary = document.getElementById('backPrimary');
 const backPinyin = document.getElementById('backPinyin');
 const backWrongFlag = document.getElementById('backWrongFlag');
 const cardProgress = document.getElementById('cardProgress');
@@ -774,13 +802,27 @@ function renderCard(){
   if(cardList.length === 0) return;
   const w = cardList[cardIndex];
   flipCard.classList.remove('flipped');
-  frontMeaning.textContent = w.definition;
-  backHanzi.textContent  = w.hanzi;
+
+  if(cardDirection === 'jp2cn'){
+    // 表：日本語訳のみ（音声なし）／裏：中国語＋ピンイン＋音声
+    frontPrimary.textContent = w.definition;
+    frontPrimary.className = 'front-primary front-meaning';
+    frontHint.textContent = 'タップして中国語を表示';
+    backPrimary.textContent = w.hanzi;
+    backPrimary.className = 'back-primary back-hanzi';
+  }else{
+    // 表：中国語（漢字のみ・音声なし）／裏：日本語訳＋ピンイン＋音声
+    frontPrimary.textContent = w.hanzi;
+    frontPrimary.className = 'front-primary front-hanzi';
+    frontHint.textContent = 'タップして日本語訳を表示';
+    backPrimary.textContent = w.definition;
+    backPrimary.className = 'back-primary back-meaning';
+  }
   backPinyin.textContent = w.pinyin;
   backWrongFlag.classList.toggle('show', isWrong(w.hanzi));
   cardProgress.textContent = `${cardIndex+1} / ${cardList.length}`;
-  // 表面は日本語訳のみを表示するため、カード切り替え時に中国語の発音は自動再生しない
-  // （聞くと答え(中国語)が分かってしまうため。裏返した時・スピーカーボタンで再生する）
+  // 表面では音声を自動再生しない（どちらの方向でも、答えを声で先に明かさないため）
+  // 裏返した時・スピーカーボタンで中国語の発音を再生する
 }
 
 flipCard.addEventListener('click', (e)=>{
@@ -812,6 +854,11 @@ setupModeToggle(document.getElementById('cardModeToggle'), (mode)=>{
   cardMode = mode;
   renderCardPanel();
 });
+
+setupModeToggle(document.getElementById('cardDirectionToggle'), (direction)=>{
+  cardDirection = direction;
+  renderCard(); // 出題リストはそのまま、表示方向だけ切り替える
+}, 'direction');
 
 /* ===================== クイズ機能 ===================== */
 let quizMode = 'all';
