@@ -1,0 +1,32 @@
+{
+  "name": "錦囊妙語 HSK5級 単語帳・クイズ",
+  "short_name": "錦囊妙語",
+  "description": "HSK5級対策の中国語単語帳・クイズアプリ。音声再生と間違えた単語の復習機能つき。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f6ecd9",
+  "theme_color": "#7a1f2b",
+  "lang": "ja",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
