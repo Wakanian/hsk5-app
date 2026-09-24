@@ -572,8 +572,8 @@
     <!-- ===== 単語カードパネル ===== -->
     <section class="panel active" id="card-panel">
       <div class="mode-toggle" id="cardDirectionToggle">
-        <button class="mode-btn active" data-direction="jp2cn">日 → 中</button>
-        <button class="mode-btn" data-direction="cn2jp">中 → 日</button>
+        <button class="mode-btn active" data-direction="cn2jp">中 → 日</button>
+        <button class="mode-btn" data-direction="jp2cn">日 → 中</button>
       </div>
 
       <div class="mode-toggle" id="cardModeToggle">
@@ -763,7 +763,7 @@ function setupModeToggle(containerEl, onChange, dataKey = 'mode'){
 
 /* ===================== 単語カード機能 ===================== */
 let cardMode = 'all';
-let cardDirection = 'jp2cn'; // 'jp2cn': 表=日本語訳/裏=中国語　'cn2jp': 表=中国語/裏=日本語訳
+let cardDirection = 'cn2jp'; // 'jp2cn': 表=日本語訳/裏=中国語　'cn2jp': 表=中国語/裏=日本語訳（デフォルト）
 let cardList = [];
 let cardIndex = 0;
 
