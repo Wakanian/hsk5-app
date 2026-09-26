@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>錦囊 HSK5 単語帳</title>
+<title>HSK単語帳</title>
 
 <!-- ===== PWA設定 ===== -->
 <link rel="manifest" href="manifest.json">
@@ -13,7 +13,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="錦囊妙語">
+<meta name="apple-mobile-web-app-title" content="HSK単語帳">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;900&family=Noto+Sans+JP:wght@400;500;700&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
@@ -545,8 +545,8 @@
 
 <div class="app">
   <header>
-    <div class="title-cn">錦囊妙語</div>
-    <div class="title-sub">HSK 5級 単語帳・クイズ</div>
+    <div class="title-cn">HSK単語帳</div>
+    <div class="title-sub">単語カード・4択クイズ</div>
     <div class="divider"></div>
   </header>
 
@@ -786,7 +786,7 @@ function getFilteredVocab(mode){
 }
 
 function renderCardPanel(){
-  cardList = getFilteredVocab(cardMode);
+  cardList = shuffle(getFilteredVocab(cardMode)); // ABC(ピンイン)順ではなくランダムな順序で出題する
   cardIndex = 0;
   if(cardList.length === 0){
     cardContent.style.display = 'none';
