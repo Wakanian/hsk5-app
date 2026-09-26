@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HSK単語帳</title>
+<title>HSK5級単語帳</title>
 
 <!-- ===== PWA設定 ===== -->
 <link rel="manifest" href="manifest.json">
@@ -13,7 +13,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="HSK単語帳">
+<meta name="apple-mobile-web-app-title" content="HSK5級単語帳">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;900&family=Noto+Sans+JP:wght@400;500;700&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
@@ -67,6 +67,12 @@
     line-height:1;
     letter-spacing:.08em;
     text-shadow: 1px 1px 0 rgba(201,162,39,0.35);
+  }
+  header .title-cn .title-latin{
+    font-family:'Noto Sans JP', sans-serif;
+    font-weight:700;
+    letter-spacing:.02em;
+    text-shadow:none;
   }
   header .title-sub{
     margin-top:6px;
@@ -545,7 +551,7 @@
 
 <div class="app">
   <header>
-    <div class="title-cn">HSK単語帳</div>
+    <div class="title-cn"><span class="title-latin">HSK</span>5級単語帳</div>
     <div class="title-sub">単語カード・4択クイズ</div>
     <div class="divider"></div>
   </header>

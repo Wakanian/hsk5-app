@@ -1,6 +1,6 @@
 {
-  "name": "HSK単語帳 単語カード・4択クイズ",
-  "short_name": "HSK単語帳",
+  "name": "HSK5級単語帳 単語カード・4択クイズ",
+  "short_name": "HSK5級単語帳",
   "description": "HSK5級対策の中国語単語帳・クイズアプリ。音声再生と間違えた単語の復習機能つき。",
   "start_url": "./index.html",
   "scope": "./",
